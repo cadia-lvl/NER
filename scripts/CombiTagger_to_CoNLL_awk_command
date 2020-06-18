@@ -1,0 +1,1 @@
+awk -v OFS='\t' 'NR>1{ print $1, $NF }' 800K.tsv > correct/800K.tsv
