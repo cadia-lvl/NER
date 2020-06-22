@@ -6,8 +6,8 @@ The models presented here have been trained on the Icelandic [MIM-GOLD-NER named
 Implemented here are three different NER models, and an voting system combining the output of the three models. The methods used for training are the following:
 * A Conditional Random Fields NER model – [Passos et al 2014](https://www.aclweb.org/anthology/W14-1609.pdf)
 * Ixa-pipes-ner, a perceptron model with shallow word features and externally trained word clusters – [Agerri & Rigau 2017](https://arxiv.org/pdf/1701.09123.pdf)
-* NeuroNER, a Bi-LSTM RNN with pre-trained word embeddings (GloVe) – [Dernoncourt et al.](https://arxiv.org/pdf/1705.05487.pdf)
-* CombiTagger, an ensemble voting system – [Henrich et al.](https://www.ru.is/faculty/hrafn/papers/ctagger.pdf)
+* NeuroNER, a Bi-LSTM RNN with pre-trained word embeddings (GloVe) – [Dernoncourt et al. 2017](https://arxiv.org/pdf/1705.05487.pdf)
+* CombiTagger, an ensemble voting system – [Henrich et al. 2009](https://www.ru.is/faculty/hrafn/papers/ctagger.pdf)
 
 
 <!-- # Table of Contents
