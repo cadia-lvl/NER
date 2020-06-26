@@ -28,7 +28,7 @@ For the program to be easily usable this section can be quite long.
 If lengthy, this should be a separate document placed as HTML into the `docs/` folder. For more inforation see `documentation` -->
 
 # License
-This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
+This project is licensed under the Apache License 2.0 - see the (LICENSE)[https://github.com/cadia-lvl/NER/blob/master/LICENSE] file for details.
 
 # Authors/Credit
 Reykjavik University
