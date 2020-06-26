@@ -8,16 +8,15 @@ sed -i 's/"/\&quot;/g' tmp
 sed -i "s/'/\&apos;/g" tmp
 
 
-python3 /home/alma/verkefni/ixa-pipe-nerc/makeNAF.py tmp > tmp1
+python3 scripts/makeNAF.py tmp > tmp1
 current_dir=$(pwd)
 tmp1=$current_dir"/tmp1"
 tmp2=$current_dir"/tmp2"
 #echo $tmp1
 cd ixa-pipe/nerc/
 #head $tmp1
-#ls /home/alma/verkefni/ixa-pipe-ml/experiments/19/bin/
 cat $tmp1 | java -jar target/ixa-pipe-nerc-2.0.0-exec.jar tag -m /home/alma/verkefni/ixa-pipe-ml/experiments/19/bin/200K.bin -o conll02 > $tmp2
-cd -
+cd - > /dev/null 2>&1
 #rm tmp1 tmp
 awk '{print $1 "\t" $4}' tmp2 > tmp3
 #rm tmp2
