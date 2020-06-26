@@ -44,9 +44,9 @@ Explain how people can contribute to this repository. This can also link to a se
 * where to get data
 * testing -->
 
-## Description of folder structure (Optional)
+<!-- ## Description of folder structure (Optional) -->
 
 <!--  # Changelog/Versions (Optional) -->
 
-# Papers/References (Optional)
-You would have a citation snippet here as a code block
+<!-- # Papers/References (Optional)
+You would have a citation snippet here as a code block -->
