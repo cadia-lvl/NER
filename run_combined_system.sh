@@ -14,11 +14,11 @@ gold_path=$(awk -F ":" '/gold_path/ {print $2}' config.ini)
 current_dir=$(pwd)
 tmpdir="/output/CRF-input"
 write_address="$current_dir$tmpdir"
-#python3 scripts/get_POS_tags_from_gold.py $1 $gold_path $write_address
+python3 scripts/get_POS_tags_from_gold.py $1 $gold_path $write_address
 CRF_input_address="$current_dir/output/CRF-input-final"
 CRF_output="$current_dir/output/CRF"
-#python3 CRF/convert_to_CRF_format.py $write_address $CRF_input_address
-#python3 CRF/run_crf.py $CRF_input_address $CRF_output
+python3 CRF/convert_to_CRF_format.py $write_address $CRF_input_address
+python3 CRF/run_crf.py $CRF_input_address $CRF_output
 #
 rm output/CRF-input output/CRF-input-final
 
