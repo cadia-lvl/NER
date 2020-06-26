@@ -28,7 +28,7 @@ For the program to be easily usable this section can be quite long.
 If lengthy, this should be a separate document placed as HTML into the `docs/` folder. For more inforation see `documentation` -->
 
 # License
-Mention which LICENSE the code uses. For more information about licensing see later.
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
 
 # Authors/Credit
 Reykjavik University
