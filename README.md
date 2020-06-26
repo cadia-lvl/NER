@@ -14,7 +14,9 @@ Implemented here are three different NER models, and an voting system combining 
 [Easy to use TOC generator](https://ecotrust-canada.github.io/markdown-toc/) -->
  
 # Installation
-* software requirements
+* install https://github.com/ixa-ehu/ixa-pipe-nerc anywhere according to their guide, create a softlink to it's directory at ixa-pipe/nerc
+* install https://github.com/hrafnl/CombiTagger anywhere according to their guide, create a softlink to it's directory as CombiTagger at the root
+* get the Icelandic gold standard corpus
 * dependencies
 It is also helpful to provide commands which assist user installing the program or even providing an `install.sh` script which does it for the user.
 

@@ -137,7 +137,7 @@ að	O
 púðurskotum	O
 .	O
 
--11	O
+-11	B-Percent
 þegar	O
 tíu	O
 fyrirtæki	O
@@ -404,7 +404,7 @@ kom	O
 Sigþrúður	B-Person
 auga	O
 á	O
-Sextán	B-Location
+Sextán	B-Miscellaneous
 leyndarmál	O
 sem	O
 staðið	O
@@ -511,13 +511,13 @@ kvöldin	O
 Spilað	O
 Kasjón	B-Miscellaneous
 ,	O
-Rommý	B-Miscellaneous
+Rommý	B-Person
 og	O
 Ólsen	B-Person
 Ólsen	I-Person
 en	O
 oftast	O
-Hjónakapal	B-Location
+Hjónakapal	B-Miscellaneous
 .	O
 
 Þegar	O
@@ -725,7 +725,7 @@ flutt	O
 til	O
 myndina	O
 af	O
-Herðubreið	B-Organization
+Herðubreið	B-Location
 á	O
 stofuveggnum	O
 eftir	O
@@ -926,7 +926,7 @@ skoðaði	O
 var	O
 útsýni	O
 yfir	O
-Gufuneskirkjugarðinn	B-Organization
+Gufuneskirkjugarðinn	B-Location
 .	O
 
 Snöggvast	O
@@ -1209,8 +1209,8 @@ lesenda	O
 í	O
 síðasta	O
 lagi	O
-klukkan	O
-sjö	O
+klukkan	B-Time
+sjö	I-Time
 .	O
 
 Stundum	O
@@ -1240,7 +1240,7 @@ brauð	O
 en	O
 flestir	O
 á	O
-föstudögum	O
+föstudögum	B-Date
 .	O
 
 Þá	O
@@ -2192,7 +2192,7 @@ trekkti	O
 grammófóninn	O
 og	O
 spilaði	O
-Buldi	B-Person
+Buldi	O
 við	O
 brestur	O
 ,	O
@@ -2973,9 +2973,9 @@ Austfirðinga	B-Miscellaneous
 ,	O
 Síðupresta	B-Miscellaneous
 ,	O
-Austur-Húnvetninga	B-Location
+Austur-Húnvetninga	B-Miscellaneous
 og	O
-Skagfirskar	O
+Skagfirskar	B-Miscellaneous
 æviskrár	O
 svifu	O
 fyrir	O
@@ -3112,7 +3112,7 @@ ekki	O
 og	O
 benti	O
 á	O
-Þjóðarbókhlöðuna	B-Organization
+Þjóðarbókhlöðuna	B-Miscellaneous
 .	O
 
 Á	O
@@ -3270,8 +3270,8 @@ Líkfundur	B-Location
 í	O
 Þistilfirði	B-Location
 í	O
-fréttablaðinu	O
-Austra	B-Location
+fréttablaðinu	B-Organization
+Austra	I-Organization
 .	O
 
 Greinin	O
@@ -5109,7 +5109,7 @@ birtist	O
 Hallfríður	B-Person
 .	O
 
-Trausta	O
+Trausta	B-Person
 góða	O
 fóstra	O
 hennar	O
@@ -5860,7 +5860,7 @@ einhver	O
 við	O
 Manstrirúnædi	B-Location
 eða	O
-Leiséster	O
+Leiséster	B-Location
 ,	O
 eins	O
 og	O
@@ -6181,7 +6181,7 @@ fór	O
 fram	O
 alþjóðlega	O
 leirlistarráðstefnan	O
-OICS	O
+OICS	B-Organization
 2003	B-Date
 .	O
 
@@ -6224,8 +6224,8 @@ en	O
 sýning	O
 þeirra	O
 ,	O
-TRÍÓ	O
-II	O
+TRÍÓ	B-Organization
+II	I-Organization
 í	O
 Iskunst	B-Organization
 Gallery	I-Organization
@@ -6301,7 +6301,7 @@ staða	O
 Þannig	O
 var	O
 allt	O
-Listiðnaðarsafnið	B-Location
+Listiðnaðarsafnið	B-Organization
 í	O
 Ósló	B-Location
 undirlagt	O
@@ -6309,7 +6309,7 @@ svo	O
 og	O
 Ráðhúsið	B-Location
 og	O
-Vigeland-safnið	B-Location
+Vigeland-safnið	B-Miscellaneous
 sem	O
 er	O
 eitt	O
@@ -6380,8 +6380,8 @@ sínum	O
 af	O
 börnum	O
 ,	O
-Jun	B-Person
-Kaneko	I-Person
+Jun	B-Miscellaneous
+Kaneko	I-Miscellaneous
 ,	O
 einn	O
 frægasti	O
@@ -6503,7 +6503,7 @@ gifs	O
 og	O
 leir	O
 og	O
-Fox	B-Person
+Fox	B-Miscellaneous
 er	O
 myndhöggvari	O
 sem	O
@@ -6788,7 +6788,7 @@ um	O
 listina	O
 af	O
 alvöru	O
-Aðspurðar	B-Organization
+Aðspurðar	O
 segjast	O
 Guðný	B-Person
 og	O
@@ -7151,14 +7151,14 @@ skiptir	O
 máli	O
 .	O
 
-Cragg	O
+Cragg	B-Person
 vinnur	O
 t.d.	O
 með	O
 blómapottadiska	O
 í	O
 verkinu	O
-Shiva	B-Location
+Shiva	B-Person
 en	O
 gerir	O
 þá	O
@@ -7379,8 +7379,8 @@ Jafnvel	O
 sýningin	O
 okkar	O
 ,	O
-TRÍÓ	O
-II	O
+TRÍÓ	B-Miscellaneous
+II	I-Miscellaneous
 ,	O
 hafi	O
 verið	O
@@ -8171,7 +8171,7 @@ Paganini	B-Person
 .	O
 
 En	O
-Paganini	O
+Paganini	B-Person
 fjöldann	O
 allan	O
 af	O
@@ -8185,10 +8185,10 @@ gítar	O
 Þá	O
 leikum	O
 við	O
-Vals	B-Location
+Vals	B-Organization
 eftir	O
-F.	O
-Chopin	O
+F.	B-Person
+Chopin	I-Person
 sem	O
 hann	O
 samdi	O
@@ -8254,7 +8254,7 @@ Tschaikowski	I-Person
 Kraisler	O
 umritar	O
 frá	O
-Tschaikowski	B-Location
+Tschaikowski	B-Person
 og	O
 Páll	B-Person
 svo	O
@@ -8663,7 +8663,7 @@ menningarelítunni	O
 New	B-Location
 York	I-Location
 
-Alvy	O
+Alvy	B-Person
 hefur	O
 látið	O
 sig	O
@@ -8677,12 +8677,12 @@ horfa	O
 á	O
 körfuboltaleik	O
 með	O
-New	B-Organization
-York	I-Organization
-Knicks	I-Organization
+New	B-Location
+York	I-Location
+Knicks	I-Location
 .	O
 
-Robin	B-Person
+Robin	O
 kemur	O
 inn	O
 í	O
@@ -8726,7 +8726,7 @@ ofan	O
 körfu	O
 .	O
 
-Alvy	O
+Alvy	B-Person
 svarar	O
 að	O
 þó	O
@@ -8887,7 +8887,7 @@ fer	O
 úr	O
 herberginu	O
 heldur	O
-Alvy	B-Location
+Alvy	B-Person
 áfram	O
 að	O
 horfa	O
@@ -8917,14 +8917,14 @@ Kierkegaard	B-Person
 ,	O
 Nietzsche	B-Person
 ,	O
-Kafka	B-Person
+Kafka	B-Miscellaneous
 -	O
 og	O
-Alvy	B-Location
+Alvy	B-Person
 sjálfan	O
 .	O
 
-Þulur	O
+Þulur	B-Person
 lýsir	O
 því	O
 sem	O
@@ -8984,9 +8984,9 @@ var	O
 tekin	O
 upp	O
 í	O
-Madison	B-Person
-Square	I-Person
-Garden	I-Person
+Madison	B-Location
+Square	I-Location
+Garden	I-Location
 sem	O
 er	O
 heimavöllur	O
@@ -9029,7 +9029,7 @@ spila	O
 ekki	O
 við	O
 leikmenn	O
-Knicks	B-Person
+Knicks	B-Organization
 sem	O
 tóku	O
 þátt	O
@@ -9313,8 +9313,8 @@ nam	O
 ungur	O
 ljósmyndafræði	O
 hjá	O
-Martínusi	B-Organization
-Simson	I-Organization
+Martínusi	B-Person
+Simson	I-Person
 ljósmyndara	O
 sem	O
 starfaði	O
@@ -9400,7 +9400,7 @@ lystigarð	O
 rétt	O
 ofan	O
 við	O
-Elliðaárdalinn	B-Miscellaneous
+Elliðaárdalinn	B-Location
 .	O
 
 --	O
@@ -10226,7 +10226,7 @@ sig	O
 í	O
 samband	O
 við	O
-Waldorf-skólann	O
+Waldorf-skólann	B-Organization
 hérlendis	O
 .	O
 
@@ -10295,7 +10295,7 @@ leikhúsum	O
 Þessa	O
 dagana	O
 er	O
-Messíana	B-Person
+Messíana	B-Miscellaneous
 að	O
 vinna	O
 að	O
@@ -10314,13 +10314,13 @@ að	O
 setja	O
 upp	O
 barnaóperuna	O
-Skuggaleikhús	B-Person
-Ófelíu	I-Person
+Skuggaleikhús	B-Organization
+Ófelíu	I-Organization
 ,	O
 sem	O
 sýnd	O
 verður	O
-Óperunni	O
+Óperunni	B-Miscellaneous
 nú	O
 í	O
 vetur	O
@@ -10990,7 +10990,7 @@ fjárfestinga	O
 m.a.	O
 lífeyrissjóða	O
 í	O
-Brú	B-Location
+Brú	B-Organization
 fjárfestingafélagi	O
 hjálpa	O
 eitthvað	O
@@ -11307,7 +11307,7 @@ félagar	O
 Norðurlöndum	B-Location
 .	O
 
-Finnar	O
+Finnar	B-Miscellaneous
 hafa	O
 löngum	O
 taldir	O
@@ -11352,7 +11352,7 @@ kennslustunda	O
 varðar	O
 eða	O
 tæplega	O
-2000	B-Date
+2000	O
 fleiri	O
 kennslustundir	O
 á	O
@@ -11403,7 +11403,7 @@ og	O
 samkeppnishæft	O
 námskerfi	O
 Á	O
-Viðskiptaþingi	O
+Viðskiptaþingi	B-Miscellaneous
 á	O
 dögunum	O
 komu	O
@@ -11413,7 +11413,7 @@ hugmyndir	O
 frá	O
 svokölluðum	O
 framtíðarhópi	O
-Viðskiptaráðs	B-Location
+Viðskiptaráðs	B-Organization
 .	O
 
 Ein	O
@@ -12667,7 +12667,7 @@ formaður	O
 sambandsins	O
 sagðist	O
 á	O
-Morgunvaktinni	B-Location
+Morgunvaktinni	B-Organization
 í	O
 morgun	O
 ekki	O
@@ -12813,7 +12813,7 @@ Gunnarsdóttir	I-Person
 ,	O
 menntamálaráðherra	O
 (	O
-D	O
+D	B-Organization
 )	O
 :	O
 «	O
@@ -12925,7 +12925,7 @@ af	O
 hálfu	O
 ríkislögreglustjóra	O
 að	O
-Hæstiréttur	O
+Hæstiréttur	B-Organization
 hefði	O
 ekki	O
 getað	O
@@ -13031,7 +13031,7 @@ Oddsson	I-Person
 starfandi	O
 dómsmálaráðherra	O
 (	O
-D	O
+D	B-Organization
 )	O
 :	O
 «	O
@@ -13079,10 +13079,10 @@ Stóra	O
 málverkafölsunarmálið	O
 
 Bæði	O
-Hæstiréttur	O
+Hæstiréttur	B-Organization
 og	O
 Héraðsdómur	B-Organization
-höfnuðu	O
+höfnuðu	I-Organization
 í	O
 fyrravor	O
 kröfu	O
@@ -14229,7 +14229,7 @@ vera	O
 hamingjusamur	O
 .	O
 
-Trausti	O
+Trausti	B-Person
 býr	O
 í	O
 stóru	O
@@ -14238,7 +14238,7 @@ einbýlishúsi	O
 Arnarnesi	B-Location
 .	O
 
-Trausti	O
+Trausti	B-Person
 er	O
 giftur	O
 og	O
@@ -14286,7 +14286,7 @@ bræður	O
 sínir	O
 .	O
 
-Trausti	O
+Trausti	B-Person
 er	O
 yfirmaður	O
 í	O
@@ -14358,7 +14358,7 @@ nóg	O
 um	O
 .	O
 
-Trausti	O
+Trausti	B-Person
 á	O
 marga	O
 hesta	O
@@ -14368,7 +14368,7 @@ mikill	O
 hestamaður	O
 .	O
 
-Trausti	O
+Trausti	B-Person
 hefur	O
 nægt	O
 fjármagn	O
@@ -14465,7 +14465,7 @@ og	O
 tíma	O
 .	O
 
-Trausti	O
+Trausti	B-Person
 er	O
 í	O
 það	O
@@ -14664,7 +14664,7 @@ hvað	O
 Gunnar	B-Person
 .	O
 
-Trausti	O
+Trausti	B-Person
 rífst	O
 hins	O
 vegar	O
@@ -16798,19 +16798,19 @@ aftur	O
 og	O
 varðveita	O
 öryggi	O
-Norður-Atlantshafssvæðisins	B-Organization
+Norður-Atlantshafssvæðisins	B-Location
 ...	O
 
 Svona	O
 hljómar	O
 5.	O
 grein	O
-Atlantshafssamnings	O
-NATO	O
+Atlantshafssamnings	B-Person
+NATO	I-Person
 sem	O
 undirritaður	O
 var	O
-Washington	B-Organization
+Washington	B-Location
 4.	B-Date
 apríl	I-Date
 1949	I-Date
@@ -16833,7 +16833,7 @@ um	O
 brottflutning	O
 flugflotans	O
 frá	O
-Keflavíkurstöðinni	B-Location
+Keflavíkurstöðinni	B-Organization
 felur	O
 í	O
 raun	O
@@ -16880,7 +16880,7 @@ kommúnisminn	O
 er	O
 dauður	O
 og	O
-Sovétríkin	B-Miscellaneous
+Sovétríkin	B-Location
 eru	O
 horfin	O
 .	O
@@ -16891,7 +16891,7 @@ felst	O
 í	O
 5.	O
 grein	O
-NATO-sáttmálans	O
+NATO-sáttmálans	B-Miscellaneous
 dugir	O
 okkur	O
 Íslendingum	B-Miscellaneous
@@ -16911,7 +16911,7 @@ björgunarþyrlum	O
 Við	O
 því	O
 kvatt	O
-Kanann	O
+Kanann	B-Miscellaneous
 með	O
 ró	O
 í	O
@@ -16938,9 +16938,9 @@ dósent	O
 í	O
 stjórnmálafræði	O
 við	O
-Viðskiptaháskólann	O
-á	O
-Bifröst	B-Organization
+Viðskiptaháskólann	B-Organization
+á	I-Organization
+Bifröst	I-Organization
 .	O
 
 VATNSAFLSVIRKJUNUM	O
@@ -17031,8 +17031,8 @@ fljótanna	O
 gljúfra	O
 stíflunnar	O
 Í	O
-New	B-Organization
-Scientist	I-Organization
+New	B-Location
+Scientist	I-Location
 frá	O
 25.	B-Date
 febrúar	I-Date
@@ -17044,11 +17044,11 @@ Jessicu	B-Person
 Marshall	I-Person
 um	O
 áhrif	O
-Þriggja	O
-gljúfra	O
-stíflunnar	O
-í	O
-Gulafljótinu	B-Location
+Þriggja	B-Miscellaneous
+gljúfra	I-Miscellaneous
+stíflunnar	I-Miscellaneous
+í	I-Miscellaneous
+Gulafljótinu	I-Miscellaneous
 í	O
 Kína	B-Location
 á	O
@@ -17099,7 +17099,7 @@ um	O
 km	O
 frá	O
 ósum	O
-Gulafljóts	B-Person
+Gulafljóts	B-Location
 .	O
 
 Byrjað	O
@@ -17116,8 +17116,8 @@ hennar	O
 Vísindamenn	O
 undir	O
 stjórn	O
-Gwo-Ching	B-Person
-Gong	I-Person
+Gwo-Ching	B-Miscellaneous
+Gong	I-Miscellaneous
 í	O
 haffræðiháskóla	O
 ríkisins	O
@@ -17326,7 +17326,7 @@ hefur	O
 svæðið	O
 við	O
 ósa	O
-Gulafljóts	O
+Gulafljóts	B-Location
 með	O
 hárri	O
 framleiðni	O
@@ -17600,7 +17600,7 @@ Kristnýjar	O
 rithöfundar	O
 í	O
 Lesbók	B-Miscellaneous
-Morgunblaðsins	I-Miscellaneous
+Morgunblaðsins	B-Organization
 þar	O
 hún	O
 fjallaði	O
@@ -18056,7 +18056,7 @@ IOGT	B-Organization
 .	O
 
 BROTTFÖR	O
-Bandaríkjahers	B-Location
+Bandaríkjahers	B-Organization
 frá	O
 Íslandi	B-Location
 ætlar	O
@@ -18113,8 +18113,8 @@ stjórnmálaflokka	O
 Sjálfstæðisflokks	B-Organization
 ,	O
 Framsóknarflokks	B-Organization
-og	I-Organization
-Alþýðuflokks	I-Organization
+og	O
+Alþýðuflokks	B-Organization
 .	O
 
 Þetta	O
@@ -18307,7 +18307,7 @@ með	O
 formleg	O
 tengsl	O
 við	O
-NATÓ	O
+NATÓ	B-Organization
 var	O
 klisjunni	O
 um	O
@@ -18834,7 +18834,7 @@ vísindastofnun	O
 Sameinuðu	B-Organization
 þjóðanna	I-Organization
 (	O
-UNESCO	O
+UNESCO	B-Organization
 )	O
 hefur	O
 ákveðið	O
@@ -18870,7 +18870,7 @@ til	O
 að	O
 beina	O
 athygli	O
-Jarðarbúa	B-Location
+Jarðarbúa	B-Miscellaneous
 að	O
 þeirri	O
 staðreynd	O
@@ -19415,9 +19415,9 @@ tveim	O
 síðar	O
 .	O
 
-Sólbrá	O
+Sólbrá	B-Miscellaneous
 og	O
-Sólbrún	B-Person
+Sólbrún	B-Miscellaneous
 munu	O
 vera	O
 íslenskar	O
@@ -19442,8 +19442,8 @@ nafnið	O
 Ástu	B-Person
 Sóllilju	I-Person
 í	O
-Sjálfstæðu	B-Location
-fólki	O
+Sjálfstæðu	B-Miscellaneous
+fólki	I-Miscellaneous
 .	O
 
 Þetta	O
@@ -19476,9 +19476,9 @@ Ynja	B-Person
 ,	O
 Æska	O
 ,	O
-Hekla	B-Person
+Hekla	B-Location
 ,	O
-Katla	B-Person
+Katla	B-Location
 ,	O
 Vin	B-Person
 ,	O
@@ -19512,9 +19512,9 @@ nafngjafa	O
 ,	O
 til	O
 dæmis	O
-Stormur	O
+Stormur	B-Location
 ,	O
-Þoka	O
+Þoka	B-Location
 og	O
 Vísa	B-Location
 .	O
@@ -19628,11 +19628,11 @@ heimsstyrjaldar	O
 .	O
 
 (	O
-Dictionary	B-Miscellaneous
-of	I-Miscellaneous
-American	I-Miscellaneous
-Slang	I-Miscellaneous
-1967:176	I-Miscellaneous
+Dictionary	B-Organization
+of	I-Organization
+American	I-Organization
+Slang	I-Organization
+1967:176	B-Date
 )	O
 .	O
 
@@ -19682,10 +19682,10 @@ Bandaríkjunum	B-Location
 .	O
 
 Í	O
-Dictionary	B-Miscellaneous
-of	I-Miscellaneous
-American	I-Miscellaneous
-Slang	I-Miscellaneous
+Dictionary	B-Organization
+of	I-Organization
+American	I-Organization
+Slang	I-Organization
 segir	O
 aftur	O
 á	O
@@ -19802,11 +19802,11 @@ segja	O
 við	O
 hina	O
 róðrargjörnu	O
-Feaka	O
+Feaka	B-Miscellaneous
 í	O
 áttunda	O
 þætti	O
-Ódysseifskviðu	O
+Ódysseifskviðu	B-Miscellaneous
 en	O
 hún	O
 var	O
@@ -19857,7 +19857,7 @@ baki	O
 nafngiftum	O
 .	O
 
-Gyðingar	O
+Gyðingar	B-Miscellaneous
 gáfu	O
 oft	O
 alvarlega	O
@@ -20092,11 +20092,11 @@ Names	I-Organization
 .	O
 
 Simon	B-Person
-&	O
-Schuster	B-Person
+&	I-Person
+Schuster	I-Person
 ,	O
-New	B-Organization
-York	I-Organization
+New	B-Location
+York	I-Location
 .	O
 
 Skammstöfunin	O
@@ -20219,7 +20219,7 @@ closet	O
 síðar	O
 stytt	O
 í	O
-WC	O
+WC	B-Organization
 .	O
 
 Á	O
@@ -20231,8 +20231,8 @@ notað	O
 orðið	O
 vatnssalerni	O
 um	O
-aldamótin	O
-1900	B-Date
+aldamótin	B-Date
+1900	I-Date
 .	O
 
 Skoðið	O
@@ -20282,8 +20282,8 @@ orði	O
 
 Mynd	O
 :	O
-Period	B-Organization
-Features	I-Organization
+Period	B-Miscellaneous
+Features	I-Miscellaneous
 
 Hin	O
 svonefna	O
@@ -20300,11 +20300,11 @@ sem	O
 varðveittar	O
 eru	O
 í	O
-Ormsbók	B-Organization
-Snorra-Eddu	I-Organization
+Ormsbók	B-Miscellaneous
+Snorra-Eddu	I-Miscellaneous
 (	O
-Codex	B-Person
-Wormianus	I-Person
+Codex	B-Miscellaneous
+Wormianus	I-Miscellaneous
 ,	O
 AM	O
 242	O
@@ -20349,7 +20349,7 @@ og	O
 styðst	O
 við	O
 rit	O
-Priscianusar	B-Miscellaneous
+Priscianusar	B-Person
 og	O
 Donatusar	B-Person
 sem	O
@@ -20724,7 +20724,7 @@ er	O
 aðgengileg	O
 á	O
 vef	O
-Samgönguráðuneytisins	O
+Samgönguráðuneytisins	B-Organization
 .	O
 
 Meðal	O
@@ -20797,7 +20797,7 @@ segir	O
 frétt	O
 á	O
 vef	O
-Samgönguráðuneytisins	O
+Samgönguráðuneytisins	B-Organization
 .	O
 
 Margs	O
@@ -21593,7 +21593,7 @@ krú	O
 .......	O
 svo	O
 kemur	O
-gylfi	O
+gylfi	B-Person
 og	O
 hans	O
 krú	O
@@ -21655,7 +21655,7 @@ svo	O
 förum	O
 við	O
 á	O
-vídalín	O
+vídalín	B-Date
 og	O
 ég	O
 varð	O
@@ -22017,7 +22017,7 @@ kvöld	O
 og	O
 ella	O
 og	O
-lee	B-Person
+lee	O
 og	O
 trausta	O
 .......	O
@@ -22147,7 +22147,7 @@ partý	O
 en	O
 magnea	B-Person
 og	O
-doddi	O
+doddi	B-Person
 litli	O
 voru	O
 skemmtilegri	O
@@ -22908,7 +22908,7 @@ hmm	O
 skrýtið	O
 !	O
 
-7.6.02	O
+7.6.02	B-Date
 jonni	O
 fyndni	O
 er	O
@@ -22947,7 +22947,7 @@ er	O
 
 ég	O
 hitti	O
-manuelu	O
+manuelu	B-Person
 og	O
 hún	O
 var	O
@@ -22997,7 +22997,7 @@ sem	O
 )	O
 .	O
 
-manuela	O
+manuela	B-Person
 er	O
 ekki	O
 búin	O
@@ -23007,7 +23007,7 @@ fjarlægja	O
 rifbein	O
 .	O
 
-manuela	O
+manuela	B-Person
 er	O
 ekki	O
 með	O
@@ -23020,7 +23020,7 @@ eða	O
 vörunum	O
 .	O
 
-manuela	O
+manuela	B-Person
 er	O
 engin	O
 drusla	O
@@ -23187,7 +23187,7 @@ og	O
 er	O
 ekki	O
 komið	O
-hádegi	O
+hádegi	B-Time
 .	O
 
 ég	O
@@ -23212,7 +23212,7 @@ eða	O
 ekki	O
 .	O
 
-6.6.02	O
+6.6.02	B-Date
 jöminn	O
 ..........	O
 tysonhó	O
@@ -23513,7 +23513,7 @@ orðin	O
 sellát	O
 .	O
 
-sigurjón	O
+sigurjón	B-Person
 var	O
 ekki	O
 með	O
@@ -23792,7 +23792,7 @@ jesssssssssss	O
 !	O
 !	O
 
-5.6.02	O
+5.6.02	B-Date
 hehehhe	O
 ........	O
 ókei	O
@@ -24013,7 +24013,7 @@ pottinum	O
 Djúpu	B-Location
 lauginni	O
 og	O
-Beta	B-Miscellaneous
+Beta	B-Person
 sín	O
 er	O
 með	O
@@ -24186,7 +24186,7 @@ eigin	O
 klúbb	O
 .	O
 
-sigurjón	O
+sigurjón	B-Person
 heldur	O
 að	O
 ríðubloggarinn	O
@@ -24317,8 +24317,8 @@ er	O
 málið	O
 að	O
 vakna	O
-hálf	O
-átta	O
+hálf	B-Time
+átta	I-Time
 þegar	O
 mar	O
 er	O
@@ -24352,7 +24352,7 @@ nei	O
 glætan	O
 !	O
 
-4.6.02	O
+4.6.02	B-Date
 típíst	O
 .	O
 
@@ -24417,7 +24417,7 @@ mig	O
 jöminn	O
 ........	O
 engin	O
-XXX	O
+XXX	B-Miscellaneous
 dagsins	O
 á	O
 tilverunni	O
@@ -25110,7 +25110,7 @@ pípol	O
 takktakktakktakk	O
 ....	O
 
-3.6.02	O
+3.6.02	B-Date
 ef	O
 einhver	O
 dissar	O
@@ -25140,11 +25140,11 @@ djamm	O
 
 fór	O
 til	O
-sindra	B-Person
+sindra	O
 á	O
 laugardaginn	B-Date
-klökkan	O
-fjögur	O
+klökkan	B-Time
+fjögur	I-Time
 og	O
 við	O
 lögðum	O
@@ -25165,7 +25165,7 @@ bara	O
 drykkja	O
 .	O
 
-baddi	O
+baddi	B-Person
 vinur	O
 hans	O
 af	O
@@ -25348,8 +25348,8 @@ kaffibarinn	O
 
 þar	O
 var	O
-þorsteinn	O
-guðmundsson	O
+þorsteinn	B-Person
+guðmundsson	I-Person
 .	O
 
 mér	O
@@ -25378,7 +25378,7 @@ hrifin	O
 af	O
 því	O
 hvernig	O
-elín	O
+elín	B-Person
 grínkona	O
 (	O
 gnarrupphitunarkonan	O
@@ -25599,7 +25599,7 @@ segja	O
 það	O
 ......	O
 
-1.6.02	O
+1.6.02	B-Date
 algjör	O
 snilld	O
 .......	O
@@ -25630,7 +25630,7 @@ geðgt	O
 
 jæja	O
 ......	O
-þurý	O
+þurý	B-Person
 kom	O
 heim	O
 í	O
@@ -25660,7 +25660,7 @@ ráp	O
 endum	O
 við	O
 á	O
-22.	O
+22.	B-Date
 rukum	O
 inn	O
 í	O
@@ -25809,9 +25809,9 @@ Sindri	B-Person
 Eldon	I-Person
 skrifar	O
 um	O
-Bubbatónleikana	O
+Bubbatónleikana	B-Miscellaneous
 í	O
-Grapevine	B-Location
+Grapevine	B-Miscellaneous
 .	O
 
 19.	B-Date
@@ -25938,7 +25938,7 @@ G.Jóh	O
 Roger	B-Person
 Waters	I-Person
 í	O
-Egilshöll	B-Location
+Egilshöll	B-Organization
 13.	B-Date
 júní	I-Date
 ,	O
@@ -26107,7 +26107,7 @@ upplifað	O
 betra	O
 hljóð	O
 í	O
-Egilshöll	B-Location
+Egilshöll	B-Organization
 .	O
 
 Upplifunin	O
@@ -26137,8 +26137,8 @@ hlustað	O
 svo	O
 mikið	O
 á	O
-Pink	B-Miscellaneous
-Floyd	I-Miscellaneous
+Pink	B-Organization
+Floyd	I-Organization
 efni	O
 undanfarin	O
 ár	O
@@ -26164,8 +26164,8 @@ hlustaði	O
 gríðarlega	O
 mikið	O
 á	O
-Pink	B-Miscellaneous
-Floyd	I-Miscellaneous
+Pink	B-Organization
+Floyd	I-Organization
 og	O
 Waters	B-Person
 og	O
@@ -26221,8 +26221,8 @@ hafi	O
 kviknað	O
 í	O
 mér	O
-Pink	B-Miscellaneous
-Floyd	I-Miscellaneous
+Pink	B-Organization
+Floyd	I-Organization
 áhugi	O
 aftur	O
 .	O
@@ -26326,8 +26326,8 @@ talsvert	O
 lengi	O
 verið	O
 aðdáandi	O
-Pink	B-Miscellaneous
-Floyd	I-Miscellaneous
+Pink	B-Organization
+Floyd	I-Organization
 og	O
 er	O
 líka	O
@@ -26395,9 +26395,9 @@ of	I-Miscellaneous
 the	I-Miscellaneous
 Moon	I-Miscellaneous
 (	O
-Time	B-Miscellaneous
-,	I-Miscellaneous
-Money	I-Miscellaneous
+Time	B-Organization
+,	O
+Money	B-Location
 og	O
 síðustu	O
 tvö	O
@@ -26445,11 +26445,11 @@ Osló	B-Location
 fund	O
 .	O
 
-GWB	O
-9.	O
-júní	B-Date
-,	O
-2006	B-Date
+GWB	B-Person
+9.	B-Date
+júní	I-Date
+,	I-Date
+2006	I-Date
 Þetta	O
 er	O
 ótrúlegt	O
@@ -26491,19 +26491,19 @@ fá	O
 í	O
 einkunn	O
 á	O
-Metacritic	B-Location
+Metacritic	B-Organization
 .	O
 
-LOWEST	O
-ENERGY	O
-PRICES	O
+LOWEST	B-Organization
+ENERGY	I-Organization
+PRICES	I-Organization
 !	O
 !	O
 
 7.	B-Date
 júní	I-Date
-,	O
-2006	B-Date
+,	I-Date
+2006	I-Date
 Þetta	O
 er	O
 gríðarlega	O
@@ -26522,10 +26522,10 @@ Alcoa	B-Organization
 í	O
 Brasilíu	B-Location
 
-But	B-Miscellaneous
-the	I-Miscellaneous
-agreed	I-Miscellaneous
-price	I-Miscellaneous
+But	O
+the	O
+agreed	O
+price	O
 -	O
 30	O
 dollars	O
@@ -26538,8 +26538,8 @@ from	O
 ideal	O
 .	O
 
-In	B-Miscellaneous
-Iceland	I-Miscellaneous
+In	O
+Iceland	B-Miscellaneous
 ,	O
 the	O
 company	O
@@ -26706,7 +26706,7 @@ að	O
 
 Horfði	O
 á	O
-Bachelorette	B-Location
+Bachelorette	B-Miscellaneous
 ,	O
 sem	O
 er	O
@@ -26827,7 +26827,7 @@ skrifað	O
 í	O
 nýjasta	O
 hefti	O
-Skírnis	B-Person
+Skírnis	B-Miscellaneous
 að	O
 í	O
 Bandaríkjunum	B-Location
@@ -27121,11 +27121,11 @@ og	O
 Japan	B-Location
 ,	O
 á	O
-níunda	O
-áratugnum	O
+níunda	B-Date
+áratugnum	I-Date
 var	O
 það	O
-Balkanskaginn	O
+Balkanskaginn	B-Miscellaneous
 og	O
 í	O
 dag	O
@@ -27223,9 +27223,9 @@ séu	O
 tekin	O
 ,	O
 að	O
-American	B-Organization
-Enterprise	I-Organization
-Institute	I-Organization
+American	B-Miscellaneous
+Enterprise	I-Miscellaneous
+Institute	I-Miscellaneous
 hefur	O
 á	O
 sínum	O
@@ -27470,7 +27470,7 @@ Austurlanda	B-Location
 nær	O
 .	O
 
-Indyk	O
+Indyk	B-Person
 kennir	O
 við	O
 Johns	B-Person
@@ -27546,7 +27546,7 @@ doktorsgráðu	O
 frá	O
 Georgetown	B-Location
 ,	O
-M.B.A.-gráðu	B-Location
+M.B.A.-gráðu	O
 frá	O
 Bombay	B-Location
 á	O
@@ -27580,7 +27580,7 @@ sá	O
 hefur	O
 doktorsgráðu	O
 frá	O
-Princeton	B-Organization
+Princeton	B-Location
 ,	O
 vann	O
 áður	O
@@ -27592,7 +27592,7 @@ og	O
 fyrir	O
 leyniþjónustuna	O
 ,	O
-CIA	O
+CIA	B-Organization
 .	O
 
 Leverett	O
@@ -27619,8 +27619,8 @@ sjálfur	O
 í	O
 hann	O
 í	O
-Píslarvottum	B-Location
-nútímans	O
+Píslarvottum	B-Miscellaneous
+nútímans	I-Miscellaneous
 )	O
 en	O
 hann	O
@@ -27641,9 +27641,9 @@ og	O
 situr	O
 í	O
 stjórn	O
-Human	B-Miscellaneous
-Rights	I-Miscellaneous
-Watch	I-Miscellaneous
+Human	B-Organization
+Rights	I-Organization
+Watch	I-Organization
 .	O
 
 Áður	O
@@ -28075,8 +28075,8 @@ svo	O
 að	O
 múslimar	O
 eru	O
-1,3	O
-milljarðar	O
+1,3	B-Money
+milljarðar	I-Money
 .	O
 
 Ég	O
@@ -28152,7 +28152,7 @@ ræða	O
 rétt	O
 eins	O
 og	O
-Gilsenegger	B-Person
+Gilsenegger	B-Organization
 og	O
 Vigdís	B-Person
 Finnbogadóttir	I-Person
@@ -28518,7 +28518,7 @@ með	O
 algjöru	O
 offorsi	O
 í	O
-Stóra	B-Organization
+Stóra	B-Miscellaneous
 skopmyndamálinu	O
 og	O
 beitt	O
@@ -28569,13 +28569,13 @@ milljón	O
 Þá	O
 eru	O
 eftir	O
-1.299	O
-milljónir	O
+1.299	B-Money
+milljónir	I-Money
 múslima	O
 .	O
 
-1,299	O
-milljarðar	O
+1,299	B-Money
+milljarðar	I-Money
 .	O
 
 Hvað	O
@@ -28732,7 +28732,7 @@ nokkuð	O
 .	O
 
 Í	O
-Kompási	B-Location
+Kompási	B-Miscellaneous
 var	O
 hins	O
 vegar	O
@@ -28895,8 +28895,8 @@ sig	O
 .	O
 
 Aðeins	O
-þrjú	O
-prósent	O
+þrjú	B-Percent
+prósent	I-Percent
 tilfella	O
 eru	O
 kærð	O
@@ -28937,7 +28937,7 @@ sérstaka	O
 athygli	O
 mína	O
 í	O
-Kompássþættinum	B-Location
+Kompássþættinum	B-Miscellaneous
 ,	O
 orð	O
 sem	O
@@ -29586,7 +29586,7 @@ samsekt	O
 ,	O
 að	O
 Solla	B-Person
-stirða	O
+stirða	I-Person
 -	O
 ímynd	O
 heilbrigðrar	O
@@ -29624,7 +29624,7 @@ verið	O
 börn	O
 sem	O
 kusu	O
-Sollu	B-Organization
+Sollu	B-Person
 kynþokkafyllstu	O
 konuna	O
 er	O
@@ -29649,7 +29649,7 @@ en	O
 karlarnir	O
 fjórir	O
 í	O
-Kompási	B-Location
+Kompási	B-Miscellaneous
 .	O
 
 Bergþóra	B-Person
@@ -29865,7 +29865,7 @@ konar	O
 í	O
 kotru	O
 (	O
-Backgammon	O
+Backgammon	B-Organization
 )	O
 .	O
 
@@ -29888,8 +29888,8 @@ byggingarlist	O
 umhverfisvænan	O
 lifnað	O
 ,	O
-Feng	B-Person
-Shui	I-Person
+Feng	B-Miscellaneous
+Shui	I-Miscellaneous
 og	O
 fleira	O
 auk	O
@@ -31001,7 +31001,7 @@ fyrir	O
 atvinnuþróun	O
 .	O
 
-Landsvirkjun	O
+Landsvirkjun	B-Organization
 er	O
 enn	O
 í	O
@@ -31028,9 +31028,9 @@ yrði	O
 að	O
 auki	O
 hætt	O
-hundruðum	O
-milljarða	O
-króna	O
+hundruðum	B-Money
+milljarða	I-Money
+króna	I-Money
 í	O
 virkjun	O
 sem	O
@@ -31052,11 +31052,11 @@ Magnasonar	I-Person
 rithöfundar	O
 ,	O
 Draumalandið	B-Miscellaneous
--	I-Miscellaneous
-Sjálfshjálparbók	I-Miscellaneous
-handa	I-Miscellaneous
-hræddri	I-Miscellaneous
-þjóð	I-Miscellaneous
+-	O
+Sjálfshjálparbók	B-Miscellaneous
+handa	O
+hræddri	O
+þjóð	O
 ,	O
 um	O
 þær	O
@@ -31400,7 +31400,7 @@ finnst	O
 nægur	O
 jarðvarmi	O
 við	O
-Þeistareyki	O
+Þeistareyki	B-Location
 til	O
 að	O
 anna	O
@@ -31420,7 +31420,7 @@ sjá	O
 ráðamenn	O
 segja	O
 við	O
-Húsvíkinga	B-Location
+Húsvíkinga	B-Miscellaneous
 :	O
 Því	O
 miður	O
@@ -31664,9 +31664,9 @@ AKURHRINGIRNIR	O
 svokölluðu	O
 ,	O
 sem	O
-M.	O
-Night	B-Organization
-Shyamalan	I-Organization
+M.	B-Person
+Night	I-Person
+Shyamalan	I-Person
 notar	O
 sem	O
 myndlíkingu	O
@@ -31677,7 +31677,7 @@ og	O
 baráttu	O
 aðalpersónunnar	O
 í	O
-Signs	B-Location
+Signs	B-Miscellaneous
 ,	O
 eru	O
 ,	O
@@ -32077,7 +32077,7 @@ miðnætti	B-Date
 .	O
 
 Anna	B-Person
-Sigríður	B-Person
+Sigríður	I-Person
 Arnardóttir	I-Person
 ,	O
 lögfræðingur	O
@@ -32143,7 +32143,7 @@ framboðum	O
 allt	O
 fram	O
 til	O
-miðnættis	O
+miðnættis	B-Time
 .	O
 
 En	O
@@ -32490,7 +32490,7 @@ Hjörvar	I-Person
 ,	O
 alþingismaður	O
 (	O
-S	O
+S	B-Organization
 )	O
 :	O
 «	O
@@ -33025,7 +33025,7 @@ verður	O
 við	O
 Eirík	B-Person
 í	O
-Speglinum	O
+Speglinum	B-Miscellaneous
 eftir	O
 fréttir	O
 .	O
@@ -33055,9 +33055,9 @@ að	O
 greiða	O
 Guðrúnu	B-Person
 Kjarval	I-Person
-eina	O
-milljón	O
-króna	O
+eina	B-Money
+milljón	I-Money
+króna	I-Money
 í	O
 miskabætur	O
 auk	O
@@ -33172,7 +33172,7 @@ mynd	O
 eftir	O
 Kjarval	B-Person
 ,	O
-Landslag	B-Organization
+Landslag	O
 leikið	O
 á	O
 hörpu	O
@@ -33273,9 +33273,9 @@ Gunnarsson	I-Person
 í	O
 fyrrnefndu	O
 uppboðshúsi	O
-Bruun	B-Person
-og	O
-Rasmussen	B-Location
+Bruun	B-Organization
+og	I-Organization
+Rasmussen	I-Organization
 í	O
 Kaupmannahöfn	B-Location
 ,	O
@@ -33341,9 +33341,9 @@ framhaldinu	O
 dómkröfur	O
 stefnandans	O
 um	O
-eina	O
-milljón	O
-króna	O
+eina	B-Money
+milljón	I-Money
+króna	I-Money
 í	O
 miskabætur	O
 auk	O
@@ -33701,7 +33701,7 @@ eru	O
 settar	O
 á	O
 stika	O
-ARCH	B-Miscellaneous
+ARCH	O
 líkansins	O
 .	O
 
@@ -33722,7 +33722,7 @@ er	O
 ekki	O
 tryggt	O
 að	O
-Gt2	O
+Gt2	B-Organization
 sé	O
 sístætt	O
 ferli	O
@@ -33785,7 +33785,7 @@ E	O
 st	O
 )	O
 =	O
-E	O
+E	B-Person
 (	O
 ztct	O
 )	O
@@ -33804,12 +33804,12 @@ Var	O
 st	O
 )	O
 =	O
-E	O
+E	B-Person
 (	O
 s2t	O
 )	O
 =	O
-E	O
+E	B-Person
 (	O
 z2tc2t	O
 )	O
@@ -34099,8 +34099,8 @@ jafna	O
 )	O
 .	O
 
-Reisn	O
-ARCH	B-Miscellaneous
+Reisn	B-Miscellaneous
+ARCH	I-Miscellaneous
 (	O
 1	O
 )	O
@@ -34144,7 +34144,7 @@ bent	O
 fellur	O
 þessi	O
 eiginleiki	O
-ARCH	B-Miscellaneous
+ARCH	O
 líkansins	O
 vel	O
 að	O
@@ -34153,7 +34153,7 @@ fjármálatímaraða	O
 .	O
 
 Á	O
-Mynd	O
+Mynd	B-Miscellaneous
 3.2	O
 sést	O
 þéttifall	O
@@ -34375,8 +34375,8 @@ hafnað	O
 .	O
 
 3.3	O
-ARCH-M	B-Miscellaneous
-ARCH-M	B-Miscellaneous
+ARCH-M	O
+ARCH-M	O
 líkanið	O
 var	O
 sett	O
@@ -34384,9 +34384,9 @@ fram	O
 árið	O
 1987	B-Date
 af	O
-Engle	B-Person
+Engle	B-Location
 ,	O
-Lilien	B-Person
+Lilien	B-Location
 og	O
 Robins29	O
 og	O
@@ -34592,7 +34592,7 @@ aukningu	O
 áhættuálags	O
 .	O
 
-Lanne	O
+Lanne	B-Person
 og	O
 Saikkonen	B-Person
 telja	O
@@ -34613,7 +34613,7 @@ milli	O
 og	O
 áhættu	O
 sem	O
-ICAPM	B-Miscellaneous
+ICAPM	O
 líkan	O
 Mertons32	O
 lýsir	O
@@ -34709,7 +34709,7 @@ undan	O
 .	O
 
 Fyrir	O
-ARCH-M	B-Miscellaneous
+ARCH-M	O
 líkanið	O
 skal	O
 dreifni	O
@@ -34858,8 +34858,8 @@ jafna	O
 Fyrstu	O
 gráðu	O
 sjálffylgni	O
-ARCH-M	B-Miscellaneous
-ferlis	I-Miscellaneous
+ARCH-M	O
+ferlis	O
 er	O
 (	O
 jafna	O
@@ -34875,7 +34875,7 @@ auðvelt	O
 að	O
 reikna	O
 sjálffylgni	O
-ARCH-M	B-Miscellaneous
+ARCH-M	O
 af	O
 hærri	O
 gráðu	O
@@ -34997,7 +34997,7 @@ jafna	O
 )	O
 þar	O
 sem	O
-Pt	B-Person
+Pt	B-Miscellaneous
 er	O
 vísitölustig	O
 á	O
@@ -35148,8 +35148,8 @@ Verðbréfaþingi	B-Organization
 .	O
 
 37	O
-Verðbréfaþing	O
-Íslands	B-Location
+Verðbréfaþing	B-Organization
+Íslands	I-Organization
 tók	O
 svo	O
 upp	O
@@ -35160,7 +35160,7 @@ hf.	I-Organization
 (	O
 hér	O
 eftir	O
-Kauphöllin	B-Location
+Kauphöllin	B-Organization
 )	O
 árið	O
 2002	B-Date
@@ -35169,7 +35169,7 @@ kjölfar	O
 breytinga	O
 á	O
 rekstrarfyrirkomulagi	O
-Verðbréfaþings	B-Location
+Verðbréfaþings	B-Organization
 og	O
 Verðbréfaskráningar	B-Organization
 Íslands	I-Organization
@@ -35235,9 +35235,9 @@ Kauphöll	B-Organization
 þá	O
 upp	O
 heitið	O
-OMX	B-Organization
-Nordic	I-Organization
-Exchange	I-Organization
+OMX	B-Miscellaneous
+Nordic	I-Miscellaneous
+Exchange	I-Miscellaneous
 á	O
 Íslandi	B-Location
 .	O
@@ -35352,7 +35352,7 @@ en	O
 Velta	O
 hlutabréfa	O
 í	O
-Kauphöllinni	B-Location
+Kauphöllinni	B-Organization
 1993-2006	B-Date
 
 Mynd	O
@@ -35406,10 +35406,10 @@ félaga	O
 árslok	O
 2005	B-Date
 var	O
-1.816	O
-milljarðar	O
-íslenskra	O
-króna	O
+1.816	B-Money
+milljarðar	I-Money
+íslenskra	I-Money
+króna	I-Money
 sem	O
 samsvarar	O
 179%	B-Percent
@@ -35449,8 +35449,8 @@ heildarmarkaðsvirði	O
 árslok	O
 2006	B-Date
 var	O
-2.590	O
-milljarðar	O
+2.590	B-Money
+milljarðar	I-Money
 .	O
 
 Velta	O
@@ -35504,7 +35504,7 @@ sem	O
 skráð	O
 eru	O
 á	O
-Aðallista	B-Location
+Aðallista	O
 hverju	O
 sinni	O
 ,	O
@@ -35551,7 +35551,7 @@ tvisvar	O
 Öll	O
 félög	O
 á	O
-Aðallista	B-Location
+Aðallista	B-Organization
 koma	O
 til	O
 greina	O
@@ -35714,11 +35714,11 @@ Mynd	O
 1997-2006	B-Date
 
 Hlutabréfavísitölur	O
-Kauphallarinnar	B-Miscellaneous
+Kauphallarinnar	B-Organization
 eru	O
 reiknaðar	O
 með	O
-Paasche	B-Miscellaneous
+Paasche	B-Person
 formúlu	O
 .	O
 
@@ -35826,7 +35826,7 @@ við	O
 Laspeyres	B-Location
 og	O
 margfeldismeðaltal	O
-Laspeyres	B-Location
+Laspeyres	B-Miscellaneous
 vísitölu	O
 og	O
 Paasche	B-Person
@@ -36013,16 +36013,16 @@ p0	O
 ,	O
 q0	O
 ,	O
-p1	O
+p1	B-Organization
 ,	O
 q1	O
 )	O
 =	O
 1/IF	O
 (	O
-p1	O
+p1	B-Organization
 ,	O
-q1	O
+q1	B-Organization
 ,	O
 p0	O
 ,	O
@@ -36077,7 +36077,7 @@ tíma	O
 Öll	O
 viðskipti	O
 í	O
-Kauphöllinni	B-Location
+Kauphöllinni	B-Organization
 eru	O
 milli	O
 skráðra	O
@@ -36149,7 +36149,7 @@ frídaga	O
 frá	O
 dagslokum	O
 föstudags	B-Date
-til	O
+til	I-Date
 mánudags	B-Date
 er	O
 reiknuð	O
@@ -36345,7 +36345,7 @@ Kúrfan	O
 sem	O
 myndast	O
 er	O
-S-laga	O
+S-laga	B-Location
 og	O
 stór	O
 hluti	O
@@ -36832,7 +36832,7 @@ daglega	O
 frá	O
 1997	B-Date
 til	I-Date
-2001	B-Date
+2001	I-Date
 og	O
 frá	O
 2002	B-Date
@@ -36878,8 +36878,8 @@ aðhvarfslíkansins	O
 .	O
 
 Úrvalsvísitala	B-Miscellaneous
--	I-Miscellaneous
-Mat	I-Miscellaneous
+-	O
+Mat	O
 á	O
 ARCH	B-Miscellaneous
 áhrifum	O
@@ -36986,8 +36986,8 @@ miðju	O
 ári	O
 2003	B-Date
 til	O
-feb-mars	O
-2006	B-Date
+feb-mars	B-Date
+2006	I-Date
 ,	O
 eða	O
 lækkunum	O
@@ -37027,7 +37027,7 @@ var	O
 mat	O
 á	O
 stikum	O
-ARCH-M	B-Miscellaneous
+ARCH-M	O
 líkans	O
 sett	O
 fram	O
@@ -37053,10 +37053,10 @@ hlutabréfamarkaði	O
 .	O
 
 5.1	O
-Sharpe	O
-hlutfall	O
-Tafla	O
-5.1	O
+Sharpe	B-Miscellaneous
+hlutfall	I-Miscellaneous
+Tafla	I-Miscellaneous
+5.1	I-Miscellaneous
 sýnir	O
 meðalávöxtun	O
 á	O
@@ -37065,7 +37065,7 @@ dag	O
 staðalfrávik	O
 hennar	O
 og	O
-Sharpe	B-Person
+Sharpe	B-Miscellaneous
 hlutfall	O
 ávöxtunar	O
 úrvalsvísitölunnar	O
@@ -37137,8 +37137,8 @@ er	O
 um	O
 að	O
 ræða	O
-Ex	O
-post	O
+Ex	B-Organization
+post	I-Organization
 mælingu	O
 en	O
 slíkar	O
@@ -37360,8 +37360,8 @@ eftir	O
 Mynd	O
 5.1	O
 -	O
-Sharpe	B-Person
-hlutfall	O
+Sharpe	B-Miscellaneous
+hlutfall	I-Miscellaneous
 ,	O
 2000-2005	B-Date
 
@@ -37445,8 +37445,8 @@ protection	I-Miscellaneous
 on	I-Miscellaneous
 the	I-Miscellaneous
 Internet	I-Miscellaneous
--	I-Miscellaneous
-An	I-Miscellaneous
+-	O
+An	B-Miscellaneous
 introduction	I-Miscellaneous
 to	I-Miscellaneous
 the	I-Miscellaneous
@@ -37461,10 +37461,10 @@ Rickert	I-Person
 lögmaður	O
 eco	O
 -	O
-Verband	O
-der	O
-deutschen	O
-Internetwirtschaft	B-Miscellaneous
+Verband	B-Miscellaneous
+der	I-Miscellaneous
+deutschen	I-Miscellaneous
+Internetwirtschaft	I-Miscellaneous
 c.	O
 
 V	O
@@ -37481,11 +37481,11 @@ Hlé	O
 Blocking	O
 Internet	B-Miscellaneous
 Content	I-Miscellaneous
--	I-Miscellaneous
-Saving	I-Miscellaneous
-Children	I-Miscellaneous
-or	I-Miscellaneous
-Censorship	I-Miscellaneous
+-	O
+Saving	B-Organization
+Children	I-Organization
+or	I-Organization
+Censorship	I-Organization
 ?	O
 
 Ola-Kristian	B-Person
@@ -37504,7 +37504,7 @@ Fyrirspurnir	O
 og	O
 umræður	O
 
-12.15-13.00	O
+12.15-13.00	B-Money
 Boðið	O
 upp	O
 á	O
@@ -37527,26 +37527,26 @@ og	O
 verkefnastjóri	O
 hjá	O
 Barnaheillum	B-Organization
--	I-Organization
-Save	I-Organization
+-	O
+Save	B-Organization
 the	I-Organization
 Children	I-Organization
 á	O
 Íslandi	B-Location
 
-13.00-	O
+13.00-	B-Time
 13.25	B-Time
 Erindi	O
 Thelma	B-Person
 Ásdísardóttir	I-Person
 
 13.25-14.45	O
-Developing	O
-and	O
-Emerging	B-Organization
-Technologies	I-Organization
-Cormac	I-Organization
-Callanan	I-Organization
+Developing	B-Miscellaneous
+and	I-Miscellaneous
+Emerging	I-Miscellaneous
+Technologies	I-Miscellaneous
+Cormac	I-Miscellaneous
+Callanan	I-Miscellaneous
 ,	O
 framkvæmdastjóri	O
 INHOPE	B-Organization
@@ -37567,7 +37567,7 @@ efni	O
 Netinu	B-Miscellaneous
 .	O
 
-14.45-15.05	O
+14.45-15.05	B-Date
 Kaffihlé	O
 
 15.05-15.30	O
@@ -37605,7 +37605,7 @@ lögreglunnar	O
 Reykjavík	B-Location
 .	O
 
-15.55-16.05	O
+15.55-16.05	B-Date
 Fyrirspurnir	O
 ,	O
 umræður	O
@@ -37628,12 +37628,12 @@ Children	I-Miscellaneous
 Íslandi	B-Location
 
 Suðurlandsbraut	B-Location
-24	O
+24	I-Location
 108	O
 Reykjavík	B-Location
 
 ©	O
-Barnaheill	B-Organization
+Barnaheill	O
 
 Save	B-Miscellaneous
 the	I-Miscellaneous
@@ -37641,7 +37641,7 @@ Children	I-Miscellaneous
 á	O
 Íslandi	B-Location
 
-24.01.	O
+24.01.	B-Date
 
 2006	B-Date
 Save	B-Miscellaneous
@@ -37971,8 +37971,8 @@ nú	O
 býðst	O
 .	O
 
-Hjálparsamtökin	O
-fimm	O
+Hjálparsamtökin	B-Organization
+fimm	I-Organization
 kynna	O
 á	O
 heimasíðum	O
@@ -38030,12 +38030,12 @@ hjálpar	O
 erlendis	O
 .	O
 
-122	O
-milljónir	O
+122	B-Money
+milljónir	I-Money
 söfnuðust	O
 .	O
 
-Hjálparsamtökin	O
+Hjálparsamtökin	B-Organization
 þakka	O
 landsmönnum	O
 vilja	O
@@ -38088,10 +38088,10 @@ Stöðuskýrsla	O
 Save	B-Miscellaneous
 the	I-Miscellaneous
 Children	I-Miscellaneous
-um	I-Miscellaneous
-hjálparstarf	I-Miscellaneous
-á	I-Miscellaneous
-flóðasvæðunum	I-Miscellaneous
+um	O
+hjálparstarf	O
+á	O
+flóðasvæðunum	O
 
 Senn	O
 er	O
@@ -38452,8 +38452,8 @@ svæðum	O
 ,	O
 svo	O
 sem	O
-Sri	B-Person
-Lanka	I-Person
+Sri	B-Organization
+Lanka	I-Organization
 ,	O
 er	O
 stjórnmálaástandið	O
@@ -38566,8 +38566,8 @@ Barnaheill	B-Organization
 Save	I-Organization
 the	I-Organization
 Children	I-Organization
-á	I-Organization
-Íslandi	I-Organization
+á	O
+Íslandi	B-Location
 ,	O
 í	O
 síma	O
@@ -38597,7 +38597,7 @@ MIÐ-AMERÍKU	B-Location
 -	O
 SÖFNUNARSÍMI	O
 907	O
-1900	B-Date
+1900	O
 -	O
 STYÐJUM	O
 BÖRNIN	O
@@ -38605,8 +38605,8 @@ BÖRNIN	O
 Ljósmynd	O
 :	O
 Reuters	B-Organization
-/	O
-Alternet	O
+/	I-Organization
+Alternet	I-Organization
 
 Barnaheill	B-Organization
 -	I-Organization
@@ -38751,10 +38751,10 @@ vilja	O
 styrkja	O
 neyðaraðstoð	O
 Barnaheilla	B-Organization
--	I-Organization
-Save	I-Organization
-the	I-Organization
-Children	I-Organization
+-	O
+Save	B-Miscellaneous
+the	I-Miscellaneous
+Children	I-Miscellaneous
 á	O
 hamfarasvæðunum	O
 geta	O
@@ -38785,8 +38785,8 @@ viðkomandi	O
 22.12.	O
 
 2005	B-Date
-Hátíð	O
-trjánna	O
+Hátíð	B-Miscellaneous
+trjánna	I-Miscellaneous
 2005	B-Date
 :	O
 
@@ -38807,11 +38807,11 @@ geðraskanir	O
 á	O
 fjáröflunarsamkomu	O
 sem	O
-Barnaheill	B-Miscellaneous
--	I-Miscellaneous
-Save	I-Miscellaneous
-the	I-Miscellaneous
-Children	I-Miscellaneous
+Barnaheill	B-Organization
+-	I-Organization
+Save	I-Organization
+the	I-Organization
+Children	I-Organization
 á	O
 Íslandi	B-Location
 stóðu	O
@@ -38832,7 +38832,7 @@ haldin	O
 Súlnasal	B-Location
 Radisson	B-Organization
 SAS	I-Organization
-Hótel	B-Organization
+Hótel	I-Organization
 Sögu	I-Organization
 og	O
 mættu	O
@@ -38849,11 +38849,11 @@ eftir	O
 listamenn	O
 .	O
 
-Barnaheill	O
--	O
-Save	B-Miscellaneous
-the	I-Miscellaneous
-Children	I-Miscellaneous
+Barnaheill	B-Organization
+-	I-Organization
+Save	I-Organization
+the	I-Organization
+Children	I-Organization
 á	O
 Íslandi	B-Location
 vilja	O
@@ -38888,7 +38888,7 @@ sem	O
 komu	O
 að	O
 Hátíð	B-Miscellaneous
-trjánna	O
+trjánna	I-Miscellaneous
 og	O
 gáfu	O
 vinnu	O
@@ -39315,7 +39315,7 @@ við	O
 hátíðlega	O
 athöfn	O
 í	O
-Þjóðmenningarhúsinu	B-Organization
+Þjóðmenningarhúsinu	B-Location
 .	O
 
 Stjórn	O
@@ -39353,11 +39353,11 @@ Sameinuðu	B-Organization
 þjóðanna	I-Organization
 .	O
 
-Barnaheill	O
--	O
-Save	B-Miscellaneous
-the	I-Miscellaneous
-Children	I-Miscellaneous
+Barnaheill	B-Organization
+-	I-Organization
+Save	I-Organization
+the	I-Organization
+Children	I-Organization
 á	O
 Íslandi	B-Location
 -	O
@@ -39384,14 +39384,14 @@ starfi	O
 
 Áður	O
 hafa	O
-Barnahús	B-Organization
+Barnahús	B-Location
 ,	O
 Hringurinn	B-Miscellaneous
 og	O
-Velferðarsjóður	B-Miscellaneous
-barna	O
-á	O
-Íslandi	B-Location
+Velferðarsjóður	B-Organization
+barna	I-Organization
+á	I-Organization
+Íslandi	I-Organization
 hlotið	O
 viðurkenningu	O
 Barnaheilla	B-Organization
@@ -39401,16 +39401,16 @@ Meira	O
 
 Jólakort	O
 Barnaheilla	B-Organization
--	I-Organization
-Save	I-Organization
-the	I-Organization
-Children	I-Organization
+-	O
+Save	B-Miscellaneous
+the	I-Miscellaneous
+Children	I-Miscellaneous
 á	O
 Íslandi	B-Location
 2005	B-Date
 
 Jólakort	O
-Barnaheilla	O
+Barnaheilla	B-Organization
 2005	B-Date
 eru	O
 komin	O
@@ -39514,7 +39514,7 @@ við	O
 hátíðlega	O
 athöfn	O
 í	O
-Þjóðmenningarhúsinu	B-Organization
+Þjóðmenningarhúsinu	B-Location
 .	O
 
 Stjórn	O
@@ -39552,11 +39552,11 @@ Sameinuðu	B-Organization
 þjóðanna	I-Organization
 .	O
 
-Barnaheill	O
--	O
-Save	B-Miscellaneous
-the	I-Miscellaneous
-Children	I-Miscellaneous
+Barnaheill	B-Organization
+-	I-Organization
+Save	I-Organization
+the	I-Organization
+Children	I-Organization
 á	O
 Íslandi	B-Location
 -	O
@@ -39583,14 +39583,14 @@ starfi	O
 
 Áður	O
 hafa	O
-Barnahús	B-Organization
+Barnahús	B-Location
 ,	O
 Hringurinn	B-Miscellaneous
 og	O
-Velferðarsjóður	B-Miscellaneous
-barna	O
-á	O
-Íslandi	B-Location
+Velferðarsjóður	B-Organization
+barna	I-Organization
+á	I-Organization
+Íslandi	I-Organization
 hlotið	O
 viðurkenningu	O
 Barnaheilla	B-Organization
@@ -39640,8 +39640,8 @@ Guðbjörg	B-Person
 heldur	O
 á	O
 lofti	O
-Barnasáttmála	B-Organization
-Sameinuðu	I-Organization
+Barnasáttmála	B-Miscellaneous
+Sameinuðu	B-Organization
 þjóðanna	I-Organization
 .	O
 
@@ -39867,7 +39867,7 @@ hann	O
 stund	O
 á	O
 í	O
-Birmingham	B-Organization
+Birmingham	B-Location
 og	O
 Stoke-on-Trent	B-Location
 í	O
@@ -40047,10 +40047,10 @@ verður	O
 16.	B-Date
 desember	I-Date
 í	O
-Súlnasal	B-Organization
-Radisson	I-Organization
+Súlnasal	B-Location
+Radisson	B-Organization
 SAS	I-Organization
-Hótel	B-Organization
+Hótel	I-Organization
 Sögu	I-Organization
 .	O
 
@@ -40248,14 +40248,14 @@ frá	O
 2003/2004	B-Date
 bættust	O
 við	O
-Árvekni	B-Location
+Árvekni	B-Miscellaneous
 og	O
 tannverndarsjóður	O
 -	O
 og	O
 síðar	O
 verkefnin	O
-Geðrækt	B-Miscellaneous
+Geðrækt	B-Organization
 ,	O
 Allt	O
 hefur	O
@@ -40539,7 +40539,7 @@ Lýðheilsustöðvar	I-Organization
 2008	B-Date
 :	O
 er	O
-Lýðheilsustöð	B-Location
+Lýðheilsustöð	B-Organization
 í	O
 fararbroddi	O
 í	O
@@ -40571,7 +40571,7 @@ lýðheilsu	O
 samfélaginu	O
 
 er	O
-Lýðheilsustöð	B-Location
+Lýðheilsustöð	B-Organization
 í	O
 samstarfi	O
 við	O
@@ -40619,7 +40619,7 @@ stjórnvaldsaðgerða	O
 heilsu	O
 
 er	O
-Lýðheilsustöð	B-Location
+Lýðheilsustöð	B-Organization
 í	O
 fjölþættu	O
 alþjóðlegu	O
@@ -40746,7 +40746,7 @@ sameiginlega	O
 að	O
 öllum	O
 verkefnum	O
-Lýðheilsustöðvar	B-Location
+Lýðheilsustöðvar	B-Organization
 .	O
 
 Landsnefnd	O
@@ -40799,7 +40799,7 @@ málaflokka	O
 sem	O
 heyra	O
 undir	O
-Lýðheilsustöð	B-Location
+Lýðheilsustöð	B-Organization
 .	O
 
 Verkefnisstjóri	O
@@ -40814,13 +40814,13 @@ sem	O
 áður	O
 féll	O
 undir	O
-Áfengis-	O
-og	O
-vímuvarnaráð	O
+Áfengis-	B-Organization
+og	I-Organization
+vímuvarnaráð	I-Organization
 hefur	O
 flust	O
 til	O
-Lýðheilsustöðvar	B-Location
+Lýðheilsustöðvar	B-Organization
 .	O
 
 Ráðið	O
@@ -40859,7 +40859,7 @@ rannsóknir	O
 og	O
 styrkveitingar	O
 úr	O
-Forvarnasjóði	B-Organization
+Forvarnasjóði	B-Miscellaneous
 .	O
 
 Lýðheilsustöð	B-Organization
@@ -40987,7 +40987,7 @@ málaflokka	O
 sem	O
 heyra	O
 undir	O
-Lýðheilsustöð	B-Location
+Lýðheilsustöð	B-Organization
 .	O
 
 Verkefnisstjóri	O
@@ -41015,7 +41015,7 @@ við	O
 forvarnaverkefni	O
 .	O
 
-Lýðheilsustöð	O
+Lýðheilsustöð	B-Organization
 er	O
 faglegur	O
 ráðgjafi	O
@@ -41090,7 +41090,7 @@ sviði	O
 slysavarna	O
 .	O
 
-Slysavarnaráð	O
+Slysavarnaráð	B-Organization
 fellur	O
 undir	O
 Lýðheilsustöð	B-Organization
@@ -41136,7 +41136,7 @@ sé	O
 samræmd	O
 .	O
 
-Landlæknisembættið	O
+Landlæknisembættið	B-Organization
 og	O
 slysavarnaráð	O
 hafa	O
@@ -41172,12 +41172,12 @@ skoða	O
 slysaskrána	O
 )	O
 
-Árvekni	O
-Um	O
+Árvekni	B-Miscellaneous
+Um	I-Miscellaneous
 upphaf	O
 og	O
 hlutverk	O
-Árvekni	B-Location
+Árvekni	B-Miscellaneous
 22.3.2004	B-Date
 
 Ríkisstjórn	O
@@ -41456,9 +41456,9 @@ veitt	O
 árlega	O
 af	O
 fjárlögum	O
-sjö	O
-milljónum	O
-króna	O
+sjö	B-Money
+milljónum	I-Money
+króna	I-Money
 árin	O
 1999	B-Date
 til	I-Date
@@ -41466,7 +41466,7 @@ til	I-Date
 .	O
 
 Ársskýrsla	O
-Árvekni	O
+Árvekni	B-Miscellaneous
 1999	B-Date
 22.3.2004	B-Date
 
@@ -41788,7 +41788,7 @@ Jónsson	I-Person
 formaður	O
 Heilbrigðis-	B-Organization
 og	I-Organization
-tryggingamálaráðuneyti	O
+tryggingamálaráðuneyti	I-Organization
 
 Birna	B-Person
 Hreiðarsdóttir	I-Person
@@ -41816,16 +41816,16 @@ kirkjumálaráðuneyti	O
 
 Sólveig	B-Person
 Guðmundsdóttir	I-Person
-Heilbrigðis-	O
-og	O
-tryggingamálaráðuneyti	O
+Heilbrigðis-	B-Miscellaneous
+og	I-Miscellaneous
+tryggingamálaráðuneyti	I-Miscellaneous
 
 Steinunn	B-Person
 Valdís	I-Person
 Óskarsdóttir	I-Person
-Samband	O
-íslenskra	O
-sveitarfélaga	O
+Samband	B-Organization
+íslenskra	I-Organization
+sveitarfélaga	I-Organization
 
 Fundir	O
 verkefnisstjórnar	O
@@ -42078,7 +42078,7 @@ Hópur	O
 2	O
 .	O
 
-Umferðarmál	B-Organization
+Umferðarmál	O
 ,	O
 landbúnaðar-	O
 og	O
@@ -42199,7 +42199,7 @@ hefjast	O
 Kynning	O
 á	O
 slysavarnarátakinu	O
-Árvekni	B-Location
+Árvekni	B-Miscellaneous
 
 Auglýsingastofa	O
 var	O
@@ -42222,7 +42222,7 @@ Er	O
 ætlunin	O
 að	O
 merki	O
-Árvekni	B-Location
+Árvekni	B-Miscellaneous
 birtist	O
 á	O
 öllu	O
@@ -42316,7 +42316,7 @@ almenningi	O
 eru	O
 upplýsingar	O
 um	O
-Árvekni	B-Location
+Árvekni	B-Miscellaneous
 ,	O
 hvar	O
 verkefnið	O
@@ -42418,7 +42418,7 @@ og	O
 fréttamenn	O
 leitað	O
 til	O
-Árvekni	B-Location
+Árvekni	B-Miscellaneous
 í	O
 tengslum	O
 við	O
@@ -42464,11 +42464,11 @@ Einnig	O
 hefur	O
 ritstjóri	O
 tímaritsins	O
-Uppeldis	O
+Uppeldis	B-Organization
 haft	O
 samband	O
 við	O
-Árvekni	B-Location
+Árvekni	B-Miscellaneous
 og	O
 leitað	O
 eftir	O
@@ -42496,12 +42496,12 @@ Alls	O
 birtist	O
 efni	O
 frá	O
-Árvekni	B-Location
+Árvekni	B-Miscellaneous
 5	O
 sinnum	O
 í	O
 tímaritinu	O
-Uppeldi	O
+Uppeldi	B-Organization
 .	O
 
 Yfirlit	O
@@ -42516,7 +42516,7 @@ slysavarnir	O
 og	O
 kynning	O
 á	O
-Árvekni	B-Location
+Árvekni	B-Miscellaneous
 .	O
 
 Talsvert	O
@@ -42524,7 +42524,7 @@ er	O
 leitað	O
 til	O
 framkvæmdastjóra	O
-Árvekni	O
+Árvekni	B-Miscellaneous
 varðandi	O
 fræðslu	O
 um	O
@@ -42558,7 +42558,7 @@ sérstaklega	O
 eftir	O
 kynningu	O
 á	O
-Árvekni	B-Location
+Árvekni	B-Miscellaneous
 .	O
 
 Skipting	O
@@ -42650,7 +42650,7 @@ erindi	O
 hafa	O
 borist	O
 skrifstofu	O
-Árvekni	B-Location
+Árvekni	B-Miscellaneous
 á	O
 árinu	O
 ,	O
@@ -42799,8 +42799,8 @@ fyrirtækjum	O
 Takk	O
 .	O
 
-Procura	B-Organization
-janúar	B-Date
+Procura	B-Date
+janúar	I-Date
 12	I-Date
 ,	I-Date
 2006	I-Date
@@ -42852,7 +42852,7 @@ forvitinir	O
 þá	O
 er	O
 lagið	O
-Procura	B-Location
+Procura	B-Miscellaneous
 með	O
 Chihi	B-Person
 Peralta	I-Person
@@ -42862,8 +42862,8 @@ Kæru	O
 fjölmiðlar	O
 janúar	B-Date
 10	I-Date
-,	O
-2006	B-Date
+,	I-Date
+2006	I-Date
 
 Kæru	O
 fjölmiðlar	O
@@ -42969,8 +42969,8 @@ nokkru	O
 einasta	O
 máli	O
 að	O
-80	O
-milljarðar	O
+80	B-Money
+milljarðar	I-Money
 í	O
 hlutabréfum	O
 hafi	O
@@ -43295,7 +43295,7 @@ og	O
 fjallað	O
 er	O
 um	O
-Liverpool	B-Location
+Liverpool	B-Organization
 í	O
 íþróttablöðum	O
 ?	O
@@ -43596,8 +43596,8 @@ xxxxx	O
 Atvinnuástand	O
 janúar	B-Date
 09	I-Date
-,	O
-2006	B-Date
+,	I-Date
+2006	I-Date
 athugasemd	O
 :	O
 Ég	O
@@ -43607,7 +43607,7 @@ fara	O
 yfir	O
 færslusafnið	O
 í	O
-Movabletype	B-Location
+Movabletype	B-Miscellaneous
 og	O
 sérstaklega	O
 færslur	O
@@ -43636,7 +43636,7 @@ gekk	O
 að	O
 ráða	O
 á	O
-Serrano	B-Person
+Serrano	B-Organization
 fyrir	O
 nákvæmlega	O
 tveim	O
@@ -43693,9 +43693,9 @@ heimasíður	O
 Burger	B-Person
 King	I-Person
 og	O
-McDonald	B-Person
-'	O
-s	O
+McDonald	B-Miscellaneous
+'	I-Miscellaneous
+s	I-Miscellaneous
 eru	O
 í	O
 raun	O
@@ -43724,7 +43724,7 @@ okkur	O
 nota	O
 bene	O
 ,	O
-BK	O
+BK	B-Organization
 síðunni	O
 hefur	O
 núna	O
@@ -43735,15 +43735,15 @@ hún	O
 var	O
 áður	O
 einsog	O
-McDonald	B-Person
-'	O
-s	O
+McDonald	B-Organization
+'	I-Organization
+s	I-Organization
 síðan	O
 )	O
 
-McDonald	O
-'	O
-s	O
+McDonald	B-Organization
+'	I-Organization
+s	I-Organization
 eru	O
 svo	O
 farnir	O
@@ -44074,7 +44074,7 @@ fyrirtæki	O
 Á	O
 Alþingi	B-Organization
 segir	O
-Menntamálaráðherra	B-Person
+Menntamálaráðherra	O
 að	O
 vandamál	O
 leikskólanna	O
@@ -44219,8 +44219,8 @@ landi	O
 konur	O
 janúar	B-Date
 06	I-Date
-,	O
-2006	B-Date
+,	I-Date
+2006	I-Date
 
 Ég	O
 held	O
@@ -44231,7 +44231,7 @@ konur	O
 að	O
 ráða	O
 sér	O
-PR-fulltrúa	B-Person
+PR-fulltrúa	B-Miscellaneous
 .	O
 
 Sjá	O
@@ -44239,13 +44239,13 @@ fyrri	O
 umræðu	O
 hér	O
 
-Mið-Ameríkuferð	O
+Mið-Ameríkuferð	B-Miscellaneous
 :	O
 Samantekt	O
 janúar	B-Date
 04	I-Date
-,	O
-2006	B-Date
+,	I-Date
+2006	I-Date
 
 Jæja	O
 ,	O
@@ -44297,28 +44297,28 @@ myndirnar	O
 
 Ferðasaga	O
 
-Mið-Ameríkuferð	O
+Mið-Ameríkuferð	B-Miscellaneous
 1	O
 :	O
 Ódeyjandi	O
 ást	O
 mín	O
 á	O
-Tacos	B-Location
-al	I-Location
-Pastor	I-Location
+Tacos	B-Miscellaneous
+al	I-Miscellaneous
+Pastor	I-Miscellaneous
 
-Mið-Ameríkuferð	O
-2	O
+Mið-Ameríkuferð	B-Miscellaneous
+2	I-Miscellaneous
 :	O
 Mexíkó	B-Location
 og	O
 El	B-Location
 Salvador	I-Location
 
-Mið-Ameríkuferð	O
-3	O
-:	O
+Mið-Ameríkuferð	B-Miscellaneous
+3	I-Miscellaneous
+:	I-Miscellaneous
 Skæruliðar	O
 ,	O
 eldfjöll	O
@@ -44327,49 +44327,49 @@ rútuferð	O
 frá	O
 helvíti	O
 
-Mið-Ameríkuferð	O
-4	O
+Mið-Ameríkuferð	B-Miscellaneous
+4	I-Miscellaneous
 :	O
-Paradís	B-Location
+Paradís	B-Miscellaneous
 
-Mið-Ameríkuferð	O
-5	O
-:	O
+Mið-Ameríkuferð	B-Miscellaneous
+5	I-Miscellaneous
+:	I-Miscellaneous
 Bananalýðveldið	O
 
-Mið-Ameríkuferð	O
-6	O
-:	O
-Garífuna	O
+Mið-Ameríkuferð	B-Miscellaneous
+6	I-Miscellaneous
+:	I-Miscellaneous
+Garífuna	I-Miscellaneous
 
-Mið-Ameríkuferð	O
-7	O
-:	O
+Mið-Ameríkuferð	B-Miscellaneous
+7	I-Miscellaneous
+:	I-Miscellaneous
 Ég	O
 og	O
 Brad	B-Person
 Pitt	I-Person
 
-Mið-Ameríkuferð	O
-8	O
-:	O
-Tikal	O
+Mið-Ameríkuferð	B-Miscellaneous
+8	I-Miscellaneous
+:	I-Miscellaneous
+Tikal	I-Miscellaneous
 
-Mið-Ameríkuferð	O
+Mið-Ameríkuferð	B-Miscellaneous
 9	O
 :	O
-Caye	B-Miscellaneous
-Caulker	I-Miscellaneous
+Caye	B-Person
+Caulker	I-Person
 (	O
 uppfært	O
 )	O
 
-Mið-Ameríkuferð	O
+Mið-Ameríkuferð	B-Miscellaneous
 10	O
 :	O
-Cancun	O
+Cancun	B-Location
 
-Mið-Ameríkuferð	O
+Mið-Ameríkuferð	B-Miscellaneous
 11	O
 :	O
 Bandaríkin	B-Location
@@ -44378,7 +44378,7 @@ Myndir	O
 
 Mexíkó	B-Location
 
-El-Salvador	O
+El-Salvador	B-Location
 
 Hondúras	B-Location
 
@@ -44388,12 +44388,12 @@ Belize	B-Location
 
 Yucatan	B-Location
 
-Queer	B-Miscellaneous
-Eye	I-Miscellaneous
-janúar	I-Miscellaneous
-04	I-Miscellaneous
-,	O
-2006	B-Date
+Queer	B-Organization
+Eye	I-Organization
+janúar	B-Date
+04	I-Date
+,	I-Date
+2006	I-Date
 
 Ja	O
 hérna	O
@@ -44406,8 +44406,8 @@ the	O
 straight	O
 guy	O
 á	O
-Skjá	B-Location
-Einum	I-Location
+Skjá	B-Organization
+Einum	I-Organization
 klukkan	B-Time
 21	I-Time
 í	O
@@ -44425,8 +44425,8 @@ Húrra	O
 2006	B-Date
 janúar	I-Date
 03	I-Date
-,	O
-2006	B-Date
+,	I-Date
+2006	I-Date
 
 Á	O
 árinu	O
@@ -44482,8 +44482,8 @@ upphafi	O
 árs	O
 janúar	B-Date
 02	I-Date
-,	O
-2006	B-Date
+,	I-Date
+2006	I-Date
 
 Af	O
 því	O
@@ -44519,7 +44519,7 @@ Hversu	O
 hryllilega	O
 lélegt	O
 þetta	O
-Áramótaskaup	O
+Áramótaskaup	B-Miscellaneous
 var	O
 -	O
 eða	O
@@ -44573,7 +44573,7 @@ tvennt	O
 ég	O
 fer	O
 á	O
-Players	B-Location
+Players	B-Organization
 .	O
 
 1	O
@@ -44606,7 +44606,7 @@ tveim	O
 jólabókunum	O
 mínum	O
 í	O
-Rokland	B-Location
+Rokland	B-Miscellaneous
 með	O
 Hallgrími	B-Person
 Helga	I-Person
@@ -44643,8 +44643,8 @@ fyrirtæki	O
 og	O
 fengi	O
 skitnar	O
-160	O
-milljónir	O
+160	B-Money
+milljónir	I-Money
 í	O
 starfslokasamning	O
 á	O
@@ -44693,7 +44693,7 @@ gær	O
 horfði	O
 ég	O
 á	O
-Dodgeball	B-Person
+Dodgeball	B-Miscellaneous
 og	O
 komst	O
 ekki	O
@@ -44741,24 +44741,24 @@ lög	O
 þessa	O
 dagana	O
 :	O
-Chicago	B-Organization
+Chicago	B-Location
 -	O
-Sufjan	B-Organization
-Stevens	I-Organization
+Sufjan	B-Person
+Stevens	I-Person
 ,	O
 Things	B-Miscellaneous
 the	I-Miscellaneous
 Grandchildren	I-Miscellaneous
 should	I-Miscellaneous
 know	I-Miscellaneous
--	I-Miscellaneous
-Eels	I-Miscellaneous
+-	O
+Eels	B-Organization
 ,	O
-Geislinn	B-Miscellaneous
+Geislinn	O
 í	O
 Vatninu	B-Location
 -	O
-Hjálmar	B-Organization
+Hjálmar	B-Person
 .	O
 
 Hérna	O
@@ -45016,8 +45016,8 @@ Dagbók	O
 Áramóta-ávarp	O
 desember	B-Date
 30	I-Date
-,	O
-2005	B-Date
+,	I-Date
+2005	I-Date
 
 Af	O
 einhverjum	O
@@ -45037,15 +45037,15 @@ nýju	O
 (	O
 stu	O
 )	O
-Eels	B-Miscellaneous
-plötunni	I-Miscellaneous
+Eels	B-Organization
+plötunni	I-Organization
 ,	O
 «	O
-Things	O
-the	O
-grandchildren	O
-should	O
-know	O
+Things	B-Miscellaneous
+the	I-Miscellaneous
+grandchildren	I-Miscellaneous
+should	I-Miscellaneous
+know	I-Miscellaneous
 »	O
 .	O
 
@@ -45114,12 +45114,12 @@ i	O
 knew	O
 passion	O
 
-And	B-Miscellaneous
-the	I-Miscellaneous
-difference	I-Miscellaneous
-between	I-Miscellaneous
-the	I-Miscellaneous
-two	I-Miscellaneous
+And	O
+the	O
+difference	O
+between	O
+the	O
+two	O
 
 And	O
 I	O
@@ -45462,7 +45462,7 @@ lagað	O
 sá	O
 Liverpool	B-Organization
 verða	O
-Evrópumeistara	B-Location
+Evrópumeistara	B-Miscellaneous
 í	O
 Istanbúl	B-Location
 í	O
@@ -46051,8 +46051,8 @@ her	O
 right	O
 desember	B-Date
 30	I-Date
-,	O
-2005	B-Date
+,	I-Date
+2005	I-Date
 
 Þetta	O
 er	O
@@ -46084,9 +46084,9 @@ Genni	O
 !	O
 
 desember	B-Date
-28	O
-,	O
-2005	B-Date
+28	I-Date
+,	I-Date
+2005	I-Date
 
 Það	O
 fattar	O
@@ -46140,10 +46140,10 @@ stuðningsmenn	O
 .	O
 
 En	O
-Genni	O
+Genni	B-Person
 að	O
 styðja	O
-Framsókn	B-Miscellaneous
+Framsókn	B-Organization
 ?	O
 !	O
 
@@ -46154,8 +46154,8 @@ heitasti	O
 íslenski	O
 stuðningsmaður	O
 George	B-Person
-W	O
-Bush	B-Person
+W	I-Person
+Bush	I-Person
 !	O
 
 Núna	O
@@ -46176,10 +46176,10 @@ sagt	O
 Bestu	O
 plöturnar	O
 2005	B-Date
-desember	I-Date
+desember	B-Date
 27	I-Date
-,	O
-2005	B-Date
+,	I-Date
+2005	I-Date
 
 Jæja	O
 ,	O
@@ -46315,7 +46315,7 @@ hérna	O
 heima	O
 og	O
 í	O
-iPod-inum	O
+iPod-inum	B-Miscellaneous
 síðustu	O
 mánuði	O
 .	O
@@ -46324,12 +46324,12 @@ mánuði	O
 Besta	O
 lag	O
 :	O
-Chicago	B-Organization
-Green	I-Organization
-Day	I-Organization
+Chicago	B-Miscellaneous
+Green	I-Miscellaneous
+Day	I-Miscellaneous
 -	O
-American	B-Organization
-Idiot	I-Organization
+American	B-Miscellaneous
+Idiot	I-Miscellaneous
 :	O
 Smá	O
 svindl	O
@@ -46367,8 +46367,8 @@ að	O
 gefa	O
 frat	O
 í	O
-Green	B-Person
-Day	I-Person
+Green	B-Location
+Day	I-Location
 ,	O
 en	O
 þessi	O
@@ -46391,16 +46391,16 @@ lag	O
 :	O
 Holiday	B-Miscellaneous
 Edan	I-Miscellaneous
--	I-Miscellaneous
-Beauty	I-Miscellaneous
+-	O
+Beauty	B-Miscellaneous
 &	I-Miscellaneous
 the	I-Miscellaneous
 Beat	I-Miscellaneous
-:	I-Miscellaneous
-Þriðja	I-Miscellaneous
-árið	I-Miscellaneous
-í	I-Miscellaneous
-röð	I-Miscellaneous
+:	O
+Þriðja	O
+árið	O
+í	O
+röð	O
 er	O
 uppáhalds	O
 hip-hop	O
@@ -46412,7 +46412,7 @@ hvítum	O
 gaur	O
 .	O
 
-Edan	O
+Edan	B-Person
 er	O
 fokking	O
 snillingur	O
@@ -46458,10 +46458,10 @@ skemmtilegri	O
 Besta	O
 lag	O
 :	O
-I	O
-see	O
-colors	O
-Eels	B-Organization
+I	B-Miscellaneous
+see	I-Miscellaneous
+colors	I-Miscellaneous
+Eels	I-Miscellaneous
 -	O
 Blinking	B-Organization
 Lights	I-Organization
@@ -46490,11 +46490,11 @@ should	I-Miscellaneous
 know	I-Miscellaneous
 .	O
 
-Kanye	B-Organization
-West	I-Organization
+Kanye	B-Person
+West	I-Person
 -	O
-Late	B-Organization
-Registration	I-Organization
+Late	B-Miscellaneous
+Registration	I-Miscellaneous
 :	O
 Var	O
 besta	O
@@ -46507,7 +46507,7 @@ til	O
 að	O
 ég	O
 uppgötvaði	O
-Edan	B-Person
+Edan	B-Miscellaneous
 seinni	O
 part	O
 ársins	O
@@ -46525,25 +46525,25 @@ bjarga	O
 rappinu	O
 .	O
 
-Bloc	B-Miscellaneous
-Party	I-Miscellaneous
--	I-Miscellaneous
-Silent	I-Miscellaneous
-Alarm	I-Miscellaneous
-:	I-Miscellaneous
-Snilld	I-Miscellaneous
-!	I-Miscellaneous
-
-Sigur	O
-Rós	B-Person
+Bloc	B-Organization
+Party	I-Organization
 -	O
-Takk	O
+Silent	B-Organization
+Alarm	I-Organization
+:	O
+Snilld	O
+!	O
+
+Sigur	B-Organization
+Rós	I-Organization
+-	O
+Takk	B-Organization
 :	O
 Ég	O
 einfaldlega	O
 elska	O
-Sigur	B-Person
-Rós	I-Person
+Sigur	B-Organization
+Rós	I-Organization
 og	O
 finnst	O
 allt	O
@@ -46606,15 +46606,15 @@ með	O
 tímanum	O
 .	O
 
-Queens	O
-of	O
-the	O
-Stone	B-Organization
+Queens	B-Organization
+of	I-Organization
+the	I-Organization
+Stone	I-Organization
 Age	I-Organization
--	I-Organization
-Lullabies	I-Organization
-to	I-Organization
-Paralyze	I-Organization
+-	O
+Lullabies	B-Miscellaneous
+to	I-Miscellaneous
+Paralyze	I-Miscellaneous
 :	O
 Ég	O
 hafði	O
@@ -46696,15 +46696,15 @@ að	O
 komast	O
 inn	O
 :	O
-Common	B-Miscellaneous
--	I-Miscellaneous
-Be	I-Miscellaneous
+Common	O
+-	O
+Be	O
 ,	O
 Franz	B-Person
 Ferdinand	I-Person
 ,	O
-The	B-Organization
-Game	I-Organization
+The	B-Person
+Game	I-Person
 ,	O
 Ben	B-Person
 Folds	I-Person
@@ -46716,21 +46716,21 @@ Springsteen	I-Person
 Vonbrigði	O
 ársins	O
 :	O
-Coldplay	B-Miscellaneous
--	I-Miscellaneous
-X	I-Miscellaneous
+Coldplay	B-Organization
+-	O
+X	B-Miscellaneous
 &	I-Miscellaneous
 Y	I-Miscellaneous
 ,	O
-Beck	B-Miscellaneous
--	I-Miscellaneous
-Guero	I-Miscellaneous
+Beck	B-Person
+-	O
+Guero	B-Person
 
 Jólakort	O
 desember	B-Date
 27	I-Date
-,	O
-2005	B-Date
+,	I-Date
+2005	I-Date
 
 Fyrir	O
 ykkur	O
@@ -46761,8 +46761,8 @@ lönd	O
 árinu	O
 desember	B-Date
 26	I-Date
-,	O
-2005	B-Date
+,	I-Date
+2005	I-Date
 
 Þetta	O
 ár	O
@@ -46803,7 +46803,7 @@ utanum	O
 þetta	O
 í	O
 anda	O
-Flygenrings	B-Miscellaneous
+Flygenrings	B-Person
 eru	O
 hérna	O
 þau	O
@@ -46817,15 +46817,15 @@ heimsótti	O
 :	O
 
 Pólland	B-Location
-x2	O
+x2	I-Location
 (	O
-Varsjá	O
+Varsjá	B-Location
 )	O
 ,	O
 Þýskaland	B-Location
 x2	I-Location
 (	O
-Köln	O
+Köln	B-Location
 )	O
 ,	O
 Tékkland	B-Location
@@ -46834,9 +46834,9 @@ Prag	B-Location
 )	O
 ,	O
 Holland	B-Location
-x2	O
+x2	I-Location
 (	O
-Amsterdam	O
+Amsterdam	B-Location
 ,	O
 Breda	B-Location
 )	O
@@ -46853,8 +46853,8 @@ Tyrkland	B-Location
 Istanbúl	B-Location
 )	O
 ,	O
-England	B-Organization
-x2	I-Organization
+England	B-Miscellaneous
+x2	I-Miscellaneous
 (	O
 London	B-Location
 ,	O
@@ -46925,7 +46925,7 @@ svona	O
 dag	O
 :	O
 
-Norður-Ameríka	O
+Norður-Ameríka	B-Location
 :	O
 Kanada	B-Location
 ,	O
@@ -46933,12 +46933,12 @@ Mexíkó	B-Location
 ,	O
 Bandaríkin	B-Location
 
-Mið-Ameríka	O
-&	O
-Karabíska	O
-Hafið	O
-:	O
-Belize	B-Location
+Mið-Ameríka	B-Miscellaneous
+&	I-Miscellaneous
+Karabíska	I-Miscellaneous
+Hafið	I-Miscellaneous
+:	I-Miscellaneous
+Belize	I-Miscellaneous
 ,	O
 Kúba	B-Location
 ,	O
@@ -46951,7 +46951,7 @@ Hondúras	B-Location
 ,	O
 Bahamas	B-Location
 
-Suður-Ameríka	B-Person
+Suður-Ameríka	B-Location
 :	O
 Argentína	B-Location
 ,	O
@@ -47013,7 +47013,7 @@ Sviss	B-Location
 ,	O
 Bretland	B-Location
 
-Afríka	B-Person
+Afríka	B-Location
 :	O
 Ekkert	O
 
@@ -47021,7 +47021,7 @@ Mið-Austurlönd	B-Location
 :	O
 Tyrkland	B-Location
 
-Asía	B-Person
+Asía	O
 :	O
 Ekkert	O
 
@@ -47033,8 +47033,8 @@ lönd	O
 Jól	O
 desember	B-Date
 24	I-Date
-,	O
-2005	B-Date
+,	I-Date
+2005	I-Date
 
 Jæja	O
 ,	O
@@ -47055,7 +47055,7 @@ keyra	O
 gjafir	O
 til	O
 starfsmanna	O
-Serrano	B-Person
+Serrano	B-Organization
 .	O
 
 Næst	O
@@ -47067,7 +47067,7 @@ leita	O
 að	O
 leiðum	O
 niðrí	O
-Fossvogskirkjugarði	B-Organization
+Fossvogskirkjugarði	B-Location
 .	O
 
 Það	O
@@ -47084,8 +47084,8 @@ jól	O
 segi	O
 því	O
 bara	O
-Gleðileg	B-Person
-Jól	I-Person
+Gleðileg	B-Miscellaneous
+Jól	I-Miscellaneous
 ,	O
 öll	O
 .	O
@@ -47186,8 +47186,8 @@ kenningu	O
 Ég	O
 fór	O
 á	O
-Tvo	B-Organization
-Fiska	I-Organization
+Tvo	B-Miscellaneous
+Fiska	I-Miscellaneous
 ,	O
 þar	O
 sem	O
@@ -47554,12 +47554,12 @@ frá	O
 Gvatemala	B-Location
 eru	O
 frá	O
-Livingston	B-Organization
+Livingston	B-Location
 ,	O
-Rio	B-Organization
-Dulce	I-Organization
+Rio	B-Location
+Dulce	I-Location
 og	O
-Tikal	B-Person
+Tikal	B-Location
 .	O
 
 Hægt	O
@@ -47578,31 +47578,31 @@ eru	O
 hér	O
 :	O
 
-Mið-Ameríkuferð	O
-6	O
-:	O
-Garifuna	O
+Mið-Ameríkuferð	B-Miscellaneous
+6	I-Miscellaneous
+:	I-Miscellaneous
+Garifuna	I-Miscellaneous
 
-Mið-Ameríkuferð	O
-7	O
-:	O
+Mið-Ameríkuferð	B-Miscellaneous
+7	I-Miscellaneous
+:	I-Miscellaneous
 Ég	O
 og	O
 Brad	B-Person
 Pitt	I-Person
 
-Mið-Ameríkuferð	O
-8	O
-:	O
-Tikal	O
+Mið-Ameríkuferð	B-Miscellaneous
+8	I-Miscellaneous
+:	I-Miscellaneous
+Tikal	I-Miscellaneous
 
 Snjókoma	O
 í	O
 Japan	B-Location
 desember	B-Date
 22	I-Date
-,	O
-2005	B-Date
+,	I-Date
+2005	I-Date
 
 Pilsa-aðdáandinn	O
 ég	O
@@ -47621,8 +47621,8 @@ lok	O
 uppboðsins	O
 desember	B-Date
 20	I-Date
-,	O
-2005	B-Date
+,	I-Date
+2005	I-Date
 
 Jæja	O
 ,	O
@@ -47903,7 +47903,7 @@ viðtal	O
 við	O
 mig	O
 í	O
-Mogganum	B-Location
+Mogganum	B-Organization
 síðasta	O
 laugardag	B-Date
 .	O
@@ -47924,9 +47924,9 @@ af	O
 stóru	O
 linkasíðunum	O
 ,	O
-Geimur	O
-og	O
-B2	O
+Geimur	B-Miscellaneous
+og	I-Miscellaneous
+B2	I-Miscellaneous
 .	O
 
 Svo	O
@@ -47941,7 +47941,7 @@ landsins	O
 svo	O
 sem	O
 hjá	O
-Manúelu	B-Organization
+Manúelu	B-Person
 ,	O
 Katrínu	B-Person
 ,	O
@@ -48051,8 +48051,8 @@ Helgi	B-Person
 verður	O
 62	O
 ára	O
-9.	O
-janúar	B-Date
+9.	B-Date
+janúar	I-Date
 ,	O
 er	O
 í	O
@@ -48504,7 +48504,7 @@ sem	O
 varð	O
 í	O
 herbúðum	O
-Reykjavíkurlistans	B-Location
+Reykjavíkurlistans	B-Organization
 um	O
 liðna	O
 helgi	O
@@ -48607,19 +48607,19 @@ stuðið	O
 sem	O
 var	O
 á	O
-Össuri	B-Location
-Skarhéðinssyni	I-Location
+Össuri	B-Organization
+Skarhéðinssyni	I-Organization
 í	O
 þáttum	O
 ljósvakamiðlanna	O
 á	O
-gamlársdag	O
+gamlársdag	B-Date
 .	O
 
 Í	O
-Kryddsíld	B-Organization
-Stöðvar	I-Organization
-tvö	O
+Kryddsíld	B-Miscellaneous
+Stöðvar	B-Organization
+tvö	I-Organization
 tókst	O
 honum	O
 að	O
@@ -48746,15 +48746,15 @@ Berglind	B-Person
 Ásgeirsdóttir	I-Person
 ,	O
 aðst.frkstj.	O
-OECD	O
+OECD	B-Miscellaneous
 Elín	B-Person
 Rósa	I-Person
 Finnbogadóttir	I-Person
 ,	O
-Samhjálp	B-Organization
-kvenna	I-Organization
-Grímur	B-Person
-Gíslason	I-Person
+Samhjálp	B-Miscellaneous
+kvenna	I-Miscellaneous
+Grímur	I-Miscellaneous
+Gíslason	I-Miscellaneous
 ,	O
 fréttaritari	O
 Guðmundur	B-Person
@@ -48774,7 +48774,7 @@ ljósmóðir	O
 Jón	B-Person
 Björnsson	I-Person
 frá	O
-Bólstaðarhlíð	B-Organization
+Bólstaðarhlíð	B-Location
 Oddgeir	B-Person
 Guðjónsson	I-Person
 ,	O
@@ -48811,7 +48811,7 @@ Malmberg	I-Person
 haffræðingur	O
 
 FORMAÐUR	O
-VÉLSTJÓRAFÉLAGSINS	O
+VÉLSTJÓRAFÉLAGSINS	B-Organization
 Lætur	O
 sig	O
 ekki	O
@@ -48958,7 +48958,7 @@ Gísladóttur	I-Person
 .	O
 
 Hljómsveitin	O
-Írafár	B-Miscellaneous
+Írafár	B-Organization
 .	O
 
 OG	O
@@ -49045,7 +49045,7 @@ kvöldhópar	O
 .	O
 
 Verð	O
-kr.	B-Money
+kr.	O
 36.000,-	O
 60	O
 kennslustunda	O
@@ -49080,8 +49080,8 @@ TÖK	O
 )	O
 í	O
 Word	B-Organization
-og	O
-Excel	B-Organization
+og	I-Organization
+Excel	I-Organization
 óski	O
 þeir	O
 þess	O
@@ -49092,19 +49092,19 @@ Námsgreinar	O
 Windows	B-Miscellaneous
 og	I-Miscellaneous
 skjalavarsla	I-Miscellaneous
-,	I-Miscellaneous
-Word	I-Miscellaneous
-,	I-Miscellaneous
-Excel	I-Miscellaneous
-,	I-Miscellaneous
-Outlook	I-Miscellaneous
+,	O
+Word	B-Organization
+,	I-Organization
+Excel	I-Organization
+,	O
+Outlook	B-Organization
 og	O
 Internetið	B-Miscellaneous
 .	O
 
 Verð	O
 kr.	B-Money
-38.000,-	O
+38.000,-	I-Money
 30	O
 kennslustunda	O
 námskeið	O
@@ -49146,8 +49146,8 @@ kl	B-Time
 .	O
 
 Verð	O
-kr.	B-Time
-18.000,-	I-Time
+kr.	B-Money
+18.000,-	I-Money
 .	O
 
 Einnig	O
@@ -49181,7 +49181,7 @@ kynning	I-Miscellaneous
 frekari	O
 æfingar	O
 í	O
-Word	B-Organization
+Word	B-Location
 ,	O
 Internetinu	B-Miscellaneous
 og	O
@@ -49686,7 +49686,7 @@ elda	O
 góðan	O
 mat	O
 á	O
-sunnudegi	O
+sunnudegi	B-Date
 .	O
 
 Fyrr	O
@@ -49778,7 +49778,7 @@ við	O
 sjávarútveg	O
 áður	O
 en	O
-Vísir	B-Person
+Vísir	B-Organization
 var	O
 stofnaður	O
 .	O
@@ -49859,15 +49859,15 @@ Fréttablaðið	B-Organization
 E.ÓL.	O
 
 EINKAR	O
-K.	O
-GUÐFINNSSON	B-Person
+K.	B-Person
+GUÐFINNSSON	I-Person
 HLÝÐIR	O
 Á	O
 RÆÐU	O
 BJÖRGÓLFS	B-Person
 JÓHANNSSONAR	I-Person
 FORMANNS	O
-LÍÚ	O
+LÍÚ	B-Organization
 .	O
 
 Björgólfur	B-Person
@@ -49953,7 +49953,7 @@ Pálsson	I-Person
 hefur	O
 sótt	O
 aðalfundi	O
-LÍÚ	O
+LÍÚ	B-Organization
 í	O
 yfir	O
 40	O
@@ -49969,9 +49969,9 @@ stjórnendaráðgjafi	O
 lagði	O
 stund	O
 á	O
-MBA-nám	B-Organization
+MBA-nám	B-Miscellaneous
 við	O
-IESE	B-Organization
+IESE	B-Miscellaneous
 í	O
 Barcelona	B-Location
 .	O
@@ -50123,12 +50123,12 @@ sem	O
 skrifaði	O
 bókina	O
 «	O
-Seven	O
-habits	O
-of	O
-highly	O
-effective	O
-people	O
+Seven	B-Miscellaneous
+habits	I-Miscellaneous
+of	I-Miscellaneous
+highly	I-Miscellaneous
+effective	I-Miscellaneous
+people	I-Miscellaneous
 »	O
 hafa	O
 einnig	O
@@ -50369,7 +50369,7 @@ stofna	O
 húsgagnaverslun	O
 undir	O
 nafninu	O
-Tekk-Vöruhús	O
+Tekk-Vöruhús	B-Organization
 í	O
 gamla	O
 Alaskafjósinu	B-Location
@@ -50453,7 +50453,7 @@ húsgagnaverslana	O
 .	O
 
 «	O
-Kópavogsmenn	O
+Kópavogsmenn	B-Miscellaneous
 vilja	O
 meina	O
 að	O
@@ -50487,7 +50487,7 @@ eru	O
 spurð	O
 um	O
 sérstöðu	O
-Tekk	B-Organization
+Tekk	B-Miscellaneous
 svara	O
 þau	O
 því	O
@@ -50705,7 +50705,7 @@ heimilisvörur	O
 frá	O
 danska	O
 fatamerkinu	O
-Day	B-Miscellaneous
+Day	B-Organization
 verið	O
 teknar	O
 inn	O
@@ -50715,8 +50715,8 @@ Hjónin	O
 segja	O
 að	O
 aðall	O
-Tekk	B-Person
-Companys	I-Person
+Tekk	B-Organization
+Companys	I-Organization
 sé	O
 fjölbreytt	O
 lína	O
@@ -50728,7 +50728,7 @@ mikið	O
 SPRENGING	O
 Á	O
 HÚSGAGNAMARKAÐI	O
-Húsgagnamarkaður	O
+Húsgagnamarkaður	B-Organization
 er	O
 mjög	O
 öflugur	O
@@ -50760,8 +50760,8 @@ velta	O
 fyrirtækisins	O
 fara	O
 yfir	O
-500	O
-milljónir	O
+500	B-Money
+milljónir	I-Money
 þetta	O
 árið	O
 .	O
@@ -50968,8 +50968,8 @@ opin	O
 fyrir	O
 frekari	O
 vexti	O
-Tekk	B-Miscellaneous
-Company	I-Miscellaneous
+Tekk	B-Organization
+Company	I-Organization
 hér	O
 á	O
 landi	O
@@ -51039,9 +51039,9 @@ góð	O
 .	O
 »	O
 
-Tekk	O
-Company	B-Organization
-Stofnár	I-Organization
+Tekk	B-Organization
+Company	I-Organization
+Stofnár	O
 :	O
 1998	B-Date
 Eigendur	O
@@ -51149,10 +51149,10 @@ er	O
 náinni	O
 samvinnu	O
 við	O
-KOM	O
-Almannatengsl	O
-í	O
-Reykjavík	B-Location
+KOM	B-Organization
+Almannatengsl	I-Organization
+í	I-Organization
+Reykjavík	I-Organization
 og	O
 hefur	O
 meðal	O
@@ -51241,8 +51241,8 @@ og	O
 Finnlands	B-Location
 .	O
 
-Allan	O
-Strand	B-Organization
+Allan	B-Person
+Strand	I-Person
 hefur	O
 aðsetur	O
 í	O
@@ -51378,9 +51378,9 @@ og	O
 MBA-gráðu	B-Organization
 í	O
 «	O
-Shipping	O
-and	O
-Logistics	O
+Shipping	B-Miscellaneous
+and	I-Miscellaneous
+Logistics	I-Miscellaneous
 »	O
 frá	O
 Copenhagen	B-Organization
@@ -51421,7 +51421,7 @@ starfaði	O
 Ragnar	B-Person
 hjá	O
 ráðgjafafyrirtækinu	O
-Nobex	B-Person
+Nobex	B-Organization
 .	O
 
 Hann	O
@@ -51450,8 +51450,8 @@ SIGURJÓNSDÓTTIR	I-Person
 TVEIR	O
 AF	O
 EIGENDUM	O
-TEKK	O
-COMPANY	O
+TEKK	B-Organization
+COMPANY	I-Organization
 «	O
 Við	O
 finnum	O
@@ -51575,10 +51575,10 @@ Auk	O
 þess	O
 að	O
 vera	O
-GSM	O
+GSM	B-Organization
 sími	O
 veitir	O
-BlackBerry	B-Miscellaneous
+BlackBerry	B-Person
 frá	O
 Vodafone	B-Organization
 notendum	O
@@ -51600,7 +51600,7 @@ rauntíma	O
 Með	O
 BlackBerry	B-Miscellaneous
 frá	O
-Vodafone	B-Location
+Vodafone	B-Organization
 er	O
 hægt	O
 að	O
@@ -51619,9 +51619,9 @@ og	O
 stund	O
 .	O
 
-BlackBerry	B-Organization
-frá	O
-Vodafone	B-Organization
+BlackBerry	B-Miscellaneous
+frá	I-Miscellaneous
+Vodafone	I-Miscellaneous
 er	O
 hluti	O
 af	O
@@ -51699,16 +51699,16 @@ farsímans	O
 og	O
 tölvunnar	O
 -	O
-BlackBerry	B-Organization
-frá	O
-Vodafone	B-Organization
+BlackBerry	B-Miscellaneous
+frá	I-Miscellaneous
+Vodafone	I-Miscellaneous
 uppfyllir	O
 ítrustu	O
 öryggisstaðla	O
 -	O
 BlackBerry	B-Miscellaneous
 frá	I-Miscellaneous
-Vodafone	I-Miscellaneous
+Vodafone	B-Organization
 er	O
 einstaklega	O
 vel	O
@@ -51716,9 +51716,9 @@ hannaður	O
 fyrir	O
 kerfisumsjón	O
 
-Mobile	B-Organization
-Office	I-Organization
-FRÁ	I-Organization
+Mobile	B-Miscellaneous
+Office	I-Miscellaneous
+FRÁ	O
 OG	O
 VODAFONE	B-Organization
 Alvöru	O
@@ -51727,9 +51727,9 @@ ferðaskrifstofa	O
 Nánari	O
 upplýsingar	O
 veitir	O
-Fyrirtækjaþjónusta	B-Miscellaneous
-Og	I-Miscellaneous
-Vodafone	I-Miscellaneous
+Fyrirtækjaþjónusta	B-Organization
+Og	I-Organization
+Vodafone	I-Organization
 ,	O
 Síðumúla	B-Location
 28	I-Location
@@ -51747,8 +51747,8 @@ að	O
 senda	O
 tölvupóst	O
 á	O
-5999500	O
-@	O
+5999500	B-Money
+@	I-Money
 ogvodafone.is	O
 
 Gengishagnaður	O
@@ -51777,8 +51777,8 @@ nam	O
 hagnaður	O
 Straums	B-Organization
 um	O
-3.141	O
-milljónum	O
+3.141	B-Money
+milljónum	I-Money
 á	O
 sama	O
 tíma	O
@@ -51786,7 +51786,7 @@ tíma	O
 fyrra	O
 .	O
 
-Burðaráss	B-Organization
+Burðaráss	O
 rann	O
 inn	O
 í	O
@@ -51816,7 +51816,7 @@ metunum	O
 ,	O
 enda	O
 er	O
-Straumur-Burðarás	B-Person
+Straumur-Burðarás	B-Organization
 stærsti	O
 eigandinn	O
 í	O
@@ -51829,8 +51829,8 @@ eþa	O
 FYRSTA	O
 UPPGJÖR	O
 SAMEINAÐS	O
-FÉLAGS	O
-Straumi-Burðarási	B-Organization
+FÉLAGS	B-Organization
+Straumi-Burðarási	I-Organization
 er	O
 spáð	O
 4.351	B-Money
@@ -51855,7 +51855,7 @@ verðhjöðnunar	O
 ljúki	O
 .	O
 
-SHB	O
+SHB	B-Person
 hagnast	O
 vel	O
 Svenska	B-Organization
@@ -51866,7 +51866,7 @@ SHB	B-Organization
 þriðji	O
 verðmætasti	O
 banki	O
-Norðurlandanna	B-Miscellaneous
+Norðurlandanna	B-Location
 ,	O
 skilaði	O
 um	O
@@ -51879,13 +51879,13 @@ hagnað	O
 fyrir	O
 skatta	O
 á	O
-þriðja	O
-ársfjórðungi	O
+þriðja	B-Date
+ársfjórðungi	I-Date
 sem	O
 jafngildir	O
 um	O
-þrjátíu	O
-milljarða	O
+þrjátíu	B-Money
+milljarða	I-Money
 hagnaði	O
 .	O
 
@@ -51913,10 +51913,10 @@ Hagnaður	O
 eftir	O
 skatta	O
 var	O
-2,9	O
-milljarðar	O
-sænskra	O
-króna	O
+2,9	B-Money
+milljarðar	I-Money
+sænskra	I-Money
+króna	I-Money
 eða	O
 22	B-Money
 milljarðar	I-Money
@@ -51975,7 +51975,7 @@ hagkerfinu	O
 mánaðarskýrslu	O
 skuldastýringar	O
 KB	B-Organization
-banka	O
+banka	I-Organization
 segir	O
 að	O
 útlánin	O
@@ -52018,7 +52018,7 @@ endann	O
 verðhjöðnunartímabilinu	O
 .	O
 
-Seðlabankastjórinn	O
+Seðlabankastjórinn	B-Organization
 hafi	O
 sagt	O
 að	O
@@ -52247,12 +52247,12 @@ seinna	O
 Það	O
 kostar	O
 milli	O
-þrjú	O
+þrjú	B-Money
 og	O
-fjögur	O
-hundruð	O
-þúsund	O
-krónur	O
+fjögur	B-Money
+hundruð	I-Money
+þúsund	I-Money
+krónur	I-Money
 að	O
 birta	O
 eina	O
@@ -52274,9 +52274,9 @@ undan	O
 sjöfréttum	O
 ríkissjónvarpsins	O
 kostar	O
-sextíu	O
-þúsund	O
-krónur	O
+sextíu	B-Money
+þúsund	I-Money
+krónur	I-Money
 .	O
 
 Ein	O
@@ -52285,8 +52285,8 @@ vika	O
 strætóskýlum	O
 höfuðborgarinnar	O
 kostar	O
-hálfa	O
-milljón	O
+hálfa	B-Money
+milljón	I-Money
 og	O
 er	O
 þá	O
@@ -52368,7 +52368,7 @@ fyndið	O
 getur	O
 líka	O
 þýtt	O
-Áhugavert	B-Location
+Áhugavert	O
 ,	O
 Sniðugt	O
 ,	O
@@ -52520,7 +52520,7 @@ að	O
 setja	O
 upp	O
 í	O
-Excel	B-Organization
+Excel	B-Miscellaneous
 .	O
 
 Tilhneigingin	O
@@ -52960,9 +52960,9 @@ fyrir	O
 árið	O
 í	O
 fyrra	O
-fimm	O
-milljörðum	O
-króna	O
+fimm	B-Money
+milljörðum	I-Money
+króna	I-Money
 og	O
 verða	O
 hærri	O
@@ -52972,7 +52972,7 @@ fyrir	O
 ár	O
 .	O
 
-Ríkið	O
+Ríkið	B-Miscellaneous
 fær	O
 í	O
 sinn	O
@@ -53030,8 +53030,8 @@ milljarðar	O
 en	O
 eru	O
 nú	O
-4.700	O
-milljarðar	O
+4.700	B-Money
+milljarðar	I-Money
 og	O
 fara	O
 vaxandi	O
@@ -53768,7 +53768,7 @@ Sigurðardóttir	I-Person
 lögfræðingur	O
 hjá	O
 Samtökum	B-Organization
-verslunarinnar	I-Organization
+verslunarinnar	O
 ,	O
 bendir	O
 á	O
@@ -54576,8 +54576,8 @@ Samtals	O
 219	O
 191,582	O
 41,976,472	O
-AUSTFJARÐAMARKAÐURINN	O
-Und	O
+AUSTFJARÐAMARKAÐURINN	B-Organization
+Und	I-Organization
 .	O
 
 Þorskur	O
@@ -54602,7 +54602,7 @@ Samtals	O
 217	O
 354	O
 76,791	O
-FAXAMARKAÐUR	O
+FAXAMARKAÐUR	B-Organization
 Blálanga	O
 140	O
 140	O
@@ -54709,8 +54709,8 @@ Samtals	O
 206	O
 26,324	O
 5,411,761	O
-FAXAMARKAÐUR	O
-AKRANESI	O
+FAXAMARKAÐUR	B-Organization
+AKRANESI	B-Location
 Langa	O
 50	O
 50	O
@@ -55005,7 +55005,7 @@ Samtals	O
 274,598	O
 FISKMARKAÐUR	B-Organization
 FLATEYRAR	I-Organization
-Und	O
+Und	I-Organization
 .	O
 
 Ýsa	O
@@ -55596,7 +55596,7 @@ Samtals	O
 829,200	O
 FISKMARKAÐURINN	B-Organization
 HF	I-Organization
-HAFNARFIRÐI	I-Organization
+HAFNARFIRÐI	B-Location
 Gellur	O
 480	O
 480	O
@@ -55669,8 +55669,8 @@ Samtals	O
 4,919	O
 1,117,921	O
 FISKMARKAÐURINN	B-Organization
-Á	O
-SKAGASTRÖND	B-Location
+Á	I-Organization
+SKAGASTRÖND	I-Organization
 Skarkoli	O
 /	O
 Þykkva-lúra	O
@@ -55759,8 +55759,8 @@ Samtals	O
 4,171	O
 946,743	O
 
-HUGVIT	O
-hf.	O
+HUGVIT	B-Organization
+hf.	I-Organization
 setti	O
 í	O
 gær	O
@@ -55875,8 +55875,8 @@ og	O
 Danmörku	B-Location
 .	O
 
-Hugvit	O
-hf.	O
+Hugvit	B-Organization
+hf.	I-Organization
 bindur	O
 enda	O
 miklar	O
@@ -55970,7 +55970,7 @@ vexti	O
 sína	O
 .	O
 
-Sparisjóðirnir	O
+Sparisjóðirnir	B-Organization
 munu	O
 einnig	O
 lækka	O
@@ -56016,16 +56016,16 @@ vaxtabreytingadagar	O
 bankakerfinu	O
 eru	O
 almennt	O
-1.	B-Date
-,	I-Date
-11.	I-Date
+1.	O
+,	O
+11.	O
 eða	O
 21.	O
 hvers	O
 mánaðar	O
 .	O
 
-Búnaðarbankinn	O
+Búnaðarbankinn	B-Organization
 hefur	O
 sent	O
 frá	O
@@ -56278,8 +56278,8 @@ milljónum	I-Money
 króna	I-Money
 miðað	O
 við	O
-217	O
-milljónir	O
+217	B-Money
+milljónir	I-Money
 fyrir	O
 sama	O
 tímabil	O
@@ -56293,8 +56293,8 @@ rekstri	O
 erlendra	O
 dótturfélaga	O
 nam	O
-390	O
-milljónum	O
+390	B-Money
+milljónum	I-Money
 og	O
 reyndist	O
 meiri	O
@@ -56330,12 +56330,12 @@ Heildartekjur	O
 á	O
 tímabilinu	O
 námu	O
-41,3	O
-milljörðum	O
+41,3	B-Money
+milljörðum	I-Money
 miðað	O
 við	O
 33,1	B-Money
-milljarð	O
+milljarð	I-Money
 á	O
 sama	O
 tímabili	O
@@ -56386,8 +56386,8 @@ jafnvægi	O
 Niðurstaða	O
 efnahagsreiknings	O
 var	O
-25,6	O
-milljarðar	O
+25,6	B-Money
+milljarðar	I-Money
 sem	O
 er	O
 aukning	O
@@ -56558,7 +56558,7 @@ af	O
 rits	O
 Seðlabankans	B-Organization
 ,	O
-Peningamála	B-Organization
+Peningamála	B-Miscellaneous
 .	O
 
 Framsögu	O
@@ -56572,7 +56572,7 @@ Margeir	B-Person
 Pétursson	I-Person
 ,	O
 hjá	O
-MP-verðbréfum	B-Organization
+MP-verðbréfum	B-Miscellaneous
 og	O
 Andri	B-Person
 Teitsson	I-Person
@@ -56837,8 +56837,8 @@ til	O
 ,	O
 fjögur	O
 eða	O
-fimm	O
-prósent	O
+fimm	B-Percent
+prósent	I-Percent
 ávöxtunarkröfu	O
 og	O
 tuttugu	O
@@ -56848,9 +56848,9 @@ endurgreiðslutíma	O
 
 Afföll	O
 af	O
-tveggja	O
-milljóna	O
-króna	O
+tveggja	B-Money
+milljóna	I-Money
+króna	I-Money
 láni	O
 sem	O
 ber	O
@@ -57589,8 +57589,8 @@ að	O
 vinna	O
 að	O
 leikritinu	O
-Vilji	B-Person
-Emmu	I-Person
+Vilji	B-Miscellaneous
+Emmu	I-Miscellaneous
 eftir	O
 David	B-Person
 Hare	I-Person
@@ -57660,7 +57660,7 @@ og	O
 súkkulaðirúsínur	O
 .	O
 
-Desember	B-Person
+Desember	B-Date
 er	O
 alltaf	O
 frekar	O
@@ -57700,7 +57700,7 @@ að	O
 kaupa	O
 gjafir	O
 á	O
-Þorláksmessu	B-Location
+Þorláksmessu	B-Date
 og	O
 oftar	O
 en	O
@@ -57775,8 +57775,8 @@ eru	O
 teknir	O
 fram	O
 um	O
-mánaðamótin	O
-nóvember	B-Date
+mánaðamótin	B-Date
+nóvember	I-Date
 /	I-Date
 desember	I-Date
 á	O
@@ -57856,7 +57856,7 @@ skreytum	O
 eru	O
 sofnuð	O
 á	O
-Þorláksmessu	B-Location
+Þorláksmessu	B-Date
 og	O
 sýnum	O
 þeim	O
@@ -58005,7 +58005,7 @@ virkan	O
 þátt	O
 .	O
 
-Sonur	B-Person
+Sonur	O
 minn	O
 skar	O
 til	O
@@ -58248,7 +58248,7 @@ leikrit	O
 
 Kærasta	O
 hefðin	O
-Þriðja	O
+Þriðja	B-Miscellaneous
 hefðin	O
 sem	O
 Vigdís	B-Person
@@ -58662,8 +58662,8 @@ Neytendasamtökunum	B-Organization
 einn	O
 af	O
 Sambandi	B-Organization
-íslenskra	O
-vátryggingafélaga	O
+íslenskra	I-Organization
+vátryggingafélaga	I-Organization
 og	O
 einn	O
 af	O
@@ -58678,8 +58678,8 @@ nefndarinnar	O
 
 Málskotsgjald	O
 er	O
-kr.	O
-6.000	O
+kr.	B-Money
+6.000	I-Money
 .	O
 
 Úrskurðarnefnd	O
@@ -58715,8 +58715,8 @@ nefndarinnar	O
 
 Málskotsgjald	O
 er	O
-kr.	O
-5.000	O
+kr.	B-Money
+5.000	I-Money
 .	O
 
 Úrskurðarnefnd	O
@@ -58742,7 +58742,7 @@ Tannlæknafélagi	B-Organization
 og	O
 einn	O
 af	O
-Landlækni	B-Miscellaneous
+Landlækni	B-Organization
 og	O
 er	O
 hann	O
@@ -58753,8 +58753,8 @@ nefndarinnar	O
 
 Málskotsgjald	O
 er	O
-kr.	O
-5.000	O
+kr.	B-Money
+5.000	I-Money
 .	O
 
 Úrskurðarnefnd	O
@@ -58787,7 +58787,7 @@ Neytendasamtakanna	B-Organization
 og	O
 Félags	B-Organization
 efnalaugaeigenda	I-Organization
-3	O
+3	I-Organization
 mál	O
 
 Úrskuðarnefnd	O
@@ -58822,7 +58822,7 @@ Neytendasamtakanna	B-Organization
 og	O
 Tannlæknafélags	B-Organization
 Íslands	I-Organization
-1	O
+1	I-Organization
 mál	O
 
 Langflest	O
@@ -58997,14 +58997,14 @@ um	O
 Evrópska	B-Organization
 neytendaaðstoðin	I-Organization
 (	O
-ENA	O
+ENA	B-Organization
 )	O
 -	O
 European	B-Organization
 Consumer	I-Organization
 Centre	I-Organization
 (	O
-ECC	O
+ECC	B-Organization
 )	O
 Þann	O
 1.	B-Date
@@ -59017,7 +59017,7 @@ rekstri	O
 Evrópsku	B-Organization
 neytendaaðstoðarinnar	I-Organization
 (	O
-ENA	O
+ENA	B-Organization
 )	O
 en	O
 fram	O
@@ -59026,7 +59026,7 @@ til	O
 tíma	O
 var	O
 starfsemi	O
-ENA	O
+ENA	B-Organization
 til	O
 húsa	O
 í	O
@@ -59034,7 +59034,7 @@ viðskiptaráðuneytinu	O
 .	O
 
 Hlutverk	O
-ENA	O
+ENA	B-Organization
 er	O
 að	O
 aðstoða	O
@@ -59056,8 +59056,8 @@ Evrópu	B-Location
 
 Helsta	O
 verkefni	O
-Evrópsku	B-Miscellaneous
-neytenda-aðstoðarinnar	O
+Evrópsku	B-Organization
+neytenda-aðstoðarinnar	I-Organization
 á	O
 Íslandi	B-Location
 er	O
@@ -59074,7 +59074,7 @@ erlend	O
 fyrirtæki	O
 .	O
 
-ENA	O
+ENA	B-Organization
 aðstoðar	O
 við	O
 upplýsingaöflun	O
@@ -59096,7 +59096,7 @@ erlendis	O
 Sömuleiðis	O
 annast	O
 Evrópska	B-Organization
-neytendaaðstoðin	O
+neytendaaðstoðin	I-Organization
 samskipti	O
 við	O
 íslensk	O
@@ -59124,8 +59124,8 @@ skráðar	O
 60	O
 fyrirspurnir	O
 til	O
-Evrópsku	B-Location
-neytendaaðstoðarinnar	O
+Evrópsku	B-Organization
+neytendaaðstoðarinnar	I-Organization
 .	O
 
 Kvörtunarmál	O
@@ -59133,7 +59133,7 @@ hjá	O
 Evrópsku	B-Organization
 neytendaaðstoðinni	I-Organization
 voru	O
-11	O
+11	B-Organization
 á	O
 árinu	O
 2005	B-Date
@@ -59532,12 +59532,12 @@ húsasmiða	I-Organization
 ,	O
 Samtökum	B-Organization
 atvinnurekenda	I-Organization
-í	O
-raf-	O
-og	O
-tölvuiðnaði	O
+í	I-Organization
+raf-	I-Organization
+og	I-Organization
+tölvuiðnaði	I-Organization
 (	O
-SART	O
+SART	B-Organization
 )	O
 og	O
 Húseigendafélagsins	B-Organization
@@ -59639,7 +59639,7 @@ Tannlæknafélagi	B-Organization
 og	O
 einn	O
 af	O
-Landlækni	B-Miscellaneous
+Landlækni	B-Organization
 og	O
 er	O
 hann	O
@@ -59721,8 +59721,8 @@ Reykjavík	B-Location
 
 Velkomin	O
 til	O
-Evrópsku	B-Location
-neytendaaðstoðarinnar	O
+Evrópsku	B-Organization
+neytendaaðstoðarinnar	I-Organization
 
 Hjá	O
 okkur	O
@@ -59756,18 +59756,18 @@ seljanda	O
 Evrópulandi	B-Location
 .	O
 
-Evrópska	O
-neytendaaðstoðin	O
+Evrópska	B-Organization
+neytendaaðstoðin	I-Organization
 er	O
 hluti	O
 af	O
 þjónustuneti	O
 sem	O
 kallast	O
-European	B-Organization
-Consumer	I-Organization
-Centre	I-Organization
-Net	I-Organization
+European	B-Miscellaneous
+Consumer	I-Miscellaneous
+Centre	I-Miscellaneous
+Net	I-Miscellaneous
 .	O
 
 Skrifstofa	O
@@ -59784,7 +59784,7 @@ milli	O
 Viðskiptaráðuneytisins	O
 og	O
 Framkvæmdastjórnar	O
-Evrópu-sambandsins	B-Organization
+Evrópu-sambandsins	B-Miscellaneous
 .	O
 
 Opnunartími	O
@@ -59828,7 +59828,7 @@ Annríki	O
 í	O
 sjúkraflutningum	O
 |	O
-04-01-2007	O
+04-01-2007	B-Date
 |	O
 
 Mikið	O
@@ -59894,7 +59894,7 @@ til	O
 í	O
 hálkunni	O
 á	O
-gamlársdag	O
+gamlársdag	B-Date
 ,	O
 og	O
 svo	O
@@ -59965,7 +59965,7 @@ lið	O
 kallað	O
 til	O
 á	O
-Þorláksmessu	B-Location
+Þorláksmessu	B-Date
 ,	O
 þegar	O
 eldur	O
@@ -60079,7 +60079,7 @@ lútandi	O
 og	O
 daginn	O
 fyrir	O
-gamlársdag	O
+gamlársdag	B-Date
 hittust	O
 slökkviliðsstjóri	O
 ,	O
@@ -60213,7 +60213,7 @@ sem	O
 eru	O
 grunnmenntun	O
 (	O
-EMT-B	O
+EMT-B	B-Miscellaneous
 )	O
 ,	O
 framhaldsmenntun	O
@@ -60223,7 +60223,7 @@ EMT-I	O
 og	O
 sérmenntun	O
 (	O
-EMT-P	O
+EMT-P	B-Miscellaneous
 )	O
 .	O
 
@@ -60244,7 +60244,7 @@ til	O
 notkunar	O
 á	O
 heimasíðu	O
-Landlæknisembættisins	B-Miscellaneous
+Landlæknisembættisins	B-Organization
 ,	O
 ekki	O
 eingöngu	O
@@ -60323,7 +60323,7 @@ og	O
 evrópska	O
 endurlífgunarráðsins	O
 (	O
-ERC	O
+ERC	B-Organization
 )	O
 um	O
 endurlífgun	O
@@ -60336,7 +60336,7 @@ reka	O
 sjúkraflutningaþjónustu	O
 í	O
 Bandaríkjum	B-Location
-Norður-Ameríku	I-Location
+Norður-Ameríku	B-Location
 ,	O
 ýmsar	O
 kennslu-	O
@@ -60413,7 +60413,7 @@ Akureyri	I-Organization
 Félag	B-Organization
 slysa-	I-Organization
 og	I-Organization
-bráðalækna	O
+bráðalækna	I-Organization
 ,	O
 svo	O
 einhverjir	O
@@ -60452,10 +60452,10 @@ Orkuveita	B-Organization
 Reykjavíkur	I-Organization
 hefur	O
 fært	O
-Styrktar-	B-Organization
-og	I-Organization
-líknarsjóði	I-Organization
-Slökkviliðsmanna	I-Organization
+Styrktar-	O
+og	O
+líknarsjóði	O
+Slökkviliðsmanna	B-Organization
 framlag	O
 í	O
 þakklætisskyni	O
@@ -60485,9 +60485,9 @@ Orkuveitunni	B-Organization
 sem	O
 færði	O
 sjóðnum	O
-hálfa	O
-milljón	O
-króna	O
+hálfa	B-Money
+milljón	I-Money
+króna	I-Money
 en	O
 við	O
 gjöfinni	O
@@ -60518,7 +60518,7 @@ að	O
 með	O
 framlagi	O
 í	O
-Styrktar-	B-Miscellaneous
+Styrktar-	O
 og	O
 líknarsjóð	O
 slökkviliðsmanna	O
@@ -60673,11 +60673,11 @@ gefnir	O
 í	O
 samvinnu	O
 við	O
-112	O
+112	B-Organization
 og	O
-Rauða	O
-kross	O
-Íslands	B-Location
+Rauða	B-Organization
+kross	I-Organization
+Íslands	I-Organization
 .	O
 
 Jón	B-Person
@@ -60847,7 +60847,7 @@ blaði	O
 Alþjóðahússins	B-Organization
 ,	O
 Slökkviliðsmanninum	B-Organization
-og	I-Organization
+og	O
 Fréttablaðinu	B-Organization
 og	O
 náð	O
@@ -60897,8 +60897,8 @@ hefur	O
 veitt	O
 Slökkviliði	B-Organization
 höfuðborgarsvæðisins	I-Organization
-heiðursskjöld	O
-Sjóvá	B-Organization
+heiðursskjöld	I-Organization
+Sjóvá	I-Organization
 fyrir	O
 frábært	O
 starf	O
@@ -60906,7 +60906,7 @@ að	O
 brunavörnum	O
 .	O
 
-Slökkviliðið	O
+Slökkviliðið	B-Organization
 fær	O
 þessa	O
 viðurkenningu	O
@@ -61090,7 +61090,7 @@ tilfallandi	O
 starfa	O
 .	O
 
-Sjóvá	O
+Sjóvá	B-Organization
 hefur	O
 þrisvar	O
 sinnum	O
@@ -61446,7 +61446,7 @@ mælst	O
 hefur	O
 í	O
 ímyndarkönnunum	O
-Gallups	B-Location
+Gallups	O
 fyrir	O
 fyrirtæki	O
 og	O
@@ -61496,8 +61496,8 @@ innflytjenda	O
 24-11-2006	B-Date
 |	O
 
-Slökkvilið	B-Organization
-höfuðborgarsvæðisins	I-Organization
+Slökkvilið	O
+höfuðborgarsvæðisins	O
 er	O
 að	O
 fara	O
@@ -61661,7 +61661,7 @@ verulega	O
 á	O
 mörgum	O
 heimilum	O
-Talsvert	B-Person
+Talsvert	O
 vantar	O
 upp	O
 á	O
@@ -61713,9 +61713,9 @@ uppá	O
 um	O
 einn	O
 og	O
-hálfan	O
-milljarð	O
-króna	O
+hálfan	B-Money
+milljarð	B-Money
+króna	I-Money
 .	O
 
 Reynslan	O
@@ -61760,7 +61760,7 @@ nær	O
 prósent	I-Percent
 landsmanna	O
 telja	O
-Eldvarnaátakið	O
+Eldvarnaátakið	B-Miscellaneous
 mikilvægt	O
 ,	O
 það	O
@@ -62122,7 +62122,7 @@ sérstöku	O
 Slökkviliðs	B-Organization
 höfuðborgarsvæðisins	I-Organization
 (	O
-SHS	O
+SHS	B-Organization
 )	O
 til	O
 að	O
@@ -62159,9 +62159,9 @@ Rauða	B-Organization
 kross	I-Organization
 Íslands	I-Organization
 og	O
-Neyðarlínuna	B-Person
+Neyðarlínuna	B-Organization
 ,	O
-112	O
+112	B-Organization
 .	O
 
 Ljóst	O
@@ -62803,7 +62803,7 @@ eldvörnum	O
 Nýr	O
 eiturefnabúnaður	O
 |	O
-26-10-2006	O
+26-10-2006	B-Date
 |	O
 
 Slökkvilið	O
@@ -62944,7 +62944,7 @@ o.s.frv.	O
 nýir	O
 slökkviliðsmenn	O
 |	O
-13-10-2006	O
+13-10-2006	B-Date
 |	O
 
 Slökkvilið	O
@@ -63048,7 +63048,7 @@ sjúkraflutningamenn	O
 næsta	O
 ár	O
 |	O
-22-08-2006	O
+22-08-2006	B-Date
 |	O
 
 Fjórir	O
@@ -63059,7 +63059,7 @@ hjólastólum	O
 tóku	O
 þátt	O
 í	O
-Reykjavíkurmaraþoninu	B-Location
+Reykjavíkurmaraþoninu	B-Miscellaneous
 á	O
 laugardag	B-Date
 með	O
@@ -63184,7 +63184,7 @@ hlaupinu	O
 Fjöldi	O
 umsókna	O
 |	O
-16-08-2006	O
+16-08-2006	B-Date
 |	O
 
 Nokkur	O
@@ -63319,7 +63319,7 @@ hlaupa	O
 10	O
 kílómetra	O
 í	O
-Reykjavíkurmaraþoninu	B-Location
+Reykjavíkurmaraþoninu	B-Miscellaneous
 á	O
 laugardag	B-Date
 .	O
@@ -63401,7 +63401,7 @@ hlaupinu	O
 eru	O
 Bónus	B-Organization
 ,	O
-Össur	B-Person
+Össur	B-Organization
 og	O
 Orkuveita	B-Organization
 Reykjavíkur	I-Organization
@@ -63416,8 +63416,8 @@ rennur	O
 til	O
 Íþróttafélags	B-Organization
 fatlaðra	I-Organization
-í	O
-Reykjavík	B-Location
+í	I-Organization
+Reykjavík	I-Organization
 og	O
 Líknarsjóðs	B-Organization
 Brunavarðafélagsins	I-Organization
@@ -63425,12 +63425,12 @@ Brunavarðafélagsins	I-Organization
 
 Öryggismál	O
 á	O
-Menningarnótt	B-Organization
+Menningarnótt	B-Miscellaneous
 |	O
 16-08-2006	B-Date
 |	O
 
-Menningarnótt	O
+Menningarnótt	B-Miscellaneous
 er	O
 stærsti	O
 viðburður	O
@@ -63447,8 +63447,8 @@ manna	O
 líklega	O
 á	O
 bilinu	O
-60-100	O
-þúsund	O
+60-100	B-Money
+þúsund	I-Money
 og	O
 því	O
 ljóst	O
@@ -63475,7 +63475,7 @@ sinna	O
 og	O
 umferðarmálum	O
 á	O
-Menningarnótt	B-Organization
+Menningarnótt	B-Miscellaneous
 .	O
 
 Eins	O
@@ -63491,15 +63491,15 @@ Reykjavík	B-Location
 Slökkviliðs	B-Organization
 höfuðborgarsvæðisins	I-Organization
 ,	O
-Slysadeildar	B-Person
-LSH	B-Organization
+Slysadeildar	B-Organization
+LSH	I-Organization
 ,	O
 Reykjavíkurborgar	B-Location
 ,	O
-Rauða	O
-krossins	O
+Rauða	B-Organization
+krossins	I-Organization
 ,	O
-Landsbjargar	B-Person
+Landsbjargar	B-Organization
 og	O
 fleiri	O
 ,	O
@@ -63509,7 +63509,7 @@ bera	O
 á	O
 öryggismálum	O
 á	O
-Menningarnótt	B-Organization
+Menningarnótt	B-Miscellaneous
 .	O
 
 Þetta	O
@@ -63526,7 +63526,7 @@ er	O
 sett	O
 upp	O
 vegna	O
-Menningarnætur	O
+Menningarnætur	B-Miscellaneous
 ,	O
 sem	O
 mun	O
@@ -63543,7 +63543,7 @@ að	O
 og	O
 umferðarmálum	O
 á	O
-Menningarnótt	B-Organization
+Menningarnótt	B-Miscellaneous
 .	O
 
 Og	O
@@ -63591,12 +63591,12 @@ lögreglubifreiðar	O
 ,	O
 ásamt	O
 stjórnstöðvarbifreið	O
-Flugbjörgunarsveitarinnar	B-Location
+Flugbjörgunarsveitarinnar	O
 .	O
 
 Körfubifreið	O
-Slökkviliðs	O
-höfuðborgarsvæðisins	O
+Slökkviliðs	B-Organization
+höfuðborgarsvæðisins	I-Organization
 verður	O
 staðsett	O
 þar	O
@@ -63622,8 +63622,8 @@ eitthvað	O
 á	O
 .	O
 
-Slökkvilið	O
-höfuðborgarsvæðisins	O
+Slökkvilið	B-Organization
+höfuðborgarsvæðisins	I-Organization
 mun	O
 fylgjast	O
 grannt	O
@@ -63792,7 +63792,7 @@ lögreglumenn	O
 á	O
 öllum	O
 gatnamótum	O
-Sæbrautar	O
+Sæbrautar	B-Location
 frá	O
 miðborginni	O
 að	O
@@ -63805,7 +63805,7 @@ lögreglumenn	O
 gatnamótum	O
 Hringbrautar	B-Location
 /	O
-Miklubrautar	O
+Miklubrautar	B-Location
 frá	O
 Melatorgi	B-Location
 og	O
@@ -63975,7 +63975,7 @@ gatna	O
 í	O
 tengslum	O
 við	O
-Menningarnótt	B-Organization
+Menningarnótt	B-Miscellaneous
 .	O
 
 .	O
@@ -64445,7 +64445,7 @@ efni	O
 í	O
 tilefni	O
 af	O
-Ári	B-Miscellaneous
+Ári	B-Person
 fjölskyldunnar	O
 hafa	O
 stjórnvöld	O
@@ -65040,7 +65040,7 @@ Tölfræði	O
 fjölskyldunnar	O
 í	O
 hnotskurn	O
-Hér	O
+Hér	B-Miscellaneous
 á	O
 eftir	O
 verður	O
@@ -65122,8 +65122,8 @@ eða	O
 kvæntir	O
 31.	B-Date
 desember	I-Date
-árið	I-Date
-2000	I-Date
+árið	O
+2000	B-Date
 og	O
 skiptingu	O
 þeirra	O
@@ -65257,9 +65257,9 @@ undanförnum	O
 Frá	O
 því	O
 á	O
-sjöunda	O
-áratug	O
-20.	B-Date
+sjöunda	B-Date
+áratug	I-Date
+20.	I-Date
 aldar	I-Date
 hefur	O
 meðalaldur	O
@@ -65328,14 +65328,14 @@ tæpum	O
 26	O
 árum	O
 á	O
-sjöunda	O
-áratugnum	O
+sjöunda	B-Date
+áratugnum	I-Date
 í	O
 31	O
 ár	O
 á	O
-tíunda	O
-áratugnum	O
+tíunda	B-Date
+áratugnum	I-Date
 .	O
 
 Meðalaldur	O
@@ -65350,14 +65350,14 @@ liðlega	O
 23	O
 árum	O
 á	O
-sjöunda	O
-áratugnum	O
+sjöunda	B-Date
+áratugnum	I-Date
 í	O
 29	O
 ár	O
 á	O
-tíunda	O
-áratugnum	O
+tíunda	B-Date
+áratugnum	I-Date
 .	O
 
 Áttundi	O
@@ -65750,9 +65750,9 @@ Hjónavígslum	O
 fjölgar	O
 fram	O
 á	O
-níunda	O
-áratug	O
-20.	B-Date
+níunda	B-Date
+áratug	I-Date
+20.	I-Date
 aldar	I-Date
 ,	O
 en	O
@@ -65848,8 +65848,8 @@ en	O
 fækkar	O
 lítillega	O
 á	O
-tíunda	O
-áratugnum	O
+tíunda	B-Date
+áratugnum	I-Date
 .	O
 
 Þegar	O
@@ -65870,15 +65870,15 @@ breyting	O
 lok	O
 níunda	B-Date
 áratugar	I-Date
-20.	B-Date
+20.	I-Date
 aldar	I-Date
 varðandi	O
 karla	O
 og	O
 í	O
 upphafi	O
-tíunda	O
-áratugarins	O
+tíunda	B-Date
+áratugarins	I-Date
 varðandi	O
 konur	O
 .	O
@@ -65967,11 +65967,11 @@ karlar	O
 flestir	O
 fæddir	O
 á	O
-sjötta	O
+sjötta	B-Date
 og	O
-sjöunda	O
-áratug	O
-20.	B-Date
+sjöunda	B-Date
+áratug	I-Date
+20.	I-Date
 aldar	I-Date
 og	O
 konurnar	O
@@ -66109,9 +66109,9 @@ breytingar	O
 urðu	O
 einmitt	O
 á	O
-sjöunda	O
-áratug	O
-20.	B-Date
+sjöunda	B-Date
+áratug	I-Date
+20.	I-Date
 aldar	I-Date
 á	O
 félagslegum	O
@@ -66228,7 +66228,7 @@ félagslegum	O
 viðmiðum	O
 .	O
 
-McGregor	O
+McGregor	B-Person
 (	O
 1957	B-Date
 )	O
@@ -66256,9 +66256,9 @@ sínum	O
 .	O
 
 Á	O
-sjötta	O
-áratug	O
-20.	B-Date
+sjötta	B-Date
+áratug	I-Date
+20.	I-Date
 aldar	I-Date
 giftist	O
 auk	O
@@ -66306,7 +66306,7 @@ Hagstofa	B-Organization
 )	O
 .	O
 
-McGregor	O
+McGregor	B-Person
 (	O
 1957	B-Date
 )	O
@@ -66518,10 +66518,10 @@ sama	O
 hlutverks	O
 .	O
 
-Rannsókn	B-Organization
-Yudkin	I-Organization
-og	I-Organization
-Holme	I-Organization
+Rannsókn	O
+Yudkin	B-Person
+og	O
+Holme	B-Person
 (	O
 1963	B-Date
 )	O
@@ -66793,10 +66793,10 @@ fjölskyldunnar	O
 .	O
 
 7.3	O
-HEILBRIGÐI	O
-Í	O
-LJÓSI	O
-FJÖLSKYLDUNNAR	O
+HEILBRIGÐI	B-Miscellaneous
+Í	I-Miscellaneous
+LJÓSI	I-Miscellaneous
+FJÖLSKYLDUNNAR	I-Miscellaneous
 Fjölskyldutengsl	O
 eru	O
 mikilvæg	O
@@ -66968,7 +66968,7 @@ einkum	O
 náinna	O
 fjölskyldutengsla	O
 (	O
-Abraham	B-Person
+Abraham	B-Location
 og	O
 Shanley	B-Person
 ,	O
@@ -67980,7 +67980,7 @@ en	O
 giftra	O
 kvenna	O
 (	O
-Gutiérrez-Lobos	B-Person
+Gutiérrez-Lobos	O
 ,	O
 o.fl.	O
 ,	O
@@ -68074,7 +68074,7 @@ orsakað	O
 einkum	O
 kvenna	O
 (	O
-Aseltine	B-Location
+Aseltine	B-Person
 og	O
 Kessler	B-Person
 ,	O
@@ -68702,7 +68702,7 @@ Fjölskyldan	O
 sem	O
 samhengi	O
 veikinda	O
-Margar	O
+Margar	B-Person
 rannsóknir	O
 hafa	O
 verið	O
@@ -69416,7 +69416,7 @@ sínum	O
 .	O
 
 MENNING	O
-20.30	O
+20.30	B-Time
 Dagskráin	O
 í	O
 Listaklúbbi	B-Organization
@@ -69447,8 +69447,8 @@ Vox	B-Organization
 Feminae	I-Organization
 .	O
 
-Kvennakórinn	O
-Vox	B-Organization
+Kvennakórinn	B-Organization
+Vox	I-Organization
 Feminae	I-Organization
 sem	O
 stofnaður	O
@@ -69497,7 +69497,7 @@ halda	O
 sýningu	O
 í	O
 Gerðasafni	B-Organization
-Listasafni	I-Organization
+Listasafni	B-Organization
 Kópavogs	I-Organization
 .	O
 
@@ -69509,10 +69509,10 @@ gestasýning	O
 Sigurðar	B-Person
 Jökuls	I-Person
 «	O
-Leitin	O
+Leitin	B-Miscellaneous
 að	O
-Enska	O
-sjentilmanninum	O
+Enska	B-Miscellaneous
+sjentilmanninum	I-Miscellaneous
 .	O
 »	O
 
@@ -69574,8 +69574,8 @@ sem	O
 þeir	O
 kenna	O
 við	O
-Art	B-Organization
-Marines	I-Organization
+Art	B-Miscellaneous
+Marines	I-Miscellaneous
 .	O
 
 Gallerí	B-Organization
@@ -69622,8 +69622,8 @@ Sýningin	O
 er	O
 opin	O
 fimmtudaga	B-Date
-til	O
-sunnudaga	B-Date
+til	I-Date
+sunnudaga	I-Date
 kl.	B-Time
 14-18	I-Time
 .	O
@@ -69643,11 +69643,11 @@ landslagsmyndir	O
 í	O
 Veislugallerý	B-Location
 og	O
-Listacafé	B-Location
+Listacafé	B-Organization
 í	O
 Listhúsinu	B-Organization
-í	O
-Laugardal	B-Location
+í	I-Organization
+Laugardal	I-Organization
 .	O
 
 Hlaðgerður	B-Person
@@ -69721,7 +69721,7 @@ sem	O
 eðlilegastur	O
 .	O
 
-Beauvios	O
+Beauvios	B-Person
 er	O
 fær	O
 ,	O
@@ -70165,15 +70165,15 @@ af	O
 Góðum	O
 stundum	O
 og	O
-Regnboganum	B-Location
+Regnboganum	B-Organization
 í	O
 samvinnu	O
 við	O
 franska	O
 sendiráðið	O
 og	O
-Alliance	B-Person
-Francais	I-Person
+Alliance	B-Miscellaneous
+Francais	I-Miscellaneous
 á	O
 Íslandi	B-Location
 .	O
@@ -70189,7 +70189,7 @@ yfir	O
 franskir	O
 bíódagar	O
 í	O
-Regnboganum	B-Location
+Regnboganum	B-Organization
 .	O
 
 Í	O
@@ -70210,8 +70210,8 @@ kynna	O
 mynd	O
 sína	O
 «	O
-Selon	B-Person
-Mathieu	I-Person
+Selon	B-Location
+Mathieu	I-Location
 »	O
 .	O
 
@@ -70245,7 +70245,7 @@ Pálsson	I-Person
 bóksali	O
 og	O
 gítarleikari	O
-Maus	B-Miscellaneous
+Maus	B-Organization
 .	O
 
 «	O
@@ -70268,8 +70268,8 @@ bók	O
 númer	O
 tvö	O
 í	O
-Golden	B-Location
-Compass	I-Location
+Golden	B-Miscellaneous
+Compass	I-Miscellaneous
 .	O
 
 Þetta	O
@@ -70287,8 +70287,8 @@ snilld	O
 MENNING	O
 Dagskráin	O
 í	O
-Listaklúbbi	B-Location
-Leikhúskjallarans	I-Location
+Listaklúbbi	B-Organization
+Leikhúskjallarans	I-Organization
 á	O
 mánudagskvöldið	O
 er	O
@@ -70315,8 +70315,8 @@ Vox	B-Organization
 Feminae	I-Organization
 .	O
 
-Kvennakórinn	O
-Vox	B-Organization
+Kvennakórinn	B-Organization
+Vox	I-Organization
 Feminae	I-Organization
 sem	O
 stofnaður	O
@@ -70432,7 +70432,7 @@ krónur	I-Money
 .	O
 
 Listaklúbbur	O
-Leikhúskjallarans	B-Organization
+Leikhúskjallarans	B-Location
 :	O
 
 Ástarljóð	O
@@ -70441,8 +70441,8 @@ af	O
 Vox	B-Organization
 Feminae	I-Organization
 
-VOX	O
-FEMINAE	O
+VOX	B-Organization
+FEMINAE	I-Organization
 Margrét	B-Person
 Pálmadóttir	I-Person
 og	O
@@ -70470,7 +70470,7 @@ TÚRBÍNUR	O
 VARAHLUTIR	O
 --	O
 VIÐGERÐIR	O
-Vagnhöfði	O
+Vagnhöfði	B-Location
 21	O
 --	O
 110	O
@@ -70480,7 +70480,7 @@ Sími	O
 577	O
 4500	O
 
-Listaháskólinn	B-Organization
+Listaháskólinn	O
 :	O
 
 Litið	O
@@ -70549,7 +70549,7 @@ fjöltæknideild	O
 MHÍ	B-Organization
 1992	B-Date
 og	O
-Mastersgráðu	B-Person
+Mastersgráðu	B-Organization
 frá	O
 Rutgers	B-Organization
 háskóla	I-Organization
@@ -70631,30 +70631,30 @@ Línunni	O
 
 Lítið	O
 notað	O
-Orbitrek	B-Person
+Orbitrek	B-Miscellaneous
 :	O
-20	B-Money
-þús.	I-Money
+20	O
+þús.	O
 6	O
 ?	O
 
 snókerborð	O
 :	O
-20	O
-þús.	O
+20	B-Money
+þús.	I-Money
 
 Svart	O
 stórt	O
 skrifborð	O
 úr	O
-Húsgagnah.	O
+Húsgagnah.	B-Organization
 :	O
-15	O
-þús.	O
+15	B-Money
+þús.	I-Money
 
 Agnar	B-Person
 s.	O
-8690819	B-Date
+8690819	O
 e.	O
 hádegi	B-Time
 .	O
@@ -70688,15 +70688,15 @@ kr.	I-Money
 hárskraut	O
 o.fl.	O
 
-Helluhraun	O
-22	O
-Hafnarf.	O
+Helluhraun	B-Location
+22	I-Location
+Hafnarf.	B-Location
 (	O
 í	O
 húsnæði	O
 Leðurs	B-Organization
 &	I-Organization
-litunar	O
+litunar	I-Organization
 )	O
 Opið	O
 9-17	B-Time
@@ -70704,7 +70704,7 @@ Opið	O
 
 Óskast	O
 keypt	O
-Ljósaborð	B-Location
+Ljósaborð	B-Miscellaneous
 .	O
 
 Óska	O
@@ -70726,8 +70726,8 @@ Tölvur	O
 MOD	O
 kubbar	O
 fyrir	O
-PlayStation	B-Location
-2	O
+PlayStation	B-Miscellaneous
+2	I-Miscellaneous
 ,	O
 þá	O
 geturðu	O
@@ -70748,7 +70748,7 @@ að	O
 segja	O
 að	O
 úrval	O
-Gallerímynda	B-Person
+Gallerímynda	B-Miscellaneous
 er	O
 hvergi	O
 betra	O
@@ -70766,8 +70766,8 @@ upplagi	O
 áritað	O
 af	O
 listamanninum	O
-ALFRED	B-Person
-Gockel	I-Person
+ALFRED	B-Organization
+Gockel	I-Organization
 ,	O
 sem	O
 er	O
@@ -70932,10 +70932,10 @@ www.taxi25.com	O
 
 Tilboðsverð	O
 verð	O
-7.200.	O
-kr	O
+7.200.	B-Money
+kr	I-Money
 staðgr.afslátt	O
-20%	O
+20%	B-Percent
 .	O
 
 Verð	O
@@ -71003,9 +71003,9 @@ Við	O
 skattframtalið	O
 ?	O
 
-Bókhald	B-Organization
-og	I-Organization
-ráðgjöf	I-Organization
+Bókhald	O
+og	O
+ráðgjöf	O
 .	O
 
 896	O
@@ -71023,8 +71023,8 @@ félög	O
 
 Einfalt	O
 framtal	O
-kr.	O
-2.900	O
+kr.	B-Money
+2.900	I-Money
 .	O
 
 Framtalsþjónustan	O
@@ -71176,8 +71176,8 @@ GLUGGAÞVOTTUR	O
 
 Verð	O
 frá	O
-kr.	O
-3000	O
+kr.	B-Money
+3000	I-Money
 (	O
 miðað	O
 við	O
@@ -71227,8 +71227,8 @@ Netfang	O
 :	O
 billi@heimsnet.is	O
 
-EFNAVERND	O
-ehf.	O
+EFNAVERND	B-Organization
+ehf.	I-Organization
 
 Öryggisleiðbeiningar	O
 ,	O
@@ -71247,7 +71247,7 @@ s.	O
 Veisluþjónusta	O
 Alltaf	O
 á	O
-fimmtudögum	O
+fimmtudögum	B-Date
 .	O
 
 Pasta	O
@@ -71256,7 +71256,7 @@ pizzu	O
 og	O
 salathlaðborð	O
 á	O
-fimmtud.	O
+fimmtud.	B-Date
 frá	O
 kl.	B-Time
 18	I-Time
@@ -71264,9 +71264,9 @@ kl.	B-Time
 
 Verð	O
 aðeins	O
-820.-	O
-Mótel	O
-Venus	O
+820.-	B-Money
+Mótel	I-Money
+Venus	B-Organization
 við	O
 Borgarfjarðarbrú	B-Location
 s.	O
@@ -71652,7 +71652,7 @@ vikur	O
 .	O
 
 [	O
-Sjúkratryggingastofnuninni	B-Organization
+Sjúkratryggingastofnuninni	O
 ]	O
 1	O
 )	O
@@ -71747,7 +71747,7 @@ ekki	O
 fara	O
 fram	O
 úr	O
-3/4	O
+3/4	B-Percent
 af	O
 tekjum	O
 bótaþega	O
@@ -72414,7 +72414,7 @@ mgr.	O
 gr.	O
 
 [	O
-Sjúkratryggingastofnunin	B-Organization
+Sjúkratryggingastofnunin	O
 ]	O
 1	O
 )	O
@@ -72554,8 +72554,8 @@ Sameiginleg	O
 ákvæði	O
 .	O
 
-A.	O
-Bætur	O
+A.	B-Person
+Bætur	I-Person
 .	O
 
 48.	O
@@ -72806,7 +72806,7 @@ skv.	O
 gr.	O
 
 [	O
-Ráðherra	B-Person
+Ráðherra	O
 ákveður	O
 daggjöld	O
 dvalarheimila	O
@@ -72816,8 +72816,8 @@ með	O
 reglugerð	O
 .	O
 
-Tryggingastofnun	O
-ríkisins	O
+Tryggingastofnun	B-Organization
+ríkisins	I-Organization
 er	O
 heimilt	O
 að	O
@@ -73287,7 +73287,7 @@ sambúðar	O
 50.	O
 gr.	O
 
-Tryggingastofnunin	O
+Tryggingastofnunin	B-Organization
 getur	O
 greitt	O
 öðrum	O
@@ -73530,7 +73530,7 @@ fjárhæð	O
 bóta	O
 .	O
 
-Tryggingastofnun	O
+Tryggingastofnun	B-Organization
 [	O
 eða	O
 eftir	O
@@ -73806,7 +73806,7 @@ er	O
 bætt	O
 .	O
 
-Tryggingastofnun	O
+Tryggingastofnun	B-Organization
 [	O
 eða	O
 eftir	O
@@ -74272,8 +74272,8 @@ umsókn	O
 berst	O
 .	O
 
-Tryggingastofnun	O
-ríkisins	O
+Tryggingastofnun	B-Organization
+ríkisins	I-Organization
 gefur	O
 út	O
 örorkuskírteini	O
@@ -74631,8 +74631,8 @@ endurkröfuréttur	O
 stofnast	O
 .	O
 
-Kl.	O
-8	O
+Kl.	B-Time
+8	I-Time
 böðun	O
 ,	O
 kl.	B-Time
@@ -74658,8 +74658,8 @@ Garðabæ	B-Location
 Leikfimi	O
 karla	O
 byrjar	O
-5.	O
-sept.	O
+5.	B-Date
+sept.	I-Date
 kl.	B-Time
 13	I-Time
 ,	O
@@ -74673,16 +74673,16 @@ Leikfimi	O
 karla	O
 verður	O
 á	O
-þriðju-	O
+þriðju-	B-Date
 og	O
-fimmtudögum	O
+fimmtudögum	B-Date
 ,	O
 leikfimi	O
 kvenna	O
 á	O
-mánu-	O
+mánu-	B-Date
 og	O
-miðvikudögum	O
+miðvikudögum	B-Date
 .	O
 
 Skráning	O
@@ -74697,8 +74697,8 @@ kl.	B-Time
 14-15	I-Time
 í	O
 Félagsmiðstöðinni	B-Organization
-í	O
-Kirkjuhvoli	B-Organization
+í	I-Organization
+Kirkjuhvoli	I-Organization
 .	O
 
 Kynning	O
@@ -74708,14 +74708,14 @@ félagsstarfinu	O
 haustönn	O
 verður	O
 í	O
-Kirkjuhvoli	B-Organization
+Kirkjuhvoli	B-Location
 12.	B-Date
 sept.	I-Date
 kl.	B-Time
 14	I-Time
 .	O
 
-Fótaaðgerðarstofan	B-Organization
+Fótaaðgerðarstofan	O
 í	O
 síma	O
 8994223	O
@@ -74727,7 +74727,7 @@ Garðakórinn	O
 eru	O
 byrjaðar	O
 á	O
-mánud.	O
+mánud.	B-Date
 kl.	B-Time
 17-19	I-Time
 í	O
@@ -74760,13 +74760,13 @@ eldri	I-Organization
 borgara	I-Organization
 Hafnarfirði	B-Location
 ,	O
-Hraunseli	B-Location
+Hraunseli	B-Organization
 ,	O
 Flatahrauni	B-Location
 3	I-Location
 .	O
 
-Boccia	B-Organization
+Boccia	O
 kl.	B-Time
 13	I-Time
 .	O
@@ -74780,7 +74780,7 @@ og	O
 púttmót	O
 við	O
 púttklúbb	O
-Hrafnistu	B-Location
+Hrafnistu	B-Organization
 á	O
 Hrafnistuvelli	B-Location
 ,	O
@@ -74812,7 +74812,7 @@ Glerskurður	O
 skráning	O
 hafin	O
 í	O
-Hraunseli	B-Location
+Hraunseli	B-Organization
 .	O
 
 Biljardstofan	O
@@ -74840,9 +74840,9 @@ borgara	I-Organization
 ,	O
 Reykjavík	B-Location
 ,	O
-Ásgarði	B-Location
+Ásgarði	B-Organization
 ,	O
-Glæsibæ	B-Location
+Glæsibæ	B-Organization
 .	O
 
 Kaffistofan	O
@@ -74860,7 +74860,7 @@ blöðin	O
 og	O
 matur	O
 í	O
-hádegi	O
+hádegi	B-Time
 .	O
 
 Félagið	O
@@ -74872,7 +74872,7 @@ www.feb.is	O
 
 Fimmtudagur	B-Date
 :	O
-Brids	B-Organization
+Brids	O
 kl.	B-Time
 13	I-Time
 .	O
@@ -74889,9 +74889,9 @@ september	I-Date
 kl.	B-Time
 14-16	I-Time
 í	O
-Ásgarði	B-Location
+Ásgarði	B-Organization
 ,	O
-Glæsibæ	B-Location
+Glæsibæ	B-Organization
 .	O
 
 Kynning	O
@@ -74948,15 +74948,15 @@ Skráning	O
 hafin	O
 á	O
 skrifstofu	O
-FEB.	B-Person
+FEB.	B-Organization
 
 Silfurlínan	O
 er	O
 opin	O
 á	O
-mánu-	O
+mánu-	B-Date
 og	O
-miðvikudögum	O
+miðvikudögum	B-Date
 kl.	B-Time
 10-12	I-Time
 .	O
@@ -74985,14 +74985,14 @@ Glæsibæ	B-Location
 Upplýsingar	O
 á	O
 skrifstofu	O
-FEB.	B-Person
+FEB.	B-Organization
 
 Félagsstarfið	O
 Furugerði	B-Location
-1	O
+1	I-Location
 .	O
 
-Boccia	B-Location
+Boccia	O
 kl.	B-Time
 13.30	I-Time
 .	O
@@ -75020,8 +75020,8 @@ Hæðargarði	B-Location
 31	I-Location
 .	O
 
-Kl.	O
-9-12	O
+Kl.	B-Time
+9-12	I-Time
 böðun	O
 ,	O
 kl.	B-Time
@@ -75042,8 +75042,8 @@ opin	O
 
 Samkvæmisdansar	O
 byrja	O
-10.	O
-okt.	O
+10.	B-Date
+okt.	I-Date
 
 Landsbankinn	B-Organization
 aðra	O
@@ -75063,7 +75063,7 @@ Kynning	O
 á	O
 vetrarstarfi	O
 í	O
-Félagsmiðstöðinni	O
+Félagsmiðstöðinni	B-Organization
 verður	O
 fimmtudaginn	B-Date
 12.	I-Date
@@ -75089,8 +75089,8 @@ Gerðuberg	B-Organization
 félagsstarf	O
 .	O
 
-Kl.	O
-10.30	O
+Kl.	B-Time
+10.30	I-Time
 helgistund	O
 ,	O
 umsjón	O
@@ -75105,7 +75105,7 @@ og	I-Organization
 Hólakirkju	I-Organization
 ,	O
 frá	O
-hádegi	O
+hádegi	B-Time
 spilasalur	O
 og	O
 vinnustofur	O
@@ -75113,16 +75113,16 @@ opin	O
 .	O
 
 Myndlistarsýning	O
-Huga	O
-Jóhannessonar	B-Person
+Huga	B-Person
+Jóhannessonar	I-Person
 stendur	O
 yfir	O
 .	O
 
 Glerskurður	O
 hefst	O
-þriðjud.	O
-10.	B-Date
+þriðjud.	B-Date
+10.	I-Date
 sept.	I-Date
 
 Umsjón	O
@@ -75165,14 +75165,14 @@ Allir	O
 velkomnir	O
 .	O
 
-Gjábakki	B-Location
+Gjábakki	B-Organization
 ,	O
 Fannborg	B-Location
 8	I-Location
 .	O
 
-Kl.	O
-9.05	O
+Kl.	B-Time
+9.05	I-Time
 og	O
 kl.	B-Time
 9.55	I-Time
@@ -75193,10 +75193,10 @@ Kynning	O
 starfsemi	O
 í	O
 félagsheimilinu	O
-Gjábakka	B-Location
-sept.	O
-til	O
-des.	O
+Gjábakka	B-Organization
+sept.	B-Date
+til	I-Date
+des.	I-Date
 í	O
 dag	O
 .	O
@@ -75205,9 +75205,9 @@ kl.	B-Time
 14	I-Time
 .	O
 
-FEBK	O
+FEBK	B-Organization
 ,	O
-Hana-nú	O
+Hana-nú	B-Organization
 og	O
 ýmsir	O
 áhugamannahópar	O
@@ -75241,7 +75241,7 @@ meðlæti	O
 boðstólum	O
 .	O
 
-Gullsmári	O
+Gullsmári	B-Organization
 ,	O
 Gullsmára	B-Location
 13	I-Location
@@ -75261,12 +75261,12 @@ heimabakað	O
 meðlæti	O
 .	O
 
-Hraunbær	O
-105	O
+Hraunbær	B-Location
+105	I-Location
 .	O
 
-Kl.	O
-9	O
+Kl.	B-Time
+9	I-Time
 almenn	O
 handavinna	O
 og	O
@@ -75274,7 +75274,7 @@ keramik	O
 ,	O
 kl.	B-Time
 10	I-Time
-boccia	I-Time
+boccia	O
 ,	O
 kl.	B-Time
 11	I-Time
@@ -75286,18 +75286,18 @@ félagsvist	O
 .	O
 
 Hvassaleiti	B-Location
-56-58	O
+56-58	I-Location
 .	O
 
-Kl.	O
-9	O
+Kl.	B-Time
+9	I-Time
 böðun	O
 og	O
 bútasaumur	O
 ,	O
 kl.	B-Time
 10	I-Time
-boccia	I-Time
+boccia	O
 ,	O
 kl.	B-Time
 13	I-Time
@@ -75317,19 +75317,19 @@ Allir	O
 velkomnir	O
 .	O
 
-Norðurbrún	O
-1	O
+Norðurbrún	B-Location
+1	I-Location
 .	O
 
-Kl.	O
-9-16.45	O
+Kl.	B-Time
+9-16.45	I-Time
 opin	O
 vinnustofa	O
 og	O
 tréskurður	O
 ,	O
-kl.	B-Time
-13-16.45	I-Time
+kl.	O
+13-16.45	O
 leir	O
 ,	O
 kl.	B-Time
@@ -75338,11 +75338,11 @@ ganga	O
 .	O
 
 Vesturgata	B-Location
-7	O
+7	I-Location
 .	O
 
-Kl.	O
-9	O
+Kl.	B-Time
+9	I-Time
 fótaaðgerðir	O
 og	O
 hárgreiðsla	O
@@ -75401,10 +75401,10 @@ kl.	B-Time
 Myndmennt	O
 byrjar	O
 Miðvikud.	B-Date
-4.	I-Date
+4.	B-Date
 sept.	I-Date
 
-Mósaik	O
+Mósaik	B-Miscellaneous
 byrjar	O
 fimmtud.	B-Date
 5.	I-Date
@@ -75465,14 +75465,14 @@ leiðsögn	O
 Lísu	I-Person
 Guðmundsdóttur	I-Person
 frá	O
-Árbæjarsafni	B-Location
+Árbæjarsafni	B-Organization
 .	O
 
 M.a.	O
 farið	O
 í	O
 Grafarvogskirkju	B-Organization
-Bryggjuhverfi	I-Organization
+Bryggjuhverfi	B-Location
 og	O
 fleira	O
 .	O
@@ -75489,11 +75489,11 @@ s.	O
 5627077	O
 .	O
 
-Vitatorg	B-Location
+Vitatorg	B-Organization
 .	O
 
-Kl.	O
-8.45	O
+Kl.	B-Time
+8.45	I-Time
 smíði	O
 .	O
 
@@ -75525,7 +75525,7 @@ frjáls	O
 spil	O
 .	O
 
-Gullsmárabrids	B-Location
+Gullsmárabrids	B-Miscellaneous
 .	O
 
 Eldri	O
@@ -75562,7 +75562,7 @@ Gigtarfélagið	O
 .	O
 
 Hópþjálfun	O
-Gigtarfélagsins	O
+Gigtarfélagsins	B-Organization
 fer	O
 af	O
 stað	O
@@ -75570,8 +75570,8 @@ aftur	O
 eftir	O
 sumarfrí	O
 Mánud.	B-Date
-9.	O
-sept.	O
+9.	B-Date
+sept.	I-Date
 
 Hádegisleikfimi	O
 ,	O
@@ -75607,8 +75607,8 @@ s.	O
 5303600	O
 .	O
 
-Minningarkort	B-Organization
-Hrafnkelssjóður	I-Organization
+Minningarkort	O
+Hrafnkelssjóður	B-Organization
 (	O
 stofnað	O
 1931	B-Date
@@ -75623,8 +75623,8 @@ og	O
 .	O
 
 (	O
-Jóh.	O
-15	O
+Jóh.	B-Location
+15	I-Location
 ,	O
 9.	O
 )	O
@@ -75632,17 +75632,17 @@ Jóh.	O
 Skipin	O
 Reykjavíkurhöfn	B-Location
 :	O
-Thetis	B-Person
-Freri	I-Person
+Thetis	B-Miscellaneous
+Freri	I-Miscellaneous
 og	O
-Atlantic	B-Organization
-Peace	I-Organization
+Atlantic	B-Miscellaneous
+Peace	I-Miscellaneous
 koma	O
 í	O
 dag	O
 .	O
 
-Mannamót	O
+Mannamót	B-Miscellaneous
 Bólstaðarhlíð	B-Location
 43	I-Location
 .	O
@@ -75656,12 +75656,12 @@ kl.	B-Time
 
 Haustlitaferð	O
 í	O
-Skorradalinn	B-Miscellaneous
+Skorradalinn	B-Location
 .	O
 
-Ullarselið	O
-á	O
-Hvanneyri	B-Location
+Ullarselið	B-Organization
+á	I-Organization
+Hvanneyri	I-Organization
 heimsótt	O
 .	O
 
@@ -75697,7 +75697,7 @@ Aflagranda	B-Location
 Vetrarstarfið	O
 hafið	O
 :	O
-Mánud.	O
+Mánud.	B-Date
 vinnustofa	O
 og	O
 leikfimi	O
@@ -75709,7 +75709,7 @@ kl.	B-Time
 14	I-Time
 .	O
 
-Þriðjud.	O
+Þriðjud.	B-Date
 vinnustofa	O
 ,	O
 jóga	O
@@ -75731,7 +75731,7 @@ kl.	B-Time
 14	I-Time
 .	O
 
-Miðvikud.	B-Person
+Miðvikud.	B-Date
 :	O
 vinnustofa	O
 og	O
@@ -75743,7 +75743,7 @@ kl.	B-Time
 13	I-Time
 .	O
 
-Fimmtud.	O
+Fimmtud.	B-Date
 :	O
 vinnustofa	O
 og	O
@@ -75756,7 +75756,7 @@ kl.	B-Time
 13	I-Time
 .	O
 
-Föstud.	O
+Föstud.	B-Date
 :	O
 vinnustofa	O
 og	O
@@ -75765,15 +75765,15 @@ kl.	B-Time
 9	I-Time
 .	O
 
-Bingó	B-Organization
+Bingó	O
 kl.	B-Time
 14	I-Time
 .	O
 
 Baðþjónusta	O
-þriðju-	O
+þriðju-	B-Date
 ,	O
-miðviku-	O
+miðviku-	B-Date
 og	O
 föstudaga	B-Date
 ,	O
@@ -75812,7 +75812,7 @@ Kynning	O
 á	O
 vetrarstarfi	O
 í	O
-Félagsmiðstöðinni	O
+Félagsmiðstöðinni	B-Organization
 verður	O
 fimmtudaginn	B-Date
 12.	I-Date
@@ -75841,7 +75841,7 @@ borgara	I-Organization
 ,	O
 Hafnarfirði	B-Location
 ,	O
-Hraunseli	B-Location
+Hraunseli	B-Organization
 ,	O
 Flatahrauni	B-Location
 3	I-Location
@@ -75851,7 +75851,7 @@ Morgungangan	O
 kl.	B-Time
 10	I-Time
 frá	O
-Hraunseli	B-Location
+Hraunseli	B-Organization
 .	O
 
 Rúta	O
@@ -75869,7 +75869,7 @@ sept.	I-Date
 
 Rúta	O
 frá	O
-Hraunseli	B-Location
+Hraunseli	B-Organization
 á	O
 þriðjudag	B-Date
 kl.	B-Time
@@ -75881,7 +75881,7 @@ Glerskurður	O
 skráning	O
 hafin	O
 í	O
-Hraunseli	B-Location
+Hraunseli	B-Organization
 .	O
 
 Leikfimi	O
@@ -75897,11 +75897,11 @@ gamla	O
 Haukahúsið	B-Location
 )	O
 á	O
-þriðju-	O
+þriðju-	B-Date
 ,	O
-fimmtu-	O
+fimmtu-	B-Date
 og	O
-föstudögum	O
+föstudögum	B-Date
 kl.	B-Time
 11.30	I-Time
 ,	O
@@ -75909,7 +75909,7 @@ skráning	O
 og	O
 greiðslur	O
 í	O
-Hraunseli	B-Location
+Hraunseli	B-Organization
 ,	O
 sími	O
 5550142	O
@@ -75942,23 +75942,23 @@ Leikfimi	O
 karla	O
 verður	O
 á	O
-þriðju-	O
+þriðju-	B-Date
 og	O
-fimmtudögum	O
+fimmtudögum	B-Date
 ,	O
 leikfimi	O
 kvenna	O
 á	O
-mánu-	O
+mánu-	B-Date
 og	O
-miðvikudögum	O
+miðvikudögum	B-Date
 .	O
 
 Skráning	O
 í	O
 hópastarfið	O
 er	O
-9.-10.	B-Date
+9.-10.	O
 og	O
 11.	B-Date
 sept.	I-Date
@@ -75966,8 +75966,8 @@ kl.	B-Time
 14-15	I-Time
 í	O
 Félagsmiðstöðinni	B-Organization
-í	O
-Kirkjuhvoli	B-Organization
+í	I-Organization
+Kirkjuhvoli	I-Organization
 .	O
 
 Kynning	O
@@ -75977,14 +75977,14 @@ félagsstarfinu	O
 haustönn	O
 verður	O
 í	O
-Kirkjuhvoli	B-Organization
+Kirkjuhvoli	B-Location
 12.	B-Date
 sept.	I-Date
 kl.	B-Time
 14	I-Time
 .	O
 
-Fótaaðgerðarstofan	B-Organization
+Fótaaðgerðarstofan	O
 í	O
 síma	O
 8994223	O
@@ -75994,7 +75994,7 @@ Garðakórinn	O
 -	O
 æfingar	O
 á	O
-mánud.	O
+mánud.	B-Date
 kl.	B-Time
 17-19	I-Time
 í	O
@@ -76029,9 +76029,9 @@ borgara	I-Organization
 ,	O
 Reykjavík	B-Location
 ,	O
-Ásgarði	B-Location
+Ásgarði	B-Organization
 í	O
-Glæsibæ	B-Location
+Glæsibæ	B-Organization
 .	O
 
 Kaffistofan	O
@@ -76049,7 +76049,7 @@ blöðin	O
 og	O
 matur	O
 í	O
-hádegi	O
+hádegi	B-Time
 .	O
 
 Félagið	O
@@ -76074,9 +76074,9 @@ laugardag	B-Date
 kl.	B-Time
 14-16	I-Time
 í	O
-Ásgarði	B-Location
+Ásgarði	B-Organization
 ,	O
-Glæsibæ	B-Location
+Glæsibæ	B-Organization
 .	O
 
 Kynning	O
@@ -76121,7 +76121,7 @@ kl.	B-Time
 
 Mánudagur	B-Date
 :	O
-Brids	B-Organization
+Brids	O
 kl.	B-Time
 13	I-Time
 .	O
@@ -76146,7 +76146,7 @@ viðtöl	O
 fyrir	O
 félagsmenn	O
 á	O
-þriðjudögum	O
+þriðjudögum	B-Date
 frá	O
 kl.	B-Time
 10-12	I-Time
@@ -76156,11 +76156,11 @@ panta	O
 tíma	O
 á	O
 skrifstofu	O
-FEB.	B-Person
+FEB.	B-Organization
 
 Þriðjudagur	B-Date
 :	O
-Skák	B-Organization
+Skák	O
 kl.	B-Time
 13	I-Time
 .	O
@@ -76171,9 +76171,9 @@ Miðvikudagur	B-Date
 Gönguhrólfar	O
 ganga	O
 frá	O
-Ásgarði	B-Location
+Ásgarði	B-Organization
 í	O
-Glæsibæ	B-Location
+Glæsibæ	B-Organization
 kl.	B-Time
 10	I-Time
 .	O
@@ -76218,9 +76218,9 @@ Silfurlínan	O
 er	O
 opin	O
 á	O
-mánu-	O
+mánu-	B-Date
 og	O
-miðvikudögum	O
+miðvikudögum	B-Date
 kl.	B-Time
 10-12	I-Time
 .	O
@@ -76249,7 +76249,7 @@ Glæsibæ	B-Location
 Upplýsingar	O
 á	O
 skrifstofu	O
-FEB.	B-Person
+FEB.	B-Organization
 
 Gerðuberg	B-Organization
 ,	O
@@ -76316,7 +76316,7 @@ leikfimiæfingar	O
 í	O
 Breiðholtslaug	B-Location
 ,	O
-mánu-	O
+mánu-	B-Date
 og	O
 föstudaga	B-Date
 kl.	B-Time
@@ -76335,7 +76335,7 @@ síma	O
 5757720	O
 .	O
 
-Gullsmári	O
+Gullsmári	B-Organization
 ,	O
 Gullsmára	B-Location
 13	I-Location
@@ -76371,12 +76371,12 @@ af	O
 þátttakendum	O
 hjá	O
 Félagsþjónustunni	B-Organization
-í	O
-Hvassaleiti	B-Location
+í	I-Organization
+Hvassaleiti	I-Organization
 verður	O
 haldin	O
 laugardaginn	B-Date
-8.	O
+8.	I-Date
 og	O
 sunnudaginn	B-Date
 9.	I-Date
@@ -76422,8 +76422,8 @@ kl.	B-Time
 .	O
 
 Mánud.	B-Date
-16.	O
-sept.	O
+16.	I-Date
+sept.	I-Date
 verður	O
 ferð	O
 í	O
@@ -76436,12 +76436,12 @@ Lagt	O
 af	O
 stað	O
 frá	O
-Gjábakka	B-Location
+Gjábakka	B-Organization
 kl.	B-Time
 8	I-Time
 og	O
 frá	O
-Gullsmára	B-Location
+Gullsmára	B-Organization
 kl.	B-Time
 8.15	I-Time
 .	O
@@ -76512,7 +76512,7 @@ Norðtungu	B-Location
 að	O
 Deildartungu	B-Location
 og	O
-Deildartunguhver	O
+Deildartunguhver	B-Location
 skoðaður	O
 .	O
 
@@ -76525,7 +76525,7 @@ niður	O
 Andakíl	B-Location
 að	O
 Borgarfjarðarbrú	B-Location
-Hafnarfjallsmegin	B-Location
+Hafnarfjallsmegin	I-Location
 en	O
 þar	O
 verður	O
@@ -76563,8 +76563,8 @@ og	O
 forsýning	O
 á	O
 safni	O
-Landmælinga	B-Organization
-Íslands	I-Organization
+Landmælinga	B-Miscellaneous
+Íslands	I-Miscellaneous
 .	O
 
 Áætluð	O
@@ -76581,7 +76581,7 @@ liggja	O
 frammi	O
 í	O
 félagsmiðstöðvunum	O
-Gjábakka	B-Location
+Gjábakka	B-Organization
 (	O
 s.	O
 5543400	O
@@ -76603,7 +76603,7 @@ s.	O
 5540233	O
 )	O
 og	O
-Þráinn	B-Organization
+Þráinn	B-Person
 (	O
 s.	O
 5540999	O
@@ -76611,7 +76611,7 @@ s.	O
 .	O
 
 Vesturgata	B-Location
-7	O
+7	I-Location
 .	O
 
 Miðvikudaginn	B-Date
@@ -76671,7 +76671,7 @@ leiðsögn	O
 Lísu	I-Person
 Guðmundsdóttir	I-Person
 frá	O
-Árbæjarsafni	B-Location
+Árbæjarsafni	B-Organization
 .	O
 
 M.a.	O
@@ -76684,7 +76684,7 @@ og	O
 fleira	O
 .	O
 
-Vitatorg	B-Location
+Vitatorg	B-Organization
 .	O
 
 Vetrardagskráin	O
@@ -76722,15 +76722,15 @@ velkomnir	O
 .	O
 
 Gönguklúbbur	O
-Hana-nú	O
+Hana-nú	B-Organization
 .	O
 
 Morgunganga	O
 kl.	B-Time
 10	I-Time
-laugardagsmorgna	I-Time
+laugardagsmorgna	O
 frá	O
-Gjábakka	B-Location
+Gjábakka	B-Organization
 .	O
 
 Krummakaffi	O
@@ -76743,9 +76743,9 @@ velkomnir	O
 .	O
 
 Félag	B-Organization
-fráskilinna	O
-og	O
-einstæðra	O
+fráskilinna	I-Organization
+og	I-Organization
+einstæðra	I-Organization
 .	O
 
 Fundur	O
@@ -76754,7 +76754,7 @@ kvöld	O
 kl.	B-Time
 21	I-Time
 í	O
-Konnakoti	B-Miscellaneous
+Konnakoti	B-Organization
 ,	O
 Hverfisgötu	B-Location
 105	I-Location
@@ -76767,13 +76767,13 @@ velkomnir	O
 
 Munið	O
 gönguna	O
-mánu-	O
+mánu-	B-Date
 og	O
 fimmtudaga	B-Date
 .	O
 
-Ferðaklúbburinn	O
-Flækjufótur	O
+Ferðaklúbburinn	B-Organization
+Flækjufótur	I-Organization
 .	O
 
 Helgarferð	O
@@ -76781,10 +76781,10 @@ til	O
 Grundarfjarðar	B-Location
 verður	O
 farin	O
-5.	O
-til	O
-6.	O
-okt.	O
+5.	B-Date
+til	I-Date
+6.	I-Date
+okt.	I-Date
 kl.	B-Time
 14	I-Time
 .	O
@@ -76803,8 +76803,8 @@ eftir	O
 nóttu	O
 .	O
 
-Sextettinn	B-Person
-Sex	I-Person
+Sextettinn	O
+Sex	O
 í	O
 sveit	O
 syngur	O
@@ -76820,8 +76820,8 @@ fyrir	O
 20.	B-Date
 sept.	I-Date
 
-Minningarkort	B-Organization
-Hrafnkelssjóður	I-Organization
+Minningarkort	O
+Hrafnkelssjóður	B-Organization
 (	O
 stofnaður	O
 1931	B-Date
@@ -76890,19 +76890,19 @@ dag	O
 
 Hafnarfjarðarhöfn	B-Location
 :	O
-Ikan	B-Person
-Suji	I-Person
+Ikan	B-Miscellaneous
+Suji	I-Miscellaneous
 kemur	O
 í	O
 dag	O
 ,	O
-Lómur	B-Miscellaneous
+Lómur	O
 kemur	O
 á	O
 morgun	O
 .	O
 
-Mannamót	O
+Mannamót	B-Miscellaneous
 Aflagranda	B-Location
 40	I-Location
 .	O
@@ -76916,7 +76916,7 @@ stjórn	O
 Kára	B-Person
 Friðrikssonar	I-Person
 á	O
-þriðjudögum	O
+þriðjudögum	B-Date
 kl.	B-Time
 14	I-Time
 og	O
@@ -76961,8 +76961,8 @@ sept.	I-Date
 kl.	B-Time
 10.15.	I-Time
 
-Árskógar	O
-4	O
+Árskógar	B-Location
+4	I-Location
 .	O
 
 Á	O
@@ -76973,7 +76973,7 @@ leikfimi	O
 ,	O
 kl.	B-Time
 11	I-Time
-boccia	I-Time
+boccia	O
 ,	O
 kl.	B-Time
 13.30	I-Time
@@ -77040,8 +77040,8 @@ s.	O
 5685052	O
 .	O
 
-þriðjud.	O
-17.	B-Date
+þriðjud.	B-Date
+17.	I-Date
 sept.	I-Date
 kl.	B-Time
 12.30	I-Time
@@ -77049,12 +77049,12 @@ kl.	B-Time
 
 Haustlitaferð	O
 í	O
-Skorradalinn	B-Miscellaneous
+Skorradalinn	B-Location
 .	O
 
-Ullarselið	O
-á	O
-Hvanneyri	B-Location
+Ullarselið	B-Organization
+á	I-Organization
+Hvanneyri	I-Organization
 heimsótt	O
 .	O
 
@@ -77086,8 +77086,8 @@ s.	O
 Félag	B-Organization
 eldri	I-Organization
 borgara	I-Organization
-í	O
-Kópavogi	B-Location
+í	I-Organization
+Kópavogi	I-Organization
 .	O
 
 Félagsvist	O
@@ -77095,7 +77095,7 @@ Félagsvist	O
 Gullsmára	B-Location
 13	I-Location
 á	O
-mánud.	O
+mánud.	B-Date
 kl.	B-Time
 20.30	I-Time
 .	O
@@ -77134,9 +77134,9 @@ kl.	B-Time
 10.30	I-Time
 .	O
 
-mánud.	O
-16.	O
-sept.	O
+mánud.	B-Date
+16.	I-Date
+sept.	I-Date
 verður	O
 ferð	O
 í	O
@@ -77149,13 +77149,13 @@ Lagt	O
 af	O
 stað	O
 frá	O
-Gjábakka	B-Location
+Gjábakka	B-Organization
 kl	B-Time
 :	I-Time
-8	I-Time
+8	O
 og	O
 frá	O
-Gullsmára	B-Location
+Gullsmára	B-Organization
 kl	B-Time
 :	I-Time
 8.15	I-Time
@@ -77200,8 +77200,8 @@ afmæli	O
 Félags	B-Organization
 eldri	I-Organization
 borgara	I-Organization
-á	O
-Akureyri	B-Location
+á	I-Organization
+Akureyri	I-Organization
 ,	O
 laugardaginn	B-Date
 12	I-Date
@@ -77217,14 +77217,14 @@ srkáning	O
 báðar	O
 ferðir	O
 í	O
-Gjábakka	B-Location
+Gjábakka	B-Organization
 (	O
 s	O
 :	O
 554-3400	O
 )	O
 og	O
-Gullsmára	B-Location
+Gullsmára	B-Organization
 (	O
 s	O
 :	O
@@ -77241,7 +77241,7 @@ s	O
 :	O
 554-0233	O
 og	O
-Þráinn	B-Organization
+Þráinn	B-Person
 (	O
 s	O
 :	O
@@ -77289,16 +77289,16 @@ Garðabæ	B-Location
 Leikfimi	O
 karla	O
 á	O
-þriðju-	O
+þriðju-	B-Date
 og	O
-fimmtudögum	O
+fimmtudögum	B-Date
 ,	O
 leikfimi	O
 kvenna	O
 á	O
-mánu-	O
+mánu-	B-Date
 og	O
-miðvikudögum	O
+miðvikudögum	B-Date
 .	O
 
 Skráning	O
@@ -77307,14 +77307,14 @@ hópastarfið	O
 er	O
 9.-10.	O
 og	O
-11	O
-sept.	O
+11	B-Date
+sept.	I-Date
 kl.	B-Time
 14-15	I-Time
 í	O
 Félagsmiðstöðinni	B-Organization
-í	O
-Kirkjuhvoli	B-Organization
+í	I-Organization
+Kirkjuhvoli	I-Organization
 .	O
 
 Kynning	O
@@ -77324,14 +77324,14 @@ félagsstarfinu	O
 haustönn	O
 verður	O
 í	O
-Kirkjuhvoli	B-Organization
+Kirkjuhvoli	B-Location
 12.	B-Date
 sept.	I-Date
 kl.	B-Time
 14	I-Time
 .	O
 
-Fótaaðgerðarstofan	B-Organization
+Fótaaðgerðarstofan	O
 s.	O
 8994223	O
 .	O
@@ -77340,7 +77340,7 @@ Garðakórinn	O
 -	O
 æfingar	O
 á	O
-mánud.	O
+mánud.	B-Date
 kl.	B-Time
 17-19	I-Time
 í	O
@@ -77388,7 +77388,7 @@ eldri	I-Organization
 borgara	I-Organization
 Hafnarfirði	B-Location
 ,	O
-Hraunseli	B-Location
+Hraunseli	B-Organization
 ,	O
 Flatahrauni	B-Location
 3	I-Location
@@ -77431,7 +77431,7 @@ Höfðabrekku	B-Location
 sept.	I-Date
 rúta	O
 frá	O
-Hraunseli	B-Location
+Hraunseli	B-Organization
 á	O
 þriðjudag	B-Date
 kl.	B-Time
@@ -77457,11 +77457,11 @@ gamla	O
 Haukahúsið	B-Location
 )	O
 á	O
-þriðju-	O
+þriðju-	B-Date
 ,	O
-fimmtu-	O
+fimmtu-	B-Date
 og	O
-föstudögum	O
+föstudögum	B-Date
 kl.	B-Time
 11.30	I-Time
 ,	O
@@ -77469,7 +77469,7 @@ skráning	O
 og	O
 greiðslur	O
 í	O
-Hraunseli	B-Location
+Hraunseli	B-Organization
 sími	O
 5550142	O
 .	O
@@ -77498,11 +77498,11 @@ borgara	I-Organization
 ,	O
 Reykjavík	B-Location
 ,	O
-Ásgarði	B-Location
-Glæsibæ	I-Location
+Ásgarði	B-Organization
+Glæsibæ	B-Organization
 .	O
 
-Sunnud	B-Person
+Sunnud	B-Date
 :	O
 Dansleikur	O
 kl.	B-Time
@@ -77513,9 +77513,9 @@ fyrir	O
 dansi	O
 .	O
 
-Mánud	O
+Mánud	B-Date
 :	O
-Brids	B-Organization
+Brids	O
 kl.	B-Time
 13	I-Time
 .	O
@@ -77539,7 +77539,7 @@ viðtöl	O
 fyrir	O
 félagsmenn	O
 á	O
-þriðjudögum	O
+þriðjudögum	B-Date
 frá	O
 kl.	B-Time
 10-12	I-Time
@@ -77548,29 +77548,29 @@ panta	O
 tíma	O
 á	O
 skrifstofu	O
-FEB.	B-Person
+FEB.	B-Organization
 
-Þriðjud	B-Person
+Þriðjud	B-Date
 :	O
 Skák	O
 kl.	B-Time
 13	I-Time
 .	O
 
-Miðvikud	B-Organization
+Miðvikud	B-Date
 :	O
 Göngu-hrólfar	O
 ganga	O
 frá	O
-Ásgarði	B-Location
-Glæsibæ	I-Location
+Ásgarði	B-Organization
+Glæsibæ	B-Organization
 kl.	B-Time
 10	I-Time
 .	O
 
 Söngfélag	O
-FEB	O
-kóræfing	O
+FEB	B-Organization
+kóræfing	I-Organization
 kl.	B-Time
 17	I-Time
 .	O
@@ -77611,7 +77611,7 @@ hafin	O
 Upplýsingar	O
 á	O
 skrifstofu	O
-FEB	O
+FEB	B-Organization
 5882111	O
 .	O
 
@@ -77639,7 +77639,7 @@ kl.	B-Time
 
 Hárgreiðslustofan	O
 opin	O
-9-16.30	O
+9-16.30	B-Date
 .	O
 
 Landsbankinn	B-Organization
@@ -77650,8 +77650,8 @@ viku	O
 
 Sviðaveisla	O
 verður	O
-20	O
-sept.	O
+20	B-Date
+sept.	I-Date
 kl.	B-Time
 12	I-Time
 .	O
@@ -77660,7 +77660,7 @@ Kynning	O
 á	O
 vetrarstarfi	O
 í	O
-Félagsmiðstöðinni	B-Location
+Félagsmiðstöðinni	B-Organization
 verður	O
 fimmtud.	B-Date
 12.	I-Date
@@ -77687,7 +77687,7 @@ félagsstarf	O
 
 Á	O
 morgun	O
-9-16	O
+9-16	B-Time
 .	O
 
 30	O
@@ -77726,7 +77726,7 @@ listamaðurinn	O
 staðnum	O
 .	O
 
-Gjábakki	B-Location
+Gjábakki	B-Organization
 ,	O
 Fannborg	B-Location
 8	I-Location
@@ -77774,7 +77774,7 @@ hefjast	O
 10.	I-Date
 sept.	I-Date
 
-Gullsmári	O
+Gullsmári	B-Organization
 ,	O
 Gullsmára	B-Location
 13	I-Location
@@ -77796,13 +77796,13 @@ meðlæti	O
 Spiluð	O
 félagsvist	O
 á	O
-mánudögum	O
+mánudögum	B-Date
 kl.	B-Time
 20.30	I-Time
 .	O
 
-Hraunbær	O
-105	O
+Hraunbær	B-Location
+105	I-Location
 .	O
 
 Á	O
@@ -77821,7 +77821,7 @@ bænastund	O
 ,	O
 kl.	B-Time
 13.	I-Time
-30	O
+30	I-Time
 sögustund	O
 og	O
 spjall	O
@@ -77832,7 +77832,7 @@ hárgreiðsla	O
 .	O
 
 Hvassaleiti	B-Location
-56-58	O
+56-58	I-Location
 .	O
 
 Á	O
@@ -77868,7 +77868,7 @@ velkomnir	O
 .	O
 
 Norðurbrún	B-Location
-1	O
+1	I-Location
 .	O
 
 Kl.	O
@@ -77891,7 +77891,7 @@ handavinnustofa	O
 .	O
 
 Vesturgata	B-Location
-7	O
+7	I-Location
 .	O
 
 Á	O
@@ -77961,7 +77961,7 @@ skráning	O
 hafin	O
 .	O
 
-Vitatorg	B-Location
+Vitatorg	B-Organization
 .	O
 
 Vetrardagskráin	O
@@ -78035,12 +78035,12 @@ aldurshópar	O
 velkomnir	O
 .	O
 
-Háteigskirkja	O
+Háteigskirkja	B-Organization
 ,	O
 eldri	O
 borgarar	O
 ,	O
-mánudaga	O
+mánudaga	B-Date
 félagsvist	O
 kl.	B-Time
 13-15	I-Time
@@ -78048,19 +78048,19 @@ kl.	B-Time
 kaffi	O
 .	O
 
-Gullsmárabrids	B-Location
+Gullsmárabrids	B-Miscellaneous
 .	O
 
 Eldri	O
 borgarar	O
 .	O
 
-Brids	B-Person
+Brids	O
 að	O
 Gullsmára	B-Location
 13	I-Location
 ,	O
-mánu-	O
+mánu-	B-Date
 og	O
 fimmtudaga	B-Date
 .	O
@@ -78118,17 +78118,17 @@ kl.	B-Time
 20	I-Time
 .	O
 
-Sinawik	O
-í	O
-Reykjavík	B-Location
+Sinawik	B-Organization
+í	I-Organization
+Reykjavík	I-Organization
 Aðalfundur	O
 þriðjudaginn	B-Date
 10.	I-Date
 september	I-Date
 í	O
-Sunnusal	B-Miscellaneous
-Hótel	I-Miscellaneous
-Sögu	I-Miscellaneous
+Sunnusal	B-Location
+Hótel	B-Organization
+Sögu	I-Organization
 kl.	B-Time
 20	I-Time
 .	O
@@ -78238,9 +78238,9 @@ dag	O
 
 Hafnarfjarðarhöfn	B-Location
 :	O
-Celo	B-Location
+Celo	O
 di	O
-Barents	B-Location
+Barents	B-Person
 fór	O
 í	O
 gær	O
@@ -78252,9 +78252,9 @@ kom	O
 gær	O
 .	O
 
-Mannamót	O
-Aflagrandi	O
-40	O
+Mannamót	B-Miscellaneous
+Aflagrandi	B-Location
+40	I-Location
 ,	O
 kl.	B-Time
 9	I-Time
@@ -78267,10 +78267,10 @@ kl.	B-Time
 bingó	O
 .	O
 
-Árskógar	O
+Árskógar	B-Location
 4.	O
-kl.	O
-13-16.30	O
+kl.	B-Time
+13-16.30	I-Time
 opin	O
 smíða-	O
 og	O
@@ -78289,8 +78289,8 @@ Bólstaðarhlíð	B-Location
 43	I-Location
 .	O
 
-Kl.	O
-8-16	O
+Kl.	B-Time
+8-16	I-Time
 ,	O
 hárgreiðsla	O
 ,	O
@@ -78324,19 +78324,19 @@ Kjós	B-Location
 Félagsstarfið	O
 er	O
 á	O
-mánu-	O
+mánu-	B-Date
 og	O
-fimmtudögum	O
+fimmtudögum	B-Date
 .	O
 
-Mánud	O
+Mánud	B-Date
 :	O
-Kl.	O
-16	O
+Kl.	B-Time
+16	I-Time
 leikfimi	O
 .	O
 
-Fimmtud	B-Person
+Fimmtud	B-Date
 :	O
 kl.	B-Time
 13	I-Time
@@ -78357,11 +78357,11 @@ bókaspjall	O
 kór	O
 eldri	O
 borgara	O
-Vorboðar	O
+Vorboðar	B-Organization
 :	O
 kóræfing	O
 í	O
-DAMOS	O
+DAMOS	B-Organization
 kl.	B-Time
 17-19	I-Time
 .	O
@@ -78374,8 +78374,8 @@ bókbandsnámskeið	O
 ,	O
 línudans	O
 byrjar	O
-5	O
-okt.	O
+5	B-Date
+okt.	I-Date
 kl.	B-Time
 11	I-Time
 .	O
@@ -78400,8 +78400,8 @@ Dalbraut	B-Location
 18-20	I-Location
 .	O
 
-Kl.	O
-9-12	O
+Kl.	B-Time
+9-12	I-Time
 aðstoð	O
 við	O
 böðun	O
@@ -78424,17 +78424,17 @@ mánudaga	B-Date
 Félag	B-Organization
 eldri	I-Organization
 borgara	I-Organization
-í	O
-Kópavogi	B-Location
+í	I-Organization
+Kópavogi	I-Organization
 .	O
 
 Félagsvist	O
 spiluð	O
 í	O
 Fannborg	B-Location
-8	O
+8	I-Location
 (	O
-Gjábakka	B-Location
+Gjábakka	B-Organization
 )	O
 kl.	B-Time
 20.30	I-Time
@@ -78451,7 +78451,7 @@ sept.	I-Date
 kl.	B-Time
 14	I-Time
 í	O
-Gjábakka	B-Location
+Gjábakka	B-Organization
 .	O
 
 Dagskrá	O
@@ -78485,16 +78485,16 @@ afmæli	O
 Félags	B-Organization
 eldri	I-Organization
 borgara	I-Organization
-á	O
-Akureyri	B-Location
+á	I-Organization
+Akureyri	I-Organization
 ,	O
 laugard.	B-Date
 12	I-Date
 okt.	I-Date
 
 Mánud.	B-Date
-16.	O
-sept.	O
+16.	I-Date
+sept.	I-Date
 verður	O
 ferð	O
 í	O
@@ -78509,12 +78509,12 @@ Lagt	O
 af	O
 stað	O
 frá	O
-Gjábakka	B-Location
+Gjábakka	B-Organization
 kl.	B-Time
 8	I-Time
 og	O
 frá	O
-Gullsmára	B-Location
+Gullsmára	B-Organization
 kl.	B-Time
 8.15	I-Time
 Áætluð	O
@@ -78538,7 +78538,7 @@ s	O
 5543400	O
 )	O
 og	O
-Gullsmára	B-Location
+Gullsmára	B-Organization
 (	O
 s	O
 :	O
@@ -78559,7 +78559,7 @@ s	O
 5540233	O
 )	O
 og	O
-Þráinn	B-Organization
+Þráinn	B-Person
 (	O
 s	O
 :	O
@@ -78608,7 +78608,7 @@ eldri	I-Organization
 borgara	I-Organization
 Hafnarfirði	B-Location
 ,	O
-Hraunseli	B-Location
+Hraunseli	B-Organization
 ,	O
 Flatahrauni	B-Location
 3	I-Location
@@ -78630,7 +78630,7 @@ ganga	O
 kl.	B-Time
 10	I-Time
 frá	O
-Hraunseli	B-Location
+Hraunseli	B-Organization
 ,	O
 rúta	O
 frá	O
@@ -78649,30 +78649,30 @@ kl.	B-Time
 ,	O
 skráning	O
 í	O
-Hraunseli	B-Location
+Hraunseli	B-Organization
 .	O
 
 Leikfimi	O
 eldri	O
 borgara	O
 í	O
-Íþróttastöðini	B-Organization
-Björk	I-Organization
+Íþróttastöðini	B-Miscellaneous
+Björk	B-Person
 (	O
-Gamla	O
-Haukahúsinu	O
+Gamla	B-Miscellaneous
+Haukahúsinu	I-Miscellaneous
 )	O
 á	O
-þriðju-	O
+þriðju-	B-Date
 ,	O
-fimmtu-	O
+fimmtu-	B-Date
 og	O
-föstudögum	O
+föstudögum	B-Date
 kl.	B-Time
 11.30	I-Time
 skráning	O
 í	O
-Hraunseli	B-Location
+Hraunseli	B-Organization
 s.	O
 5550142	O
 .	O
@@ -78683,8 +78683,8 @@ borgara	I-Organization
 ,	O
 Reykjavík	B-Location
 ,	O
-Ásgarði	B-Location
-Glæsibæ	I-Location
+Ásgarði	B-Organization
+Glæsibæ	B-Organization
 .	O
 
 Kaffistofan	O
@@ -78702,7 +78702,7 @@ blöðin	O
 og	O
 matur	O
 í	O
-hádegi	O
+hádegi	B-Time
 .	O
 
 Félagið	O
@@ -78753,15 +78753,15 @@ dag	O
 
 Brottför	O
 frá	O
-Ásgarði	B-Organization
-Glæsibæ	I-Organization
+Ásgarði	B-Location
+Glæsibæ	B-Organization
 kl.	B-Time
 12	I-Time
 .	O
 
 Sunnudagur	B-Date
 :	O
-Dansleikur	B-Organization
+Dansleikur	O
 kl.	B-Time
 20	I-Time
 Caprí-tríó	O
@@ -78774,9 +78774,9 @@ Silfurlínan	O
 er	O
 opin	O
 á	O
-mánu-	O
+mánu-	B-Date
 og	O
-miðvikudögum	O
+miðvikudögum	B-Date
 kl.	B-Time
 10-12	I-Time
 .	O
@@ -78796,27 +78796,27 @@ Félagsstarfið	O
 er	O
 áfram	O
 í	O
-Ásgarði	B-Location
-Glæsibæ	B-Location
+Ásgarði	B-Organization
+Glæsibæ	B-Organization
 .	O
 
 Upplýsingar	O
 á	O
 skrifstofu	O
-FEB.	B-Person
+FEB.	B-Organization
 
 Félagsstarfið	O
 Hæðargarði	B-Location
 31	I-Location
 .	O
 
-Kl.	O
-9-12	O
+Kl.	B-Time
+9-12	I-Time
 böðun	O
 ,	O
 kl.	B-Time
 
-9-16.30	O
+9-16.30	B-Date
 opin	O
 vinnustofa	O
 ,	O
@@ -78858,8 +78858,8 @@ Gerðuberg	B-Organization
 félagsstarf	O
 .	O
 
-Kl.	O
-9-16.30	O
+Kl.	B-Time
+9-16.30	I-Time
 vinnustofur	O
 opnar	O
 ,	O
@@ -78893,8 +78893,8 @@ velkomnir	O
 Síðustu	O
 sýningadagar	O
 hjá	O
-Huga	B-Organization
-Jóhannessyni	I-Organization
+Huga	B-Person
+Jóhannessyni	I-Person
 .	O
 
 Veitingar	O
@@ -78913,14 +78913,14 @@ síma	O
 575-7720	O
 .	O
 
-Gjábakki	B-Location
+Gjábakki	B-Organization
 ,	O
 Fannborg	B-Location
 8	I-Location
 .	O
 
-Kl.	O
-9.30	O
+Kl.	B-Time
+9.30	I-Time
 málm-	O
 og	O
 silfursmíði	O
@@ -78931,10 +78931,10 @@ rammavefnaður	O
 ,	O
 kl.	B-Time
 13	I-Time
-bókband	I-Time
+bókband	O
 .	O
 
-Gullsmári	O
+Gullsmári	B-Organization
 ,	O
 Gullsmára	B-Location
 13	I-Location
@@ -78953,12 +78953,12 @@ heimabakað	O
 meðlæti	O
 .	O
 
-Hraunbær	O
-105	O
+Hraunbær	B-Location
+105	I-Location
 .	O
 
-Kl.	O
-9	O
+Kl.	B-Time
+9	I-Time
 handavinna	O
 ,	O
 útskurður	O
@@ -79021,11 +79021,11 @@ velkomnir	O
 .	O
 
 Hvassaleiti	B-Location
-56-58	O
+56-58	I-Location
 .	O
 
-Kl.	O
-9	O
+Kl.	B-Time
+9	I-Time
 böðun	O
 ,	O
 kl.	B-Time
@@ -79043,7 +79043,7 @@ velkomnir	O
 
 Undir	O
 liðnum	O
-Mæðramorgun	O
+Mæðramorgun	B-Miscellaneous
 :	O
 Nú	O
 er	O
@@ -79089,28 +79089,28 @@ vill	O
 .	O
 
 Norðurbrún	B-Location
-1	O
+1	I-Location
 .	O
 
-Kl.	O
-9-13	O
+Kl.	B-Time
+9-13	I-Time
 tréskurður	O
 ,	O
 kl.	B-Time
 9-17	I-Time
 ,	O
 hárgreiðsla	O
-kl.	O
-10-11	O
+kl.	B-Time
+10-11	I-Time
 boccia	O
 .	O
 
 Vesturgata	B-Location
-7	O
+7	I-Location
 .	O
 
-Kl.	O
-9-16	O
+Kl.	B-Time
+9-16	I-Time
 fótaaðgerðir	O
 og	O
 hárgreiðsla	O
@@ -79149,7 +79149,7 @@ einnig	O
 verður	O
 kennt	O
 á	O
-fimmtud.	O
+fimmtud.	B-Date
 kl.	B-Time
 13-14	I-Time
 Theodóra	B-Person
@@ -79506,7 +79506,7 @@ bók	O
 sagnfræðingsins	O
 Guðna	B-Person
 Th.	I-Person
-Jóhannessonar	B-Person
+Jóhannessonar	I-Person
 .	O
 
 Þjónustunni	O
@@ -79590,7 +79590,7 @@ hafi	O
 verið	O
 snyrtilega	O
 afhend	O
-CIA	O
+CIA	B-Organization
 mönnum	O
 í	O
 bandaríska	O
@@ -80092,7 +80092,7 @@ er	O
 fengin	O
 hjá	O
 vefsetrinu	O
-PC-guide.com	B-Location
+PC-guide.com	O
 þar	O
 sem	O
 nálgast	O
@@ -80285,13 +80285,13 @@ slík	O
 forritunarmál	O
 má	O
 nefna	O
-Java	B-Miscellaneous
+Java	B-Person
 ,	O
-C++	B-Miscellaneous
+C++	B-Person
 ,	O
 Pascal	B-Person
 ,	O
-Fortran	B-Organization
+Fortran	B-Person
 og	O
 ýmis	O
 fleiri	O
@@ -80467,7 +80467,7 @@ gerðinni	O
 »	O
 !	O
 
-POSIX	O
+POSIX	B-Miscellaneous
 (	O
 Portable	B-Miscellaneous
 Operating	I-Miscellaneous
@@ -80508,7 +80508,7 @@ stýrikerfa	O
 sem	O
 svipuðu	O
 til	O
-UNIX	O
+UNIX	B-Miscellaneous
 stýrikerfisins	O
 og	O
 voru	O
@@ -80531,13 +80531,13 @@ Hewlett	B-Person
 Packard	I-Person
 )	O
 ,	O
-AIX	O
+AIX	B-Organization
 (	O
 frá	O
 IBM	B-Organization
 )	O
 ,	O
-Solaris	B-Miscellaneous
+Solaris	B-Organization
 (	O
 frá	O
 SUN	B-Organization
@@ -80546,11 +80546,11 @@ SUN	B-Organization
 IRIX	O
 (	O
 frá	O
-Silicon	B-Organization
-Graphics	I-Organization
+Silicon	B-Location
+Graphics	I-Location
 )	O
 ,	O
-BSD	O
+BSD	B-Organization
 (	O
 frá	O
 Berkeley-háskóla	B-Organization
@@ -80558,9 +80558,9 @@ Berkeley-háskóla	B-Organization
 og	O
 upphaflega	O
 AT	B-Miscellaneous
-&	O
-T	O
-UNIX-ið	O
+&	I-Miscellaneous
+T	I-Miscellaneous
+UNIX-ið	I-Miscellaneous
 .	O
 
 Þegar	O
@@ -80725,7 +80725,7 @@ eru	O
 Unix-lík	B-Miscellaneous
 stýrikerfi	O
 (	O
-AIX	O
+AIX	B-Organization
 ,	O
 HP-UX	B-Miscellaneous
 ,	O
@@ -80738,13 +80738,13 @@ og	O
 fleiri	O
 )	O
 samkvæmt	O
-POSIX	O
+POSIX	B-Organization
 staðlinum	O
 ,	O
 einnig	O
 nýjasta	O
 Makka	B-Miscellaneous
-stýrikerfið	I-Miscellaneous
+stýrikerfið	O
 (	O
 Mac	B-Miscellaneous
 OS	I-Miscellaneous
@@ -80754,11 +80754,11 @@ X	I-Miscellaneous
 en	O
 fæst	O
 Windows	B-Miscellaneous
-stýrikerfin	I-Miscellaneous
+stýrikerfin	O
 .	O
 
 Samtökin	O
-IEEE	O
+IEEE	B-Organization
 viðhalda	O
 nú	O
 POSIX	O
@@ -80784,7 +80784,7 @@ stýrikerfi	O
 sem	O
 þó	O
 fylgja	O
-POSIX	O
+POSIX	B-Miscellaneous
 staðlinum	O
 ,	O
 fengið	O
@@ -80800,7 +80800,7 @@ líta	O
 ekki	O
 á	O
 sem	O
-POSIX	O
+POSIX	B-Miscellaneous
 stýrikerfi	O
 náð	O
 að	O
@@ -80812,10 +80812,10 @@ svo	O
 sem	O
 Windows	B-Miscellaneous
 NT	I-Miscellaneous
-4.0.	O
+4.0.	I-Miscellaneous
 
 Fyrirtækin	O
-AMD	O
+AMD	B-Miscellaneous
 og	O
 Intel	B-Organization
 framleiða	O
@@ -80839,7 +80839,7 @@ um	O
 »	O
 AMD	O
 og	O
-Intel	B-Organization
+Intel	B-Miscellaneous
 .	O
 
 Þessar	O
@@ -80884,7 +80884,7 @@ að	O
 ná	O
 frumkvæðinu	O
 af	O
-Intel	B-Organization
+Intel	B-Miscellaneous
 eftir	O
 að	O
 sá	O
@@ -80954,7 +80954,7 @@ er	O
 oft	O
 kallað	O
 «	O
-x86	O
+x86	B-Miscellaneous
 »	O
 skipanamengið	O
 ,	O
@@ -80969,8 +80969,8 @@ sem	O
 stendur	O
 fyrir	O
 «	O
-Intel	B-Organization
-Architecture	I-Organization
+Intel	B-Miscellaneous
+Architecture	I-Miscellaneous
 ,	O
 32	O
 bits	O
@@ -80983,7 +80983,7 @@ komu	O
 fyrst	O
 fram	O
 í	O
-Intel	B-Organization
+Intel	B-Miscellaneous
 386	O
 örgjörvanum	O
 árið	O
@@ -80997,7 +80997,7 @@ sem	O
 voru	O
 í	O
 fyrstu	O
-Intel-örgjörvunum	B-Location
+Intel-örgjörvunum	B-Miscellaneous
 ,	O
 sérstaklega	O
 þó	O
@@ -81036,7 +81036,7 @@ virkni	O
 til	O
 dæmis	O
 hefur	O
-Intel	B-Organization
+Intel	B-Miscellaneous
 bætt	O
 við	O
 skipunum	O
@@ -81047,9 +81047,9 @@ hraða	O
 margmiðlunar	O
 (	O
 kallað	O
-MMX	O
+MMX	B-Miscellaneous
 ,	O
-SSE	O
+SSE	B-Miscellaneous
 og	O
 SSE2	O
 )	O
@@ -81069,7 +81069,7 @@ kallað	O
 !	O
 )	O
 auk	O
-64-bita	O
+64-bita	B-Miscellaneous
 skipanna	O
 (	O
 kallað	O
@@ -81109,7 +81109,7 @@ sem	O
 eru	O
 eingöngu	O
 í	O
-Intel-örgjörvum	B-Location
+Intel-örgjörvum	B-Miscellaneous
 eða	O
 eingöngu	O
 í	O
@@ -81146,7 +81146,7 @@ hefur	O
 ekki	O
 tekið	O
 upp	O
-AMD	O
+AMD	B-Miscellaneous
 skipanirnar	O
 .	O
 
@@ -81172,9 +81172,9 @@ vélamálsskipanir	O
 en	O
 örgjörvarnir	O
 frá	O
-Intel	B-Organization
+Intel	B-Miscellaneous
 og	O
-AMD	B-Organization
+AMD	B-Miscellaneous
 .	O
 
 Það	O
@@ -81191,15 +81191,15 @@ runa	O
 vélamálsskipana	O
 )	O
 frá	O
-Makka	B-Organization
+Makka	B-Location
 keyrir	O
 ekki	O
 á	O
 tölvu	O
 með	O
-Intel	B-Organization
+Intel	B-Miscellaneous
 eða	O
-AMD	O
+AMD	B-Miscellaneous
 örgjörvum	O
 .	O
 
@@ -81267,7 +81267,7 @@ svokallaðar	O
 örskipanir	O
 »	O
 (	O
-Intel	B-Organization
+Intel	B-Miscellaneous
 kallar	O
 sínar	O
 «	O
@@ -81275,7 +81275,7 @@ micro-ops	O
 »	O
 ,	O
 en	O
-AMD	O
+AMD	B-Miscellaneous
 kallar	O
 sínar	O
 «	O
@@ -81306,7 +81306,7 @@ utan	O
 .	O
 
 Nýjustu	O
-AMD	O
+AMD	B-Miscellaneous
 og	O
 Intel	B-Miscellaneous
 örgjörvarnir	O
@@ -81419,9 +81419,9 @@ harða	O
 diskinn	O
 .	O
 
-AMD	O
+AMD	B-Miscellaneous
 og	O
-Intel	B-Person
+Intel	B-Miscellaneous
 fara	O
 dálítið	O
 mismunandi	O
@@ -81507,7 +81507,7 @@ sem	O
 er	O
 Intel-	B-Miscellaneous
 eða	O
-AMD-örgjörvi	B-Location
+AMD-örgjörvi	B-Miscellaneous
 .	O
 
 Hér	O
@@ -81576,7 +81576,7 @@ forritunarmáli	O
 ,	O
 svo	O
 sem	O
-Java	B-Person
+Java	B-Location
 ,	O
 inn	O
 í	O
@@ -81819,10 +81819,10 @@ Java	B-Miscellaneous
 ,	O
 C++	B-Miscellaneous
 ,	O
-C	O
+C	B-Organization
 ,	O
-Visual	B-Miscellaneous
-Basic	I-Miscellaneous
+Visual	O
+Basic	O
 og	O
 Pascal	B-Person
 ,	O
@@ -82176,7 +82176,7 @@ virka	O
 forritunarmál	O
 til	O
 dæmis	O
-C++	B-Person
+C++	B-Miscellaneous
 ?	O
 
 eftir	O
@@ -82316,8 +82316,8 @@ f.	O
 o	O
 Hvernig	O
 virkar	O
-Recycle	B-Person
-Bin	I-Person
+Recycle	B-Miscellaneous
+Bin	I-Miscellaneous
 ?	O
 
 Eyðast	O
@@ -82501,7 +82501,7 @@ skrá	O
 inniheldur	O
 til	O
 dæmis	O
-5000	O
+5000	B-Percent
 bæti	O
 af	O
 gögnum	O
@@ -82910,7 +82910,7 @@ skipanaglugga	O
 (	O
 með	O
 skipuninni	O
-DEL	B-Organization
+DEL	O
 )	O
 ,	O
 ef	O
@@ -83074,8 +83074,8 @@ kaupa	O
 til	O
 dæmis	O
 forritin	O
-Undo	B-Person
-Delete	I-Person
+Undo	B-Miscellaneous
+Delete	I-Miscellaneous
 og	O
 File	B-Miscellaneous
 Recover	I-Miscellaneous
@@ -83331,7 +83331,7 @@ vegna	O
 ráðleggur	O
 til	O
 dæmis	O
-Bandaríkjaher	B-Location
+Bandaríkjaher	B-Organization
 að	O
 skrifað	O
 sé	O
@@ -83413,7 +83413,7 @@ passía	O
 eða	O
 píningarhistoría	O
 sem	O
-Ordinansían	B-Miscellaneous
+Ordinansían	B-Organization
 vitnar	O
 til	O
 var	O
@@ -83421,7 +83421,7 @@ rit	O
 sem	O
 út	O
 kom	O
-1558	O
+1558	B-Date
 í	O
 þýðingu	O
 Odds	B-Person
@@ -83429,7 +83429,7 @@ Gottskálkssonar	I-Person
 og	O
 hét	O
 Historian	B-Miscellaneous
-pínunnar	O
+pínunnar	I-Miscellaneous
 og	O
 upprisu	O
 Drottins	B-Person
@@ -83441,8 +83441,8 @@ af	O
 fjórum	O
 guðspjallamönnum	O
 af	O
-D.	O
-Johanni	B-Person
+D.	B-Person
+Johanni	I-Person
 Bugenhagen	I-Person
 Pommerano	I-Person
 að	O
@@ -83501,7 +83501,7 @@ Passíusálmanna	B-Miscellaneous
 Hallgrímur	B-Person
 Pétursson	I-Person
 orti	O
-Passíusálma	B-Person
+Passíusálma	B-Miscellaneous
 sína	O
 út	O
 frá	O
@@ -83581,16 +83581,16 @@ eru	O
 að	O
 líkindum	O
 verk	O
-J.S.	B-Person
-Bachs	I-Person
+J.S.	B-Miscellaneous
+Bachs	I-Miscellaneous
 ,	O
-St.	O
-Matthäus	B-Organization
-Passion	I-Organization
+St.	B-Miscellaneous
+Matthäus	I-Miscellaneous
+Passion	I-Miscellaneous
 og	O
-St.	B-Location
-Johannes	B-Person
-Passion	I-Person
+St.	B-Organization
+Johannes	I-Organization
+Passion	I-Organization
 sem	O
 hafa	O
 verið	O
@@ -83600,9 +83600,9 @@ hér	O
 landi	O
 undir	O
 heitunum	O
-Matteusarpassían	B-Location
+Matteusarpassían	B-Miscellaneous
 og	O
-Jóhannesarpassían	B-Person
+Jóhannesarpassían	B-Miscellaneous
 .	O
 
 Að	O
@@ -83626,8 +83626,8 @@ Biblíunni	B-Miscellaneous
 .	O
 
 Í	O
-Gamla	O
-testamentinu	O
+Gamla	B-Miscellaneous
+testamentinu	I-Miscellaneous
 er	O
 litið	O
 á	O
@@ -83659,13 +83659,13 @@ vötnunum	O
 »	O
 (	O
 1.	O
-Mósebók	O
+Mósebók	B-Miscellaneous
 1.2	O
 )	O
 og	O
 í	O
 einum	O
-Davíðssálmi	B-Location
+Davíðssálmi	B-Miscellaneous
 segir	O
 :	O
 »	O
@@ -83694,8 +83694,8 @@ Sálmur	O
 Oftast	O
 er	O
 í	O
-Gamla	B-Location
-testamentinu	O
+Gamla	B-Miscellaneous
+testamentinu	I-Miscellaneous
 talað	O
 um	O
 heilagan	O
@@ -83735,25 +83735,25 @@ sem	O
 var	O
 kona	O
 (	O
-Dómarabókin	O
-4.	O
--	O
-5.	O
-kap.	O
+Dómarabókin	B-Miscellaneous
+4.	B-Date
+-	I-Date
+5.	I-Date
+kap.	I-Date
 )	O
 ,	O
-Gídeon	B-Location
+Gídeon	B-Organization
 (	O
-Dómarabókin	O
-6.	O
--	O
-8.	O
-kap.	O
+Dómarabókin	B-Date
+6.	I-Date
+-	I-Date
+8.	I-Date
+kap.	I-Date
 )	O
 og	O
-Samson	B-Miscellaneous
+Samson	B-Organization
 (	O
-Dómarabókin	O
+Dómarabókin	B-Miscellaneous
 13.	B-Date
 -	I-Date
 16.	I-Date
@@ -83783,7 +83783,7 @@ við	O
 það	O
 nefndist	O
 konungurinn	O
-Messías	B-Miscellaneous
+Messías	B-Person
 eða	O
 hinn	O
 smurði	O
@@ -83805,7 +83805,7 @@ til	O
 Babýlon	B-Location
 á	O
 árunum	O
-586-536	O
+586-536	B-Date
 f.Kr.	O
 hófu	O
 spámenn	O
@@ -83880,7 +83880,7 @@ dauða	O
 .	O
 
 Hugtakið	O
-Messías	O
+Messías	B-Miscellaneous
 tók	O
 þá	O
 að	O
@@ -83894,16 +83894,16 @@ að	O
 koma	O
 .	O
 
-Nýja	O
-testamentið	O
+Nýja	B-Miscellaneous
+testamentið	I-Miscellaneous
 lítur	O
 þannig	O
 á	O
 að	O
 þessir	O
 spádómar	O
-Gamla	O
-testamentisins	O
+Gamla	B-Miscellaneous
+testamentisins	I-Miscellaneous
 hafi	O
 ræst	O
 í	O
@@ -83911,8 +83911,8 @@ Jesú	B-Person
 .	O
 
 Allt	O
-Nýja	O
-testamentið	O
+Nýja	B-Miscellaneous
+testamentið	I-Miscellaneous
 er	O
 skráð	O
 út	O
@@ -83925,7 +83925,7 @@ Jesús	B-Person
 sé	O
 hinn	O
 fyrirheitni	O
-Messías	B-Location
+Messías	B-Person
 .	O
 
 Og	O
@@ -83946,7 +83946,7 @@ Kristur	B-Person
 hinn	O
 smurði	O
 ,	O
-Messías	B-Miscellaneous
+Messías	B-Person
 ,	O
 sá	O
 sem	O
@@ -84023,8 +84023,8 @@ anda	O
 sannleikans	O
 »	O
 (	O
-Jóhannesarguðspjall	B-Person
-14.16-17	O
+Jóhannesarguðspjall	B-Miscellaneous
+14.16-17	B-Date
 )	O
 .	O
 
@@ -84053,8 +84053,8 @@ verkum	O
 
 Í	O
 Postulasögunni	B-Miscellaneous
-2.	I-Miscellaneous
-kapitula	I-Miscellaneous
+2.	O
+kapitula	O
 er	O
 svo	O
 greint	O
@@ -84067,7 +84067,7 @@ rættist	O
 .	O
 
 Páll	B-Person
-postuli	O
+postuli	I-Person
 lýsir	O
 svo	O
 í	O
@@ -84177,7 +84177,7 @@ til	O
 ,	O
 m.a.	O
 í	O
-Sálmabókinni	B-Location
+Sálmabókinni	B-Miscellaneous
 ,	O
 t.d.	O
 sálmar	O
@@ -84205,7 +84205,7 @@ heilags	O
 anda	O
 :	O
 
-Guð	B-Person
+Guð	O
 helgur	O
 andi	O
 ,	O
@@ -84259,7 +84259,7 @@ oss	O
 líknarskjólið	O
 undir	O
 Jesú	B-Person
-kross	O
+kross	I-Person
 .	O
 
 Veit	O
@@ -84363,7 +84363,7 @@ Streym	O
 líknarlind	O
 .	O
 
-Guð	B-Person
+Guð	O
 helgur	O
 andi	O
 ,	O
@@ -84377,7 +84377,7 @@ með	O
 von	O
 um	O
 Jesú	B-Person
-fund	O
+fund	I-Person
 .	O
 
 Þá	O
@@ -84419,8 +84419,8 @@ Heimildir	O
 >	O
 
 Bækur	O
-Gamla	O
-testamentisins	O
+Gamla	B-Miscellaneous
+testamentisins	I-Miscellaneous
 standa	O
 nokkurn	O
 veginn	O
@@ -84465,7 +84465,7 @@ landsins	O
 
 Jósúa-	O
 og	O
-Dómarabækur	B-Location
+Dómarabækur	O
 greina	O
 frá	O
 töku	O
@@ -84477,7 +84477,7 @@ samfélags	O
 
 Samúelsbækur	O
 ,	O
-Konungabækur	B-Location
+Konungabækur	O
 og	O
 Kroníkubækur	B-Location
 greina	O
@@ -84494,9 +84494,9 @@ að	O
 í	O
 Babýlon	B-Location
 árið	O
-586	B-Money
-f.	I-Money
-Kr.	I-Money
+586	B-Date
+f.	I-Date
+Kr.	I-Date
 
 Á	O
 undan	O
@@ -84511,7 +84511,7 @@ Davíðs	B-Person
 konungs	O
 .	O
 
-Esra-	O
+Esra-	B-Miscellaneous
 og	O
 Nehemíabók	B-Miscellaneous
 greina	O
@@ -84525,7 +84525,7 @@ uppbyggingu	O
 Jerúsalem	B-Location
 .	O
 
-Esterarbók	B-Person
+Esterarbók	B-Miscellaneous
 er	O
 sérstök	O
 og	O
@@ -84589,13 +84589,13 @@ spámennirnir	O
 ,	O
 Jesaja	B-Person
 ,	O
-Jeremía	B-Miscellaneous
+Jeremía	B-Person
 (	O
 ásamt	O
-Harmljóðunum	B-Organization
+Harmljóðunum	B-Miscellaneous
 )	O
 ,	O
-Esekíel	B-Organization
+Esekíel	B-Person
 og	O
 Daníel	B-Person
 .	O
@@ -84649,8 +84649,8 @@ er	O
 hægt	O
 að	O
 lesa	O
-Gamla	B-Person
-testamentið	O
+Gamla	B-Miscellaneous
+testamentið	I-Miscellaneous
 eins	O
 og	O
 hverja	O
@@ -84689,7 +84689,7 @@ byrja	O
 til	O
 dæmis	O
 á	O
-Sálmunum	B-Location
+Sálmunum	B-Miscellaneous
 eða	O
 einhverju	O
 öðru	O
@@ -84817,21 +84817,21 @@ regluna	O
 leið	O
 :	O
 «	O
-Nýja	O
-testamentið	O
+Nýja	B-Miscellaneous
+testamentið	I-Miscellaneous
 liggur	O
 hulið	O
 í	O
-Gamla	B-Location
-testamentinu	O
+Gamla	B-Miscellaneous
+testamentinu	I-Miscellaneous
 .	O
 
-Gamla	O
-testamentið	O
+Gamla	B-Miscellaneous
+testamentið	I-Miscellaneous
 opnast	O
 í	O
-Nýja	B-Location
-testamentinu	O
+Nýja	B-Miscellaneous
+testamentinu	I-Miscellaneous
 .	O
 »	O
 
@@ -84840,8 +84840,8 @@ er	O
 ljóst	O
 af	O
 lestri	O
-Nýja	B-Person
-testamentisins	O
+Nýja	B-Miscellaneous
+testamentisins	I-Miscellaneous
 að	O
 Jesús	B-Person
 kom	O
@@ -84852,8 +84852,8 @@ túlkun	O
 boðum	O
 og	O
 fyrirmælum	O
-Gamla	B-Person
-testamentisins	O
+Gamla	B-Miscellaneous
+testamentisins	I-Miscellaneous
 og	O
 tefldi	O
 fram	O
@@ -84901,8 +84901,8 @@ Jesús	B-Person
 merkingu	O
 allra	O
 ákvæða	O
-Gamla	O
-testamentisins	O
+Gamla	B-Miscellaneous
+testamentisins	I-Miscellaneous
 saman	O
 í	O
 tvöfalda	O
@@ -84951,8 +84951,8 @@ raunar	O
 bæði	O
 til	O
 í	O
-Gamla	B-Location
-testamentinu	O
+Gamla	B-Miscellaneous
+testamentinu	I-Miscellaneous
 en	O
 eru	O
 þar	O
@@ -84960,8 +84960,8 @@ aðskilin	O
 .	O
 
 Í	O
-Nýja	O
-testamentinu	O
+Nýja	B-Miscellaneous
+testamentinu	I-Miscellaneous
 eru	O
 elskan	O
 til	O
@@ -84974,8 +84974,8 @@ skýrari	O
 hátt	O
 en	O
 í	O
-Gamla	B-Location
-testamentinu	O
+Gamla	B-Miscellaneous
+testamentinu	I-Miscellaneous
 .	O
 
 Hvað	O
@@ -85022,7 +85022,7 @@ við	O
 veginn	O
 .	O
 
-Samverjinn	O
+Samverjinn	B-Miscellaneous
 hirti	O
 hins	O
 vegar	O
@@ -85050,7 +85050,7 @@ sér	O
 ekki	O
 af	O
 særðum	O
-Gyðingi	B-Organization
+Gyðingi	B-Miscellaneous
 .	O
 
 Þvert	O
@@ -85138,7 +85138,7 @@ hann	O
 meðal	O
 annars	O
 (	O
-Markúsarguðspjall	B-Person
+Markúsarguðspjall	B-Miscellaneous
 2.	O
 kapítuli	O
 ,	O
@@ -85159,13 +85159,13 @@ afnam	O
 þar	O
 með	O
 ákvæði	O
-Gamla	B-Organization
-testamentisins	O
+Gamla	B-Miscellaneous
+testamentisins	I-Miscellaneous
 um	O
 fæðuforskriftir	O
 (	O
 sjá	O
-Markúsarguðspjall	B-Person
+Markúsarguðspjall	B-Miscellaneous
 7.19	O
 )	O
 .	O
@@ -85186,8 +85186,8 @@ túlka	O
 ákvæði	O
 í	O
 lögmáli	O
-Gamla	O
-testamentisins	O
+Gamla	B-Miscellaneous
+testamentisins	I-Miscellaneous
 í	O
 ljósi	O
 Krists	B-Person
@@ -85258,7 +85258,7 @@ en	O
 mönnum	O
 »	O
 (	O
-Postulasagan	O
+Postulasagan	B-Miscellaneous
 5.29	O
 )	O
 .	O
@@ -85266,8 +85266,8 @@ Postulasagan	O
 Gyðingar	O
 flokka	O
 rit	O
-Gamla	O
-testamentisins	O
+Gamla	B-Miscellaneous
+testamentisins	I-Miscellaneous
 í	O
 lögmálið	O
 ,	O
@@ -85278,8 +85278,8 @@ spámennina	O
 
 Lögmálið	O
 er	O
-Mósebækurnar	O
-fimm	O
+Mósebækurnar	B-Miscellaneous
+fimm	I-Miscellaneous
 ,	O
 ritin	O
 eru	O
@@ -85296,7 +85296,7 @@ spámannaritin	O
 .	O
 
 Hjá	O
-Gyðingum	O
+Gyðingum	B-Miscellaneous
 nýtur	O
 lögmálið	O
 (	O
@@ -85336,10 +85336,10 @@ klassísk	O
 aðfangadag	B-Date
 .	O
 
-RÚV	O
+RÚV	B-Organization
 sýndi	O
 okkur	O
-Dívurnar	O
+Dívurnar	B-Miscellaneous
 á	O
 meira	O
 en	O
@@ -85425,7 +85425,7 @@ hellur	O
 
 Hvernig	O
 dettur	O
-RÚV	O
+RÚV	B-Organization
 í	O
 hug	O
 að	O
@@ -85531,7 +85531,7 @@ kom	O
 á	O
 heimavígstöðvarnar	O
 um	O
-hálfátta	O
+hálfátta	B-Time
 .	O
 
 Þá	O
@@ -85618,8 +85618,8 @@ mér	O
 kveðju	O
 vinar	O
 míns	O
-Carlosar	B-Organization
-Ferqueira	I-Organization
+Carlosar	B-Person
+Ferqueira	I-Person
 .	O
 
 Hann	O
@@ -85688,7 +85688,7 @@ dökk	O
 gleraugu	O
 út	O
 af	O
-Borginni	O
+Borginni	B-Organization
 einhvern	O
 tíma	O
 í	O
@@ -85699,7 +85699,7 @@ kringum	O
 Hann	O
 sá	O
 aldrei	O
-Borghese	B-Person
+Borghese	B-Location
 en	O
 les	O
 bækur	O
@@ -85723,7 +85723,7 @@ upp	O
 því	O
 tók	O
 ég	O
-RÚV	O
+RÚV	B-Organization
 aftur	O
 í	O
 sátt	O
@@ -85799,7 +85799,7 @@ skjáinn	O
 ,	O
 afhverju	O
 er	O
-RÚV	O
+RÚV	B-Organization
 að	O
 pína	O
 mig	O
@@ -86036,7 +86036,7 @@ sunnudagur	B-Date
 25.	I-Date
 desember	I-Date
 2005	I-Date
-Jóladagsprédikun	B-Miscellaneous
+Jóladagsprédikun	O
 Rafiðnaðarsambandsins	B-Organization
 
 Í	O
@@ -86860,7 +86860,7 @@ grunduð	O
 á	O
 byggingarhefð	O
 frá	O
-Norður-Togo	B-Organization
+Norður-Togo	B-Location
 .	O
 
 Þeir	O
@@ -86886,7 +86886,7 @@ er	O
 í	O
 smíðum	O
 fyrir	O
-Spes	B-Location
+Spes	O
 á	O
 Íslandi	B-Location
 ,	O
@@ -86926,7 +86926,7 @@ nokkurra	O
 landa	O
 ,	O
 þó	O
-Íslandsdeildin	B-Organization
+Íslandsdeildin	B-Miscellaneous
 beri	O
 þau	O
 að	O
@@ -87017,7 +87017,7 @@ fyrirtæki	O
 
 Baugur	O
 tók	O
-Spes	O
+Spes	B-Person
 opnum	O
 örmum	O
 .	O
@@ -87169,7 +87169,7 @@ sjálft	O
 .	O
 
 Þegar	O
-Spes-félagar	O
+Spes-félagar	B-Miscellaneous
 hafa	O
 farið	O
 til	O
@@ -87297,7 +87297,7 @@ leiða	O
 fleiri	O
 löndum	O
 en	O
-Togo	B-Person
+Togo	B-Location
 ,	O
 og	O
 fleiri	O
@@ -87325,13 +87325,13 @@ jólagjöf	O
 þá	O
 er	O
 bankareikningur	O
-Spes	O
-1151-26-2200	O
+Spes	B-Person
+1151-26-2200	B-Date
 og	O
 kennitala	O
 Spes	O
 er	O
-471100-2930	O
+471100-2930	B-Date
 .	O
 
 Allt	O
@@ -87368,7 +87368,7 @@ Litla-Hrauni	B-Organization
 
 Ég	O
 eyddi	O
-Þorláksmessu	B-Person
+Þorláksmessu	B-Date
 í	O
 einstaklega	O
 skemmtilegum	O
@@ -87412,9 +87412,9 @@ var	O
 haldið	O
 í	O
 nafni	O
-Hróksins	B-Miscellaneous
-og	I-Miscellaneous
-Frelsingjans	I-Miscellaneous
+Hróksins	B-Organization
+og	I-Organization
+Frelsingjans	I-Organization
 ,	O
 sem	O
 er	O
@@ -87509,7 +87509,7 @@ hef	O
 verið	O
 félagi	O
 í	O
-Hróknum	B-Location
+Hróknum	B-Organization
 frá	O
 upphafi	O
 ,	O
@@ -87577,7 +87577,7 @@ góð	O
 málefni	O
 .	O
 
-Hrókurinn	O
+Hrókurinn	B-Organization
 hefur	O
 sinnt	O
 föngum	O
@@ -87834,7 +87834,7 @@ sjónir	O
 hef	O
 skilið	O
 grundvöll	O
-Kjaradóms	B-Miscellaneous
+Kjaradóms	B-Organization
 svo	O
 að	O
 hann	O
@@ -87881,7 +87881,7 @@ annars	O
 skoðað	O
 forsendurnar	O
 sem	O
-Kjaradómur	B-Miscellaneous
+Kjaradómur	B-Organization
 starfar	O
 eftir	O
 í	O
@@ -88066,7 +88066,7 @@ Afhverju	O
 ræða	O
 Samtök	B-Organization
 atvinnurekenda	I-Organization
-hana	O
+hana	I-Organization
 ekki	O
 líka	O
 í	O
@@ -88387,7 +88387,7 @@ sín	O
 hér	O
 við	O
 tímaritið	O
-Þjóðmál	B-Organization
+Þjóðmál	B-Miscellaneous
 ,	O
 sem	O
 ég	O
@@ -88461,7 +88461,7 @@ biskupinn	O
 vitnar	O
 .	O
 
-Þjóðmál	O
+Þjóðmál	B-Miscellaneous
 er	O
 raunar	O
 ansi	O
@@ -88543,7 +88543,7 @@ stjórnmál	O
 öðru	O
 lagi	O
 gefur	O
-Þjóðmál	B-Organization
+Þjóðmál	B-Miscellaneous
 okkur	O
 sem	O
 erum	O
@@ -88579,7 +88579,7 @@ mynt	O
 kannski	O
 gamaldags	O
 á	O
-Netöld	B-Location
+Netöld	B-Miscellaneous
 að	O
 gefa	O
 út	O
@@ -88647,7 +88647,7 @@ að	O
 skilja	O
 svo	O
 að	O
-Þjóðmál	B-Location
+Þjóðmál	B-Miscellaneous
 sé	O
 leiðinlegt	O
 eða	O
@@ -88694,7 +88694,7 @@ og	O
 fyrirsjáanlegar	O
 um	O
 vonsku	O
-Reykjavíkurlistans	B-Location
+Reykjavíkurlistans	B-Organization
 og	O
 gríðarlega	O
 ólýðræðisleg	O
@@ -88713,7 +88713,7 @@ sem	O
 ég	O
 sé	O
 í	O
-Mogga	B-Location
+Mogga	B-Organization
 að	O
 er	O
 víst	O
@@ -88831,7 +88831,7 @@ leið	O
 viðtali	O
 á	O
 Stöð	B-Organization
-2	O
+2	I-Organization
 að	O
 borgarstjórinn	O
 þáverandi	O
@@ -88948,7 +88948,7 @@ að	O
 þær	O
 birtist	O
 í	O
-Þjóðmálum	B-Location
+Þjóðmálum	B-Miscellaneous
 .	O
 
 Þessi	O
@@ -88958,7 +88958,7 @@ sýnir	O
 hins	O
 vegar	O
 að	O
-Þjóðmál	B-Organization
+Þjóðmál	B-Miscellaneous
 vekja	O
 menn	O
 til	O
@@ -88983,13 +88983,13 @@ hina	O
 stórmerku	O
 bók	O
 ,	O
-Völundarhús	O
-valdsins	O
+Völundarhús	B-Miscellaneous
+valdsins	I-Miscellaneous
 ,	O
 eftir	O
 Guðna	B-Person
 Th.	I-Person
-Jóhannessona	B-Person
+Jóhannessona	I-Person
 .	O
 
 Sömuleiðis	O
@@ -89130,7 +89130,7 @@ mánudagur	B-Date
 19.	I-Date
 desember	I-Date
 2005	I-Date
-Cameron	B-Miscellaneous
+Cameron	O
 fer	O
 með	O
 himinskautum	O
@@ -89164,10 +89164,10 @@ virðist	O
 vera	O
 að	O
 rústa	O
-Verkamannaflokknum	B-Miscellaneous
+Verkamannaflokknum	B-Organization
 .	O
 
-Íhaldsmenn	O
+Íhaldsmenn	B-Miscellaneous
 undir	O
 forystu	O
 David	B-Person
@@ -89187,7 +89187,7 @@ með	O
 9%	B-Percent
 forskot	O
 á	O
-Verkamannaflokkinn	B-Miscellaneous
+Verkamannaflokkinn	B-Organization
 í	O
 könnunum	O
 .	O
@@ -89203,17 +89203,17 @@ birtist	O
 í	O
 gær	O
 í	O
-Observer	B-Location
+Observer	B-Organization
 .	O
 
-Verkamannaflokkurinn	O
+Verkamannaflokkurinn	B-Organization
 er	O
 aðeins	O
 með	O
 31%	B-Percent
 .	O
 
-Frjálslyndir	O
+Frjálslyndir	B-Organization
 mælast	O
 með	O
 21%	B-Percent
@@ -89315,7 +89315,7 @@ vel	O
 ræðu	O
 á	O
 landsþingi	O
-Íhaldsmanna	B-Location
+Íhaldsmanna	B-Miscellaneous
 í	O
 haust	O
 ,	O
@@ -89419,7 +89419,7 @@ fyrir	O
 róða	O
 fyrri	O
 afstöðu	O
-Íhaldsflokksins	O
+Íhaldsflokksins	B-Organization
 til	O
 hælisleitenda	O
 .	O
@@ -89440,7 +89440,7 @@ hinn	O
 nýi	O
 formaður	O
 að	O
-Íhaldsflokkurinn	O
+Íhaldsflokkurinn	B-Organization
 -	O
 og	O
 Bretland	B-Location
@@ -89678,7 +89678,7 @@ viku	O
 í	O
 báðum	O
 deildum	O
-Bandaríkjaþings	B-Location
+Bandaríkjaþings	B-Miscellaneous
 þrátt	O
 fyrir	O
 harða	O
@@ -89806,7 +89806,7 @@ nægilega	O
 vel	O
 til	O
 lagafrumvarps	O
-McCains	O
+McCains	B-Miscellaneous
 -	O
 sem	O
 þó	O
@@ -89904,7 +89904,7 @@ honum	O
 bregðast	O
 ?	O
 
-Hershöfðinginn	O
+Hershöfðinginn	B-Person
 kvaðst	O
 ekki	O
 vilja	O
@@ -89949,7 +89949,7 @@ Við	O
 aðstæður	O
 ,	O
 að	O
-CIA	O
+CIA	B-Organization
 teldi	O
 allar	O
 hefðbundnar	O
@@ -90010,7 +90010,7 @@ viðhorf	O
 leiða	O
 ?	O
 
-CIA	O
+CIA	B-Organization
 er	O
 í	O
 krossferð	O
@@ -90115,7 +90115,7 @@ sérfræðingar	O
 «	O
 á	O
 vegum	O
-CIA	O
+CIA	B-Organization
 telja	O
 leyfilegt	O
 og	O
@@ -90137,8 +90137,8 @@ sem	O
 liggur	O
 fyrir	O
 sbr.	O
-Abu	O
-Ghraib	O
+Abu	B-Person
+Ghraib	I-Person
 fangelsið	O
 og	O
 Guantanamó	B-Location
@@ -90174,7 +90174,7 @@ lagafrumvarps	O
 McCains	B-Person
 .	O
 
-Bush	O
+Bush	B-Person
 barðist	O
 gegn	O
 því	O
@@ -90196,7 +90196,7 @@ samþykkt	O
 þess	O
 .	O
 
-Varaforsetinn	B-Miscellaneous
+Varaforsetinn	O
 ,	O
 Dick	B-Person
 Cheney	I-Person
@@ -90209,7 +90209,7 @@ að	O
 fá	O
 undanþágu	O
 fyrir	O
-CIA	O
+CIA	B-Organization
 frá	O
 lögunum	O
 þegar	O
@@ -90638,7 +90638,7 @@ starfslok	O
 Valgerðar	B-Person
 H.	I-Person
 Bjarnadóttur	I-Person
-Jafnréttisstýru	I-Person
+Jafnréttisstýru	O
 á	O
 sínum	O
 tíma	O
@@ -90700,7 +90700,7 @@ og	O
 útskrifaðist	O
 þaðan	O
 með	O
-BS-gráðu	B-Person
+BS-gráðu	B-Miscellaneous
 ,	O
 en	O
 að	O
@@ -90802,10 +90802,10 @@ hinum	O
 virtu	O
 rannsóknarstofum	O
 AT	B-Miscellaneous
-&	O
-T	O
-Bell	B-Person
-Laboratories	I-Person
+&	I-Miscellaneous
+T	I-Miscellaneous
+Bell	I-Miscellaneous
+Laboratories	I-Miscellaneous
 ,	O
 í	O
 New	B-Location
@@ -90814,10 +90814,10 @@ Jersey	I-Location
 sem	O
 síðar	O
 varð	O
-AT	O
-&	O
-T	O
-Research	O
+AT	B-Miscellaneous
+&	I-Miscellaneous
+T	I-Miscellaneous
+Research	I-Miscellaneous
 -	O
 Shannon	B-Person
 Laboratories	I-Person
@@ -90937,8 +90937,8 @@ nörd	O
 .	O
 
 Brú	O
-Venture	B-Organization
-Capital	I-Organization
+Venture	B-Person
+Capital	I-Person
 er	O
 fjárfestingarfélag	O
 sem	O
@@ -90972,10 +90972,10 @@ hann	O
 vann	O
 hjá	O
 AT	B-Organization
-&	O
-T	O
-Bell	B-Person
-Laboratories	I-Person
+&	I-Organization
+T	I-Organization
+Bell	I-Organization
+Laboratories	I-Organization
 ,	O
 en	O
 hann	O
@@ -91030,8 +91030,8 @@ eins	O
 og	O
 MIT	B-Organization
 og	O
-Carnegie	B-Organization
-Mellon	I-Organization
+Carnegie	B-Miscellaneous
+Mellon	I-Miscellaneous
 ,	O
 en	O
 þar	O
@@ -91213,7 +91213,7 @@ að	O
 hverjum	O
 tíma	O
 verði	O
-Brú	O
+Brú	B-Location
 með	O
 um	O
 fimmtán	O
@@ -91225,7 +91225,7 @@ gangi	O
 Meðal	O
 fyrirtækja	O
 sem	O
-Brú	B-Person
+Brú	B-Organization
 er	O
 hluthafi	O
 í	O
@@ -91307,7 +91307,7 @@ við	O
 Gísla	B-Person
 Hjálmtýsson	I-Person
 í	O
-Viðskiptablaði	B-Location
+Viðskiptablaði	B-Organization
 Morgunblaðsins	B-Organization
 var	O
 rangt	O
@@ -91317,9 +91317,9 @@ farið	O
 sagt	O
 var	O
 að	O
-Brú	B-Location
-Venture	I-Location
-Capital	I-Location
+Brú	B-Miscellaneous
+Venture	I-Miscellaneous
+Capital	I-Miscellaneous
 væri	O
 hluthafi	O
 í	O
@@ -91333,7 +91333,7 @@ Hið	O
 rétta	O
 er	O
 að	O
-Brú	O
+Brú	B-Location
 hefur	O
 selt	O
 hluti	O
@@ -91354,7 +91354,7 @@ höfuðborgarsvæðisins	O
 er	O
 án	O
 efa	O
-Bakarameistarinn	O
+Bakarameistarinn	B-Organization
 .	O
 
 Verslanir	O
@@ -91405,7 +91405,7 @@ fyrirtækisins	O
 er	O
 að	O
 kalla	O
-Bakarameistarann	O
+Bakarameistarann	B-Organization
 fjölskyldufyrirtæki	O
 þrátt	O
 fyrir	O
@@ -91578,7 +91578,7 @@ hennar	O
 
 Verslunin	O
 í	O
-Suðurveri	B-Organization
+Suðurveri	B-Location
 hefur	O
 starfað	O
 allt	O
@@ -91653,7 +91653,7 @@ og	O
 breyttum	O
 því	O
 í	O
-Bakarameistarann	B-Organization
+Bakarameistarann	B-Location
 ,	O
 segir	O
 Vigfús	B-Person
@@ -91912,8 +91912,8 @@ ferskast	O
 Viðskiptavinurinn	O
 í	O
 fyrirrúmi	O
-Breyttar	B-Miscellaneous
-neysluvenjur	I-Miscellaneous
+Breyttar	O
+neysluvenjur	O
 hafa	O
 haft	O
 áhrif	O
@@ -91932,7 +91932,7 @@ en	O
 áður	O
 og	O
 hefur	O
-Bakarameistarinn	O
+Bakarameistarinn	B-Organization
 mætt	O
 þeim	O
 óskum	O
@@ -92185,7 +92185,7 @@ Vigfús	B-Person
 
 Verslunin	O
 í	O
-Austurveri	B-Organization
+Austurveri	B-Location
 var	O
 hönnuð	O
 af	O
@@ -92333,7 +92333,7 @@ hann	O
 Í	O
 hnotskurn	O
 »	O
-Bakarameistarinn	O
+Bakarameistarinn	B-Organization
 var	O
 stofnsettur	O
 árið	O
@@ -92419,7 +92419,7 @@ framtíðinni	O
 .	O
 
 Hefur	O
-Bakarameistarinn	O
+Bakarameistarinn	B-Organization
 til	O
 að	O
 mynda	O
@@ -92437,8 +92437,8 @@ UPPHAFSMAÐUR	O
 fríblaðanna	O
 ,	O
 Svíinn	B-Miscellaneous
-Pelle	I-Miscellaneous
-Törnberg	I-Miscellaneous
+Pelle	B-Person
+Törnberg	I-Person
 ,	O
 lætur	O
 af	O
@@ -92455,7 +92455,7 @@ síðar	O
 
 Breska	O
 blaðið	O
-Guardian	B-Person
+Guardian	B-Organization
 greinir	O
 frá	O
 þessu	O
@@ -92463,10 +92463,10 @@ frá	O
 
 Frá	O
 því	O
-Törnberg	B-Person
+Törnberg	B-Location
 stofnaði	O
 fyrsta	O
-Metro-fríblaðið	B-Organization
+Metro-fríblaðið	B-Miscellaneous
 í	O
 Stokkhólmi	B-Location
 á	O
@@ -92497,7 +92497,7 @@ heim	O
 
 Í	O
 frétt	O
-Guardian	B-Person
+Guardian	B-Organization
 segir	O
 að	O
 Törnberg	B-Person
@@ -92562,8 +92562,8 @@ um	O
 víkinga	O
 á	O
 klaustrið	O
-Lindisfarne	B-Organization
-793	O
+Lindisfarne	B-Location
+793	I-Location
 sem	O
 markaði	O
 upphaf	O
@@ -92577,7 +92577,7 @@ ein	O
 
 »	O
 
-Víkingarnir	O
+Víkingarnir	B-Miscellaneous
 frá	O
 Íslandi	B-Location
 komnir	O
@@ -92646,7 +92646,7 @@ frændlandinu	O
 Eistlandi	B-Location
 .	O
 
-Svíar	O
+Svíar	B-Miscellaneous
 áberandi	O
 Svíar	B-Miscellaneous
 eru	O
@@ -92741,7 +92741,7 @@ fram	O
 sænsku	O
 því	O
 þótt	O
-Finnlands-Svíar	B-Location
+Finnlands-Svíar	B-Miscellaneous
 séu	O
 aðeins	O
 5,5%	B-Percent
@@ -92766,7 +92766,7 @@ og	O
 til	O
 að	O
 mynda	O
-Hufvudstadsbladet	B-Location
+Hufvudstadsbladet	B-Organization
 sem	O
 hóf	O
 göngu	O
@@ -92795,8 +92795,8 @@ sjálfir	O
 gerðu	O
 um	O
 miðjan	O
-níunda	O
-áratuginn	O
+níunda	B-Date
+áratuginn	I-Date
 ,	O
 þ.e.	O
 þegar	O
@@ -92976,7 +92976,7 @@ greint	O
 frá	O
 því	O
 að	O
-Glitnir	O
+Glitnir	B-Organization
 hefði	O
 keypt	O
 68%	B-Percent
@@ -92990,8 +92990,8 @@ og	O
 muni	O
 greiða	O
 um	O
-30	O
-milljarða	O
+30	B-Money
+milljarða	I-Money
 fyrir	O
 allt	O
 hlutafé	O
@@ -93006,7 +93006,7 @@ var	O
 greint	O
 frá	O
 því	O
-Exista	B-Location
+Exista	B-Organization
 væri	O
 orðinn	O
 stærsti	O
@@ -93052,10 +93052,10 @@ Sampo	B-Organization
 Group	I-Organization
 er	O
 um	O
-170	O
-milljarðar	O
-íslenskra	O
-króna	O
+170	B-Money
+milljarðar	I-Money
+íslenskra	I-Money
+króna	I-Money
 sem	O
 gerir	O
 þetta	O
@@ -93093,7 +93093,7 @@ fyrir	O
 með	O
 fjárfestingunni	O
 í	O
-Sampo	B-Location
+Sampo	B-Organization
 en	O
 allt	O
 virðist	O
@@ -93135,15 +93135,15 @@ söluna	O
 bankastarfsemi	O
 sinni	O
 til	O
-Danske	B-Person
-Bank	I-Person
+Danske	B-Organization
+Bank	I-Organization
 seint	O
 á	O
 síðasta	O
 ári	O
 er	O
-Sampo	B-Location
-Group	B-Organization
+Sampo	B-Organization
+Group	I-Organization
 beinlínis	O
 með	O
 fullar	O
@@ -93185,10 +93185,10 @@ Finnlandi	B-Location
 er	O
 því	O
 um	O
-200	O
-milljarðar	O
-íslenskra	O
-króna	O
+200	B-Money
+milljarðar	I-Money
+íslenskra	I-Money
+króna	I-Money
 .	O
 
 Fyrir	O
@@ -93266,19 +93266,19 @@ en	O
 bréf	O
 þess	O
 í	O
-Sampo	B-Location
-Group	I-Location
+Sampo	B-Organization
+Group	I-Organization
 .	O
 
 Háloftakjör	O
 í	O
-Finnair	B-Organization
+Finnair	B-Location
 Íslendingar	B-Miscellaneous
 hafa	O
 átt	O
 hlut	O
 í	O
-Finnair	B-Location
+Finnair	B-Miscellaneous
 í	O
 drjúgan	O
 tíma	O
@@ -93292,7 +93292,7 @@ keypti	O
 upphaflega	O
 hlut	O
 í	O
-Finnair	B-Organization
+Finnair	B-Miscellaneous
 snemma	O
 árs	O
 2005	B-Date
@@ -93359,8 +93359,8 @@ eignaðist	O
 það	O
 hlut	O
 Straums	B-Organization
-í	O
-Finnair	B-Organization
+í	I-Organization
+Finnair	I-Organization
 og	O
 á	O
 sem	O
@@ -93378,10 +93378,10 @@ hlutar	O
 sé	O
 í	O
 kringum	O
-24	O
-milljarða	O
-íslenskra	O
-króna	O
+24	B-Money
+milljarða	I-Money
+íslenskra	I-Money
+króna	I-Money
 .	O
 
 En	O
@@ -93434,7 +93434,7 @@ sem	O
 Straumur-Burðarás	B-Organization
 lagði	O
 í	O
-Finnair	B-Organization
+Finnair	B-Miscellaneous
 á	O
 sínum	O
 tíma	O
@@ -93462,14 +93462,14 @@ febrúar	B-Date
 Burðarás	B-Organization
 fjárfesti	O
 í	O
-Finnair	B-Location
+Finnair	B-Organization
 ,	O
 var	O
 gengi	O
 bréfa	O
 þess	O
-sex	O
-evrur	O
+sex	B-Money
+evrur	I-Money
 á	O
 hlut	O
 en	O
@@ -93480,8 +93480,8 @@ upphafi	O
 vikur	O
 rétt	O
 tæpar	O
-14	O
-evrur	O
+14	B-Money
+evrur	I-Money
 á	O
 hlut	O
 sem	O
@@ -93526,10 +93526,10 @@ sem	O
 kom	O
 inn	O
 í	O
-Finnair	B-Organization
+Finnair	B-Miscellaneous
 um	O
-áramótin	O
-2005	B-Date
+áramótin	B-Date
+2005	I-Date
 -	I-Date
 2006	I-Date
 ,	O
@@ -93540,7 +93540,7 @@ bólgnað	O
 vegna	O
 eignarhlutarins	O
 í	O
-Finnair	B-Organization
+Finnair	B-Miscellaneous
 -	O
 enn	O
 að	O
@@ -93563,12 +93563,12 @@ umtalsverðar	O
 eignir	O
 .	O
 
-Novator	B-Person
+Novator	B-Organization
 ,	O
 fjárfestingarfélag	O
-Björgólfs	B-Person
-Thors	I-Person
-Björgólfssonar	I-Person
+Björgólfs	B-Organization
+Thors	I-Organization
+Björgólfssonar	I-Organization
 ,	O
 á	O
 liðlega	O
@@ -93621,7 +93621,7 @@ samruna	O
 Elisa	B-Organization
 og	O
 farsímafyrirtækisins	O
-Saunalahti	B-Location
+Saunalahti	B-Organization
 sumarið	O
 2005	B-Date
 en	O
@@ -93638,7 +93638,7 @@ var	O
 gengi	O
 bréfa	O
 í	O
-Elisu	B-Organization
+Elisu	B-Location
 um	O
 14	O
 evrur	O
@@ -93771,8 +93771,8 @@ starfsemi	O
 Finnlandi	B-Location
 .	O
 
-Kaupþing	O
-banki	O
+Kaupþing	B-Organization
+banki	I-Organization
 hefur	O
 um	O
 árabil	O
@@ -93786,10 +93786,10 @@ frá	O
 árinu	O
 2001	B-Date
 þegar	O
-Kaupþing	B-Miscellaneous
-keypti	I-Miscellaneous
-Pankkiiriliike	I-Miscellaneous
-Sofi	I-Miscellaneous
+Kaupþing	B-Organization
+keypti	I-Organization
+Pankkiiriliike	I-Organization
+Sofi	I-Organization
 .	O
 
 Sofi	O
@@ -93807,8 +93807,8 @@ Bank	I-Organization
 Oyj	I-Organization
 .	O
 
-Kaupþing	O
-banki	O
+Kaupþing	B-Organization
+banki	I-Organization
 hefur	O
 eflt	O
 starfsemi	O
@@ -93860,8 +93860,8 @@ gæti	O
 verið	O
 á	O
 bilinu	O
-10	B-Percent
--	I-Percent
+10	O
+-	O
 15	B-Money
 milljarðar	I-Money
 króna	I-Money
@@ -93871,8 +93871,8 @@ króna	I-Money
 fyrir	O
 utan	O
 á	O
-Kaupþing	O
-banki	O
+Kaupþing	B-Organization
+banki	I-Organization
 liðlega	O
 30%	B-Percent
 hlut	O
@@ -93912,8 +93912,8 @@ staðar	O
 bilinu	O
 260	O
 -	O
-280	O
-milljarðar	O
+280	B-Money
+milljarðar	I-Money
 og	O
 ljóst	O
 að	O
@@ -93937,7 +93937,7 @@ félaga	O
 KÖNNUN	O
 á	O
 vegum	O
-Heimsviðskiptaráðstefnunnar	O
+Heimsviðskiptaráðstefnunnar	B-Organization
 í	O
 Davos	B-Location
 ,	O
@@ -93945,7 +93945,7 @@ World	B-Organization
 Economic	I-Organization
 Forum	I-Organization
 (	O
-WEF	O
+WEF	B-Organization
 )	O
 ,	O
 á	O
@@ -94095,13 +94095,13 @@ Vikuleiga	O
 í	O
 sumar	O
 er	O
-49.000	O
-krónur	O
+49.000	B-Money
+krónur	I-Money
 og	O
 helgarleigan	O
 er	O
-22.000	O
-krónur	O
+22.000	B-Money
+krónur	I-Money
 .	O
 
 Koðrabúðir	O
@@ -94124,14 +94124,14 @@ JÚNÍ	B-Date
 .	O
 
 Akureyri	B-Location
-Sumarsýning	O
+Sumarsýning	I-Location
 Minjasafnsins	B-Organization
 opnuð	O
 .	O
 
 1.-31/8	O
-Blönduós	O
-Listfengar	O
+Blönduós	B-Location
+Listfengar	I-Location
 hannyrðir	O
 á	O
 Heimilisiðnaðarsafninu	B-Organization
@@ -94140,8 +94140,8 @@ Heimilisiðnaðarsafninu	B-Organization
 5	O
 .	O
 
-Skagafjörður	O
-Alvöru	O
+Skagafjörður	B-Location
+Alvöru	I-Location
 dansleikur	O
 í	O
 Miðgarði	B-Organization
@@ -94156,14 +94156,14 @@ JÚNÍ	B-Date
 .	O
 
 Akureyri	B-Location
-Sumarsýning	O
+Sumarsýning	I-Location
 Minjasafnsins	B-Organization
 opnuð	O
 .	O
 
 1.-31/8	O
-Blönduós	O
-Listfengar	O
+Blönduós	B-Location
+Listfengar	I-Location
 hannyrðir	O
 á	O
 Heimilisiðnaðarsafninu	B-Organization
@@ -94172,8 +94172,8 @@ Heimilisiðnaðarsafninu	B-Organization
 5	O
 .	O
 
-Skagafjörður	O
-Alvöru	O
+Skagafjörður	B-Location
+Alvöru	I-Location
 dansleikur	O
 í	O
 Miðgarði	B-Organization
@@ -94188,20 +94188,20 @@ fyrir	O
 dansi	O
 ,	O
 Harmóniku-Bítlarnir	B-Miscellaneous
-og	I-Miscellaneous
-Spor	I-Miscellaneous
-úr	I-Miscellaneous
-Skagafirði	I-Miscellaneous
+og	O
+Spor	B-Miscellaneous
+úr	O
+Skagafirði	B-Location
 ,	O
 auk	O
-Nikolínu	B-Person
+Nikolínu	B-Miscellaneous
 úr	O
 Dalasýslu	B-Location
 .	O
 
 Félag	B-Organization
 harmónikuunnenda	I-Organization
-í	O
+í	I-Organization
 Skagafirði	B-Location
 .	O
 
@@ -94230,7 +94230,7 @@ Búrfelli	B-Location
 12.-13	O
 .	O
 
-Blönduós	O
+Blönduós	B-Location
 Smábæjarleikar	O
 í	O
 fótbolta	O
@@ -94244,18 +94244,18 @@ um	O
 eyna	O
 .	O
 
-16	O
+16	B-Time
 .	O
 
 Mývatn	B-Location
-Kórastefna	O
+Kórastefna	I-Location
 við	O
 Mývatn	B-Location
 ,	O
 hátíðartónleikar	O
 í	O
 íþróttahúsinu	O
-Reykjahlíð	B-Organization
+Reykjahlíð	B-Location
 kl.	B-Time
 15	I-Time
 .	O
@@ -94263,7 +94263,7 @@ kl.	B-Time
 Flutt	O
 verður	O
 óratórían	O
-Sköpunin	B-Miscellaneous
+Sköpunin	O
 eftir	O
 J.	B-Person
 Haydn	I-Person
@@ -94289,7 +94289,7 @@ Gunnarsson	I-Person
 17	O
 .	O
 
-Blönduós	O
+Blönduós	B-Location
 Hátíðardagskrá	O
 17.	B-Date
 júní	I-Date
@@ -94297,10 +94297,10 @@ júní	I-Date
 
 18	O
 .	O
--19	O
+-19	B-Time
 .	O
 
-Mývatnsmaraþon	B-Location
+Mývatnsmaraþon	O
 18.-20	O
 .	O
 
@@ -94350,7 +94350,7 @@ Skagafirði	B-Location
 
 Vatnsnes	B-Location
 Fjöruhlaðborð	I-Location
-Húsfreyjanna	B-Location
+Húsfreyjanna	I-Location
 í	O
 Hamarsbúð	B-Location
 ,	O
@@ -94382,8 +94382,8 @@ Hamarsbúðar	B-Location
 25.-26	O
 .	O
 
-Hofsós	B-Organization
-Jónsmessuhátíð	I-Organization
+Hofsós	B-Location
+Jónsmessuhátíð	O
 annað	O
 árið	O
 í	O
@@ -94410,7 +94410,7 @@ fleira	O
 .	O
 
 Akureyri	B-Location
-Nonnaganga	O
+Nonnaganga	I-Location
 Gengið	O
 um	O
 söguslóðir	O
@@ -94422,7 +94422,7 @@ Sveinssonar	I-Person
 23.	O
 
 Akureyri	B-Location
-Jónsmessuhátíð	O
+Jónsmessuhátíð	B-Miscellaneous
 í	O
 Kjarnaskógi	B-Location
 .	O
@@ -94431,12 +94431,12 @@ Kjarnaskógi	B-Location
 .	O
 
 Húsavík	B-Location
-Hvalahátíð	O
-26	O
+Hvalahátíð	I-Location
+26	I-Location
 .	O
 
 Hrísey	B-Location
-Skeljahátíð	I-Location
+Skeljahátíð	O
 .	O
 
 Hér	O
@@ -94497,7 +94497,7 @@ fram	O
 29.	B-Date
 júní	I-Date
 Siglufjörður	B-Location
-Síldarhátíð	I-Location
+Síldarhátíð	O
 ,	O
 100	O
 ára	O
@@ -94509,11 +94509,11 @@ vígslu	O
 nýju	O
 safnahúsi	O
 ,	O
-Bátahúsinu	B-Location
+Bátahúsinu	O
 .	O
 
-JÚLÍ	O
-3.-4	O
+JÚLÍ	B-Date
+3.-4	I-Date
 .	O
 
 Hvammstangi	O
@@ -94529,7 +94529,7 @@ vegum	O
 vináttufélagsins	I-Organization
 í	O
 Húnaþingi	B-Location
-vestra	O
+vestra	I-Location
 .	O
 
 7.-11	O
@@ -94541,13 +94541,13 @@ Siglufjörður	B-Location
 .	O
 
 Sauðárkrókur	B-Location
-Landsmót	O
-UMFÍ	O
-11	O
+Landsmót	B-Miscellaneous
+UMFÍ	I-Miscellaneous
+11	I-Miscellaneous
 .	O
 
 Akureyri	B-Location
-Íslenski	O
+Íslenski	I-Location
 safnadagurinn	O
 ,	O
 safnasvæði	O
@@ -94559,7 +94559,7 @@ við	O
 15.-18	O
 .	O
 
-Þórshöfn	O
+Þórshöfn	B-Location
 Kátir	O
 dagar	O
 Tónleikar	O
@@ -94576,7 +94576,7 @@ fjölmargt	O
 fleira	O
 .	O
 
-16.-18	O
+16.-18	B-Time
 .	O
 
 Hrísey	B-Location
@@ -94648,17 +94648,17 @@ sé	O
 nefnt	O
 .	O
 
-16.-18	O
+16.-18	B-Time
 .	O
 
 Hvammstangi	O
-Unglistahátíð	O
-16.-18	O
+Unglistahátíð	B-Miscellaneous
+16.-18	I-Miscellaneous
 .	O
 
-Blönduós	O
+Blönduós	B-Location
 Fjölskylduhátíðin	O
-Matur	O
+Matur	B-Location
 og	O
 menning	O
 Leiktæki	O
@@ -94683,8 +94683,8 @@ hafnarsvæðinu	O
 17	O
 .	O
 
-Gásar	O
-Líf	O
+Gásar	B-Person
+Líf	I-Person
 færist	O
 í	O
 gamla	O
@@ -94700,7 +94700,7 @@ Heyannir	O
 .	O
 
 Húnaþing	O
-Unglistahátíð	O
+Unglistahátíð	B-Miscellaneous
 23.-25	O
 .	O
 
@@ -94741,8 +94741,8 @@ fleira	O
 
 29.-1/8	O
 Siglufjörður	B-Location
-Síldarævintýri	O
-Hátíðahöld	O
+Síldarævintýri	B-Miscellaneous
+Hátíðahöld	I-Miscellaneous
 vegna	O
 100	O
 ára	O
@@ -94767,13 +94767,13 @@ margt	O
 fleira	O
 .	O
 
-30.-1/8	O
+30.-1/8	B-Money
 Sauðárkrókur	B-Location
-Unglingalandsmót	O
-UMFÍ	B-Organization
-31.-2/8	O
+Unglingalandsmót	B-Miscellaneous
+UMFÍ	I-Miscellaneous
+31.-2/8	I-Miscellaneous
 Akureyri	B-Location
-Ein	O
+Ein	I-Location
 með	O
 öllu	O
 ,	O
@@ -94784,13 +94784,13 @@ listviðburðir	O
 
 31.-2/8	O
 Siglufjörður	B-Location
-Síldarævintýri	I-Location
+Síldarævintýri	B-Miscellaneous
 ÁGÚST	B-Date
 5.-7	I-Date
 .	O
 
 Akureyri	B-Location
-Django	O
+Django	I-Location
 djassfestival	O
 .	O
 
@@ -94804,7 +94804,7 @@ Handverkshátíð	O
 
 Húsavík	B-Location
 Mærudagar	I-Location
-Bryggjuhátíð	I-Location
+Bryggjuhátíð	B-Location
 ,	O
 strandbolti	O
 ,	O
@@ -94849,11 +94849,11 @@ fjölskylduna	O
 7.-8	O
 .	O
 
-Bjarg	B-Person
+Bjarg	O
 /	O
 Miðfjörður	O
-Grettishátíð	B-Person
-Kraftakeppni	I-Person
+Grettishátíð	B-Miscellaneous
+Kraftakeppni	I-Miscellaneous
 ,	O
 leiðsögn	O
 um	O
@@ -94869,7 +94869,7 @@ fleira	O
 .	O
 
 Ólafsfjörður	B-Location
-Berjadagar	B-Miscellaneous
+Berjadagar	I-Location
 -	O
 tónlistarhátíð	O
 í	O
@@ -94900,16 +94900,16 @@ Hólar	O
 í	O
 Hjaltadal	B-Location
 Hólahátíð	I-Location
-21	I-Location
+21	B-Time
 .	O
 
 Akureyri	B-Location
-Nonnaganga	B-Location
+Nonnaganga	I-Location
 22	I-Location
 .	O
 
-Blönduós	O
-Íslandsmeistaramót	O
+Blönduós	B-Location
+Íslandsmeistaramót	B-Miscellaneous
 í	O
 torfæru	O
 .	O
@@ -94996,7 +94996,7 @@ náttúruperlu	O
 athygli	O
 .	O
 
-Eyjan	O
+Eyjan	B-Location
 er	O
 í	O
 Blöndu	B-Location
@@ -95073,7 +95073,7 @@ og	O
 þaðan	O
 áfram	O
 með	O
-Blöndu	B-Miscellaneous
+Blöndu	O
 til	O
 sjávar	O
 .	O
@@ -95144,7 +95144,7 @@ eyjuna	O
 
 Skoða	O
 alltaf	O
-Grjótgarðsháls	B-Person
+Grjótgarðsháls	B-Location
 :	O
 
 Þegar	O
@@ -95157,7 +95157,7 @@ Möðrudalsöræfi	B-Location
 skoða	O
 ég	O
 alltaf	O
-Grjótgarðsháls	B-Person
+Grjótgarðsháls	B-Location
 ,	O
 segir	O
 Eirný	B-Person
@@ -95203,7 +95203,7 @@ Möðrudalsöræfi	B-Location
 skoða	O
 ég	O
 alltaf	O
-Grjótgarðsháls	B-Person
+Grjótgarðsháls	B-Location
 ,	O
 segir	O
 Eirný	B-Person
@@ -95256,10 +95256,10 @@ fjölskylduhátíð	O
 góðri	O
 stund	O
 :	O
-Grundfirðingar	O
-efna	O
-til	O
-átthaga-	O
+Grundfirðingar	B-Miscellaneous
+efna	I-Miscellaneous
+til	I-Miscellaneous
+átthaga-	I-Miscellaneous
 og	O
 fjölskylduhátíðarinnar	O
 Á	O
@@ -95273,7 +95273,7 @@ júlí	I-Date
 
 --	O
 >	O
-Grundfirðingar	O
+Grundfirðingar	B-Miscellaneous
 efna	O
 til	O
 átthaga-	O
@@ -95365,9 +95365,9 @@ nú	O
 .	O
 
 Eftir	O
-hádegi	O
+hádegi	B-Time
 á	O
-föstudegi	O
+föstudegi	B-Date
 fer	O
 fólk	O
 að	O
@@ -95419,7 +95419,7 @@ vini	O
 ár	O
 mun	O
 
-Grundfirðingurinn	O
+Grundfirðingurinn	B-Miscellaneous
 
 Kalli	O
 Bjarni	B-Person
@@ -95456,7 +95456,7 @@ samkomuhúsi	O
 ,	O
 þar	O
 sem	O
-Vorgleðihópurinn	O
+Vorgleðihópurinn	B-Miscellaneous
 endurtekur	O
 magnaða	O
 dagskrá	O
@@ -95501,7 +95501,7 @@ börnin	O
 
 Upp	O
 úr	O
-hádegi	O
+hádegi	B-Time
 fer	O
 fólk	O
 að	O
@@ -95564,7 +95564,7 @@ Jóna	I-Person
 
 www.grundarfjordur.is	O
 
-Drangajökull	O
+Drangajökull	B-Location
 skoðaður	O
 :	O
 Sjóferðir	O
@@ -95739,13 +95739,13 @@ og	O
 Upplýsingamiðstöðinni	B-Organization
 á	O
 Ísafirði	B-Location
-Sími	I-Location
+Sími	O
 :	O
 456	O
 5111	O
 www.vesturferdir.is	O
 
-Fuglaskoðun	O
+Fuglaskoðun	B-Location
 við	O
 Víkingavatn	B-Location
 :	O
@@ -95918,11 +95918,11 @@ Aðalsteinn	B-Person
 Örn	I-Person
 Snæþórsson	I-Person
 Víkingavatn	B-Location
-1	O
+1	I-Location
 ,	O
 671	O
-Kópasker	B-Organization
-Sími	I-Organization
+Kópasker	B-Location
+Sími	O
 :	O
 465	O
 2233	O
@@ -95931,7 +95931,7 @@ Skítkast	O
 og	O
 öskur	O
 :	O
-Furðuleikar	O
+Furðuleikar	B-Miscellaneous
 verða	O
 haldnir	O
 í	O
@@ -95949,7 +95949,7 @@ Steingrímsfjörð	B-Location
 Undanfarin	O
 ár	O
 hafa	O
-Strandamenn	O
+Strandamenn	B-Miscellaneous
 haldið	O
 leikjadaga	O
 þar	O
@@ -96169,7 +96169,7 @@ til	O
 dags	O
 .	O
 
-Biblían	O
+Biblían	B-Miscellaneous
 hefur	O
 tvær	O
 víddir	O
@@ -96307,7 +96307,7 @@ gagnrýninn	O
 hátt	O
 .	O
 
-Biblíurannsóknirnar	O
+Biblíurannsóknirnar	B-Miscellaneous
 hafa	O
 leitt	O
 í	O
@@ -96377,8 +96377,8 @@ nefna	O
 heilög	O
 rit	O
 eða	O
-Heilaga	O
-ritningu	O
+Heilaga	B-Miscellaneous
+ritningu	I-Miscellaneous
 .	O
 
 Andleg	O
@@ -96652,8 +96652,8 @@ braut	O
 um	O
 stjörnuna	O
 Tau	B-Miscellaneous
-1	O
-Gruis	B-Person
+1	I-Miscellaneous
+Gruis	I-Miscellaneous
 .	O
 
 Tau	O
@@ -96665,7 +96665,7 @@ suðurhveli	O
 jarðar	O
 í	O
 stjörnumerkinu	O
-Hegranum	B-Miscellaneous
+Hegranum	B-Organization
 og	O
 er	O
 í	O
@@ -96684,7 +96684,7 @@ vera	O
 sinnum	O
 massameiri	O
 en	O
-Júpíter	B-Person
+Júpíter	B-Location
 og	O
 er	O
 í	O
@@ -96722,8 +96722,8 @@ er	O
 á	O
 braut	O
 um	O
-Gamma	B-Person
-Cephei	I-Person
+Gamma	B-Organization
+Cephei	I-Organization
 ,	O
 en	O
 lítið	O
@@ -96812,8 +96812,8 @@ greiningu	O
 áralöngum	O
 rannsóknum	O
 á	O
-Gamma	B-Location
-Cephei	I-Location
+Gamma	B-Organization
+Cephei	I-Organization
 kerfinu	O
 ,	O
 sem	O
@@ -96824,13 +96824,13 @@ ljósára	O
 fjarlægð	O
 í	O
 stjörnumerkinu	O
-Sefeusi	B-Location
+Sefeusi	B-Person
 .	O
 
 Á	O
 braut	O
 um	O
-Fomalhaut	B-Person
+Fomalhaut	B-Location
 er	O
 reikistjarna	O
 og	O
@@ -96860,7 +96860,7 @@ ljósára	O
 fjarlægð	O
 í	O
 stjörnumerkinu	O
-Suðurfiskunum	B-Location
+Suðurfiskunum	B-Miscellaneous
 .	O
 
 Stjarnan	O
@@ -97000,9 +97000,9 @@ um	O
 þá	O
 mynd	O
 sem	O
-Heros	B-Person
+Heros	B-Organization
 og	O
-Afródíta	B-Miscellaneous
+Afródíta	B-Organization
 tóku	O
 á	O
 sig	O
@@ -97015,7 +97015,7 @@ forðast	O
 eftirtekt	O
 frá	O
 skrímslinu	O
-Týfún	B-Location
+Týfún	B-Miscellaneous
 .	O
 
 Allar	O
@@ -97048,7 +97048,7 @@ sem	O
 eru	O
 fyrir	O
 neðan	O
-Andrómedu	B-Location
+Andrómedu	B-Miscellaneous
 og	O
 við	O
 hlið	O
@@ -97146,10 +97146,10 @@ aðra	O
 .	O
 
 Eitt	O
-Messier-fyrirbæri	O
+Messier-fyrirbæri	B-Miscellaneous
 er	O
 í	O
-Fiskamerkinu	O
+Fiskamerkinu	B-Location
 ,	O
 þyrilvetrarbrautin	O
 M74	O
@@ -97186,7 +97186,7 @@ en	O
 öll	O
 fyrirbærin	O
 í	O
-Fiskamerkinu	O
+Fiskamerkinu	B-Location
 eru	O
 svo	O
 dauf	O
@@ -97204,7 +97204,7 @@ skoða	O
 Heimildir	O
 >	O
 
-Krabbamerkið	O
+Krabbamerkið	B-Miscellaneous
 er	O
 eitt	O
 óljósasta	O
@@ -97238,7 +97238,7 @@ sem	O
 baráttu	O
 við	O
 hetjuna	O
-Herkúles	B-Person
+Herkúles	B-Location
 .	O
 
 Það	O
@@ -97334,10 +97334,10 @@ birtustigi	O
 ?	O
 
 (	O
-Alfa	B-Person
+Alfa	B-Location
 )	O
 eða	O
-Acubens	B-Miscellaneous
+Acubens	B-Person
 ,	O
 af	O
 birtustigi	O
@@ -97367,7 +97367,7 @@ og	O
 ?	O
 
 (	O
-Chi	O
+Chi	B-Person
 )	O
 (	O
 5,1	O
@@ -97402,12 +97402,12 @@ Pollux	B-Miscellaneous
 Tvíburunum	B-Miscellaneous
 ,	O
 Procyon	B-Miscellaneous
-í	O
-Litla-Hundi	B-Location
+í	I-Miscellaneous
+Litla-Hundi	I-Miscellaneous
 og	O
-Regúlus	B-Location
+Regúlus	B-Miscellaneous
 í	O
-Ljóninu	O
+Ljóninu	B-Organization
 mynda	O
 .	O
 
@@ -97437,7 +97437,7 @@ handsjónauka	O
 
 Stjarnan	O
 X	O
-Cancri	O
+Cancri	B-Location
 ,	O
 nálægt	O
 ?	O
@@ -97463,8 +97463,8 @@ er	O
 greinilegur	O
 .	O
 
-R	B-Person
-Cancri	I-Person
+R	O
+Cancri	B-Location
 ,	O
 við	O
 ?	O
@@ -97496,11 +97496,11 @@ fresti	O
 ?	O
 
 (	O
-Xi	B-Person
+Xi	O
 )	O
 ,	O
 eða	O
-Tagmine	B-Miscellaneous
+Tagmine	B-Person
 ,	O
 er	O
 fjölstirni	O
@@ -97605,7 +97605,7 @@ stjörnuþyrping	O
 í	O
 Krabbamerkinu	B-Miscellaneous
 er	O
-M67	O
+M67	B-Date
 ,	O
 nærri	O
 ?	O
@@ -97692,14 +97692,14 @@ gerð	O
 með	O
 hjálp	O
 forritsins	O
-Starry	B-Person
-Night	I-Person
+Starry	B-Miscellaneous
+Night	I-Miscellaneous
 .	O
 
 Fyrir	O
 um	O
-1500	O
-krónur	O
+1500	B-Money
+krónur	I-Money
 getur	O
 hver	O
 sem	O
@@ -97729,8 +97729,8 @@ sem	O
 Neil	B-Person
 Armstrong	I-Person
 og	O
-Buzz	B-Person
-Aldrin	I-Person
+Buzz	B-Miscellaneous
+Aldrin	I-Miscellaneous
 gengu	O
 um	O
 í	O
@@ -97785,7 +97785,7 @@ tunglið	O
 ,	O
 sólina	O
 eða	O
-Mars	B-Person
+Mars	B-Date
 .	O
 
 Staðreyndin	O
@@ -98583,7 +98583,7 @@ bandarísk	O
 /	O
 evrópska	O
 geimfarið	O
-Cassini-Huygens	B-Person
+Cassini-Huygens	B-Organization
 í	O
 átt	O
 til	O
@@ -98603,7 +98603,7 @@ finnur	O
 lendir	O
 á	O
 yfirborði	O
-Títans	B-Location
+Títans	B-Organization
 árið	O
 2005	B-Date
 .	O
@@ -98644,7 +98644,7 @@ finnast	O
 Títan	B-Location
 .	O
 
-Títan	B-Location
+Títan	B-Organization
 er	O
 draumastaður	O
 stjörnulíffræðings	O
@@ -98790,7 +98790,7 @@ hafa	O
 myndast	O
 í	O
 lofthjúpi	O
-Títans	B-Location
+Títans	B-Organization
 .	O
 
 Löng	O
@@ -98930,7 +98930,7 @@ stað	O
 eins	O
 og	O
 á	O
-Títan	B-Location
+Títan	B-Organization
 .	O
 
 Það	O
@@ -98968,7 +98968,7 @@ konar	O
 líf	O
 finnst	O
 á	O
-Títan	B-Location
+Títan	B-Organization
 er	O
 ljóst	O
 að	O
@@ -98985,7 +98985,7 @@ jörðinni	O
 .	O
 
 Á	O
-Títan	B-Location
+Títan	B-Organization
 er	O
 til	O
 að	O
@@ -99017,7 +99017,7 @@ Huygens	B-Person
 Títan	B-Location
 og	O
 kortlagning	O
-Cassini-farsins	B-Miscellaneous
+Cassini-farsins	B-Organization
 á	O
 því	O
 ,	O
@@ -99038,7 +99038,7 @@ lífi	O
 
 Rannsóknir	O
 á	O
-Títan	B-Location
+Títan	B-Organization
 gætu	O
 gagnast	O
 líffræðingum	O
@@ -99187,7 +99187,7 @@ stjörnufræði	O
 Um	O
 1910	B-Date
 hélt	O
-Hubble	B-Person
+Hubble	B-Organization
 til	O
 Oxford-háskóla	B-Organization
 í	O
@@ -99269,7 +99269,7 @@ sig	O
 til	O
 starfa	O
 við	O
-Yerkes-athugunarstöðina	B-Location
+Yerkes-athugunarstöðina	O
 og	O
 útskrifaðist	O
 með	O
@@ -99362,7 +99362,7 @@ komast	O
 að	O
 því	O
 að	O
-Sefítarnir	O
+Sefítarnir	B-Miscellaneous
 voru	O
 mjög	O
 fjarlægir	O
@@ -99440,7 +99440,7 @@ vetrarbrautir	O
 fundust	O
 .	O
 
-Hubble	B-Organization
+Hubble	B-Person
 byrjaði	O
 þá	O
 skilgreina	O
@@ -99570,8 +99570,8 @@ en	O
 í	O
 dag	O
 eru	O
-20	O
-milljarðar	O
+20	B-Money
+milljarðar	I-Money
 taldir	O
 nær	O
 lagi	O
@@ -99583,7 +99583,7 @@ heimsstyrjöldin	O
 braust	O
 út	O
 vildi	O
-Hubble	B-Person
+Hubble	B-Organization
 ganga	O
 aftur	O
 í	O
@@ -99619,7 +99619,7 @@ var	O
 opnaður	O
 ,	O
 varð	O
-Hubble	B-Person
+Hubble	B-Organization
 þess	O
 heiðurs	O
 aðnjótandi	O
@@ -99682,8 +99682,8 @@ heilablóðfalli	O
 þann	O
 28.	B-Date
 september	I-Date
-árið	I-Date
-1953	I-Date
+árið	O
+1953	B-Date
 .	O
 
 Til	O
@@ -99895,7 +99895,7 @@ menn	O
 líklegt	O
 að	O
 geimferjan	O
-Kólumbía	B-Location
+Kólumbía	B-Miscellaneous
 hafi	O
 orðið	O
 fyrir	O
@@ -100295,7 +100295,7 @@ hluta	O
 hennar	O
 .	O
 
-NASA	O
+NASA	B-Organization
 á	O
 myndir	O
 af	O
@@ -100531,7 +100531,7 @@ desember	B-Date
 notuðu	O
 menn	O
 geimskutluna	O
-Endeavour	B-Location
+Endeavour	B-Organization
 til	O
 þess	O
 að	O
@@ -100576,7 +100576,7 @@ um	O
 jörðina	O
 er	O
 Vanguard	B-Location
-1	O
+1	I-Location
 ,	O
 annað	O
 gervitunglið	O
@@ -100608,8 +100608,8 @@ starfaði	O
 1965	B-Date
 var	O
 geimfarið	O
-Gemini	B-Location
-4	I-Location
+Gemini	B-Miscellaneous
+4	I-Miscellaneous
 á	O
 braut	O
 um	O
@@ -100682,7 +100682,7 @@ var	O
 hent	O
 frá	O
 geimstöðinni	O
-Mír	B-Location
+Mír	B-Organization
 á	O
 fyrstu	O
 10	O
@@ -100705,7 +100705,7 @@ er	O
 úr	O
 efra	O
 stigi	O
-Pegasus-eldflaugar	B-Location
+Pegasus-eldflaugar	B-Miscellaneous
 sem	O
 skotið	O
 var	O
@@ -100750,7 +100750,7 @@ tvöfaldaði	O
 hættuna	O
 á	O
 að	O
-Hubble-sjónaukinn	B-Organization
+Hubble-sjónaukinn	B-Miscellaneous
 yrði	O
 fyrir	O
 árekstri	O
@@ -100819,7 +100819,7 @@ lesefni	O
 
 Í	O
 áhöfn	O
-Kólumbíu	B-Location
+Kólumbíu	B-Miscellaneous
 sem	O
 fórst	O
 1.	B-Date
@@ -100849,7 +100849,7 @@ karlinn	O
 Geimferðin	O
 ,	O
 STS-107	O
-Kólumbía	B-Location
+Kólumbía	B-Miscellaneous
 ,	O
 stóð	O
 frá	O
@@ -100949,7 +100949,7 @@ lést	O
 um	O
 borð	O
 í	O
-Kólumbíu	B-Location
+Kólumbíu	B-Miscellaneous
 og	O
 lætur	O
 eftir	O
@@ -100963,12 +100963,12 @@ börn	O
 Ramon	B-Person
 útskrifaðist	O
 úr	O
-Tel	O
-Aviv-háskóla	B-Organization
+Tel	B-Miscellaneous
+Aviv-háskóla	I-Miscellaneous
 árið	O
 1987	B-Date
 með	O
-B.Sc.	B-Person
+B.Sc.	O
 gráðu	O
 í	O
 rafmagns-	O
@@ -101024,7 +101024,7 @@ sinn	O
 í	O
 geiminn	O
 með	O
-Kólumbíu	B-Organization
+Kólumbíu	B-Miscellaneous
 16.	B-Date
 janúar	I-Date
 2003	I-Date
@@ -101036,8 +101036,8 @@ Husband	I-Person
 fæddist	O
 12.	B-Date
 júlí	I-Date
-,	I-Date
-1957	I-Date
+,	O
+1957	B-Date
 í	O
 Amarillo	B-Location
 í	O
@@ -101049,7 +101049,7 @@ lést	O
 um	O
 borð	O
 í	O
-Kólumbíu	B-Location
+Kólumbíu	B-Miscellaneous
 og	O
 lætur	O
 eftir	O
@@ -101060,7 +101060,7 @@ tvo	O
 börn	O
 .	O
 
-Husband	B-Organization
+Husband	O
 útskrifaðist	O
 úr	O
 tækniháskólanum	O
@@ -101080,8 +101080,8 @@ meistaragráðu	O
 verkfræði	O
 frá	O
 Kaliforníuháskóla	B-Organization
-í	O
-Fresno	B-Location
+í	I-Organization
+Fresno	I-Organization
 árið	O
 1990	B-Date
 .	O
@@ -101139,8 +101139,8 @@ geimferð	O
 árið	O
 1999	B-Date
 ,	O
-STS-96	O
-Discovery	O
+STS-96	B-Miscellaneous
+Discovery	I-Miscellaneous
 ,	O
 í	O
 tíu	O
@@ -101162,8 +101162,8 @@ McCool	I-Person
 fæddist	O
 23.	B-Date
 september	I-Date
-,	I-Date
-1961	I-Date
+,	O
+1961	B-Date
 í	O
 San	B-Location
 Diego	I-Location
@@ -101176,7 +101176,7 @@ lést	O
 um	O
 borð	O
 í	O
-Kólumbíu	B-Location
+Kólumbíu	B-Miscellaneous
 og	O
 lætur	O
 eftir	O
@@ -101186,7 +101186,7 @@ og	O
 barn	O
 .	O
 
-McCool	B-Organization
+McCool	O
 útskrifaðist	O
 með	O
 meistaragráðu	O
@@ -101235,8 +101235,8 @@ af	O
 NASA	B-Organization
 í	O
 apríl	B-Date
-árið	I-Date
-1996	I-Date
+árið	O
+1996	B-Date
 og	O
 kom	O
 til	O
@@ -101266,7 +101266,7 @@ janúar	I-Date
 um	O
 borð	O
 í	O
-Kólumbíu	B-Location
+Kólumbíu	B-Miscellaneous
 .	O
 
 Michael	B-Person
@@ -101282,7 +101282,7 @@ Plattsburgh	B-Location
 í	O
 New	B-Location
 York	I-Location
-ríki	O
+ríki	I-Location
 .	O
 
 Sjálfvirka	O
@@ -101610,7 +101610,7 @@ annars	O
 staðar	O
 ?	O
 
-Vísindavefurinn	O
+Vísindavefurinn	B-Miscellaneous
 hefur	O
 fengið	O
 nokkrar	O
@@ -101909,7 +101909,7 @@ breytir	O
 líkaminn	O
 því	O
 í	O
-A-vítamín	B-Location
+A-vítamín	O
 .	O
 
 Þetta	O
@@ -102526,8 +102526,8 @@ blöðrum	O
 helstu	O
 eru	O
 veirurnar	O
-Herpes	B-Miscellaneous
-simplex	I-Miscellaneous
+Herpes	O
+simplex	O
 I	O
 og	O
 II	O
@@ -102539,8 +102539,8 @@ neðan	O
 mittis	O
 )	O
 ,	O
-Varicella	B-Person
-zoster	O
+Varicella	B-Miscellaneous
+zoster	I-Miscellaneous
 ,	O
 sem	O
 veldur	O
@@ -102620,7 +102620,7 @@ blöðrumyndunarkvillar	O
 ,	O
 eins	O
 og	O
-Epidermolysis	B-Person
+Epidermolysis	B-Miscellaneous
 bullosa	O
 þar	O
 sem	O
@@ -102633,7 +102633,7 @@ leiðir	O
 til	O
 blöðrumyndunar	O
 eða	O
-Porphyria	B-Miscellaneous
+Porphyria	B-Location
 cutanea	O
 tarda	O
 þar	O
@@ -102680,12 +102680,12 @@ svo	O
 sem	O
 nalídixsýra	O
 (	O
-NegGram	O
+NegGram	B-Miscellaneous
 )	O
 og	O
 fúrósemíð	O
 (	O
-Lasix	O
+Lasix	B-Miscellaneous
 )	O
 geta	O
 vakið	O
@@ -102751,7 +102751,7 @@ s-heilkenni	O
 (	O
 einnig	O
 kallað	O
-TEN	B-Organization
+TEN	O
 )	O
 sem	O
 lýsir	O
@@ -103048,8 +103048,8 @@ nýrrar	O
 framkvæmdar	O
 .	O
 
-27.9.2007	O
-13:33	O
+27.9.2007	B-Date
+13:33	B-Time
 Dreifibréf	O
 afhent	O
 við	O
@@ -103162,7 +103162,7 @@ virkjana	O
 í	O
 neðri	O
 hluta	O
-Þjórsár	B-Organization
+Þjórsár	B-Location
 og	O
 mótmæla	O
 framkvæmdunum	O
@@ -103175,11 +103175,11 @@ við	O
 baráttu	O
 Davíðs	B-Person
 gegn	O
-Golíat	B-Location
+Golíat	B-Organization
 ,	O
 og	O
 mun	O
-Golíat	B-Location
+Golíat	B-Miscellaneous
 þá	O
 líklega	O
 vera	O
@@ -103343,8 +103343,8 @@ sem	O
 hafi	O
 .	O
 
-27.9.2007	O
-12:16	O
+27.9.2007	B-Date
+12:16	B-Time
 Ný	O
 brú	O
 yfir	O
@@ -103380,7 +103380,7 @@ tveggja	O
 akreina	O
 .	O
 
-Vegagerðin	O
+Vegagerðin	B-Organization
 bindur	O
 vonir	O
 við	O
@@ -103397,7 +103397,7 @@ október	B-Date
 
 27.9.2007	B-Date
 10:13	B-Time
-Báran	O
+Báran	B-Location
 krefst	O
 verulegrar	O
 kaupmáttaraukningar	O
@@ -103413,8 +103413,8 @@ Kjaramál	O
 Félagsfundur	B-Organization
 stéttarfélagsins	I-Organization
 Bárunnar	I-Organization
-á	O
-Suðurlandi	B-Location
+á	I-Organization
+Suðurlandi	I-Organization
 sem	O
 haldinn	O
 var	O
@@ -103678,12 +103678,12 @@ forsíðu	O
 í	O
 39.	O
 tbl.	O
-Gluggans	O
+Gluggans	B-Miscellaneous
 .	O
 
-27.9.2007	O
-08:11	O
-Landsvirkjun	O
+27.9.2007	B-Date
+08:11	B-Time
+Landsvirkjun	B-Organization
 í	O
 viðræðum	O
 um	O
@@ -103725,7 +103725,7 @@ virkjunum	O
 í	O
 neðri	O
 hluta	O
-Þjórsár	B-Organization
+Þjórsár	B-Location
 .	O
 
 Til	O
@@ -103821,7 +103821,7 @@ borð	O
 við	O
 Microsoft	B-Organization
 og	O
-Yahoo	B-Location
+Yahoo	B-Organization
 reisa	O
 víða	O
 um	O
@@ -103931,11 +103931,11 @@ baksíðu	O
 í	O
 39.	O
 tbl.	O
-Gluggans	O
+Gluggans	B-Miscellaneous
 .	O
 
-26.9.2007	O
-20:33	O
+26.9.2007	B-Date
+20:33	B-Time
 Grunur	O
 um	O
 blesgæsaveiðar	O
@@ -103991,7 +103991,7 @@ og	O
 heiðargæs	O
 .	O
 
-26.9.2007	O
+26.9.2007	B-Date
 19:33	B-Time
 Fíkniefnum	O
 fleygt	O
@@ -104033,8 +104033,8 @@ er	O
 óupplýst	O
 .	O
 
-26.9.2007	O
-17:16	O
+26.9.2007	B-Date
+17:16	B-Time
 Algjört	O
 metár	O
 í	O
@@ -104047,8 +104047,8 @@ veiddir	O
 á	O
 mánudag	B-Date
 
-Laxveiði	O
-Eystri	O
+Laxveiði	B-Location
+Eystri	I-Location
 Rangá	B-Location
 hefur	O
 sprengt	O
@@ -104120,8 +104120,8 @@ og	O
 sleppingum	O
 .	O
 
-Eystri	O
-Rangá	O
+Eystri	B-Person
+Rangá	B-Location
 fór	O
 yfir	O
 5.000	O
@@ -104142,8 +104142,8 @@ lýkur	O
 október	I-Date
 .	O
 
-26.9.2007	O
-16:24	O
+26.9.2007	B-Date
+16:24	B-Time
 Læknar	O
 flytja	O
 tímabundið	O
@@ -104279,7 +104279,7 @@ tilbúin	O
 .	O
 
 Skjólstæðingar	O
-HSu	B-Miscellaneous
+HSu	B-Organization
 eru	O
 beðnir	O
 að	O
@@ -104294,13 +104294,13 @@ framkvæmdum	O
 stendur	O
 .	O
 
-26.9.2007	O
-15:10	O
+26.9.2007	B-Date
+15:10	B-Time
 Flóamenn	O
 sjóða	O
 neysluvatn	O
 
-Flóahreppur	O
+Flóahreppur	B-Location
 
 Neysluvatn	O
 vatnsveitu	O
@@ -104325,7 +104325,7 @@ Margrét	B-Person
 Sigurðardóttir	I-Person
 ,	O
 sveitarstjóri	O
-Flóahrepps	B-Location
+Flóahrepps	B-Organization
 segir	O
 að	O
 verið	O
@@ -104393,7 +104393,7 @@ Búið	O
 er	O
 að	O
 aftengja	O
-Urriðafosslind	B-Miscellaneous
+Urriðafosslind	B-Location
 aftur	O
 frá	O
 kerfinu	O
@@ -104495,8 +104495,8 @@ gegn	O
 .	O
 »	O
 
-26.9.2007	O
-14:32	O
+26.9.2007	B-Date
+14:32	B-Time
 Kærðir	O
 fyrir	O
 að	O
@@ -104544,7 +104544,7 @@ við	O
 fjársekt	O
 .	O
 
-26.9.2007	O
+26.9.2007	B-Date
 13:00	B-Time
 Hjálmur	O
 varnar	O
@@ -104755,7 +104755,7 @@ Verkefni	O
 Í	O
 stofnsamningi	O
 SORPU	B-Organization
-bs.	O
+bs.	I-Organization
 kemur	O
 fram	O
 að	O
@@ -104901,7 +104901,7 @@ kynningu	O
 á	O
 verkefnum	O
 SORPU	B-Organization
-bs.	O
+bs.	I-Organization
 og	O
 gildi	O
 umhverfissjónarmiða	O
@@ -104967,7 +104967,7 @@ nema	O
 sem	O
 fellur	O
 undir	O
-Úrvinnslusjóð	B-Organization
+Úrvinnslusjóð	O
 .	O
 
 Almenningur	O
@@ -105324,8 +105324,8 @@ Hafnarfirði	B-Location
 Kristján	B-Person
 Sveinbjörnsson	I-Person
 -	O
-Sveitarfélaginu	B-Location
-Álftanesi	B-Location
+Sveitarfélaginu	B-Organization
+Álftanesi	I-Organization
 
 Þór	B-Person
 Sigurgeirsson	I-Person
@@ -105484,11 +105484,11 @@ hf.	I-Organization
 Álfsnesi	B-Location
 .	O
 
-Metan	O
-hf.	O
+Metan	B-Organization
+hf.	I-Organization
 
-Metan	O
-hf.	O
+Metan	B-Organization
+hf.	I-Organization
 er	O
 dótturfyrirtæki	O
 SORPU	B-Organization
@@ -105555,7 +105555,7 @@ hf.	I-Organization
 er	O
 www.metan.is	O
 
-Endurvinnslustöðvar	B-Organization
+Endurvinnslustöðvar	O
 
 Endurvinnslustöðvarnar	O
 eru	O
@@ -105862,7 +105862,7 @@ flokkun	O
 úrgangs	O
 .	O
 
-SORPA	O
+SORPA	B-Organization
 gefur	O
 út	O
 flokkunartöflu	O
@@ -106149,7 +106149,7 @@ er	O
 Kópavogi	B-Location
 ,	O
 Dalveg	B-Location
-1	O
+1	I-Location
 .	O
 
 Afgreiðslutími	O
@@ -106245,13 +106245,13 @@ Gufunesi	B-Location
 Afgreiðslutími	O
 er	O
 frá	O
-7.30-18.00	B-Date
+7.30-18.00	B-Time
 alla	O
 virka	O
 daga	O
 og	O
 frá	O
-10.00-18.00	B-Date
+10.00-18.00	B-Time
 á	O
 laugardögum	B-Date
 .	O

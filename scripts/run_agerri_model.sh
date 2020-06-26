@@ -15,11 +15,11 @@ tmp2=$current_dir"/tmp2"
 #echo $tmp1
 cd ixa-pipe/nerc/
 #head $tmp1
-cat $tmp1 | java -jar target/ixa-pipe-nerc-2.0.0-exec.jar tag -m /home/alma/verkefni/ixa-pipe-ml/experiments/19/bin/200K.bin -o conll02 > $tmp2
+cat $tmp1 | java -jar target/ixa-pipe-nerc-2.0.0-exec.jar tag -m $current_dir/ixa-pipe/1000K.bin -o conll02 > $tmp2
 cd - > /dev/null 2>&1
-#rm tmp1 tmp
+rm tmp1 tmp
 awk '{print $1 "\t" $4}' tmp2 > tmp3
-#rm tmp2
+rm tmp2
 sed -i 's/^[ \t]*//' tmp3
 sed -i 's/B-Per$/B-Person/g' tmp3
 sed -i 's/I-Per$/I-Person/g' tmp3
