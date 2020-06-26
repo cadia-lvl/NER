@@ -2,8 +2,14 @@ from os import listdir
 from os.path import isfile, join
 import sys
 import os
+import configparser
 
-mypath = '/home/alma/verkefni/corpuses/MIM-GOLD_1.0/'
+config = configparser.ConfigParser()
+config.read('config.ini')
+paths = config['Paths']
+
+
+mypath = paths['gold_path']
 token_count = 0
 class Sentence:
     text = ''
@@ -27,7 +33,8 @@ class Sentence:
 
 
 def get_gold_files():
-
+    print(mypath)
+    # mypath.replace('\r', '')
     onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
     return onlyfiles
 
@@ -53,7 +60,7 @@ def parse_gold_file(gold_file):
 
     if len(sent_tokens) != 0:
         gold_sents.append(Sentence(sent_tokens, POS_tags=sent_pos_tags, lemmas=sent_lemmas))
-        print('GOOD THING ÁSI THOUGHT OF THIS EDGE CASE')
+        # print('GOOD THING ÁSI THOUGHT OF THIS EDGE CASE')
     return gold_sents
 
 def parse_CoNLL_file(file_name):
@@ -85,11 +92,8 @@ def get_gold_sents():
     return sents
 
 corpus_file = sys.argv[1]
-batch = sys.argv[2]
-print(corpus_file)
-
-dirparts = corpus_file.split('/')
-filename = dirparts[len(dirparts)-1]
+# mypath = sys.argv[2]
+write_path = sys.argv[3]
 
 CoNLL_sents = parse_CoNLL_file(corpus_file)
 gold_sents = get_gold_sents()
@@ -106,8 +110,8 @@ def find_sent_in_gold(sent):
 
 
 def write_extended_file():
-    corpus_dir = '/home/alma/verkefni/corpuses/CRF-corpuses/{}/'.format(batch)
-    path_filename = corpus_dir + 'extended-' + filename + '.tsv'
+    # corpus_dir = '/home/alma/verkefni/corpuses/CRF-corpuses/{}/'.format(batch)
+    path_filename = write_path
     os.system('rm {}'.format(path_filename))
     os.system('touch {}'.format(path_filename))
     for sent in CoNLL_sents:

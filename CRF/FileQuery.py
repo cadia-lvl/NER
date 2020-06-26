@@ -85,7 +85,9 @@ foreign_gaz = ['foreign_LOC.txt', 'foreign_MIS.txt', 'foreign_ORG.txt', 'foreign
 
 config = configparser.ConfigParser()
 config.read('config.ini')
-paths = config['Paths']
+
+print(config.sections())
+paths = config['List_Paths']
 
 
 fs_lemmas = org_operations(paths['companies_lemmatized_list'])

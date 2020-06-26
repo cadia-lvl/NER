@@ -8,10 +8,11 @@ from Sents2Features import sent2features
 from sklearn_crfsuite import CRF
 from sklearn.model_selection import cross_val_predict
 from sklearn_crfsuite.metrics import flat_classification_report
+import sklearn.model_selection
 
-def getData(split=2):
+def getTrainingData(split=2):
     config = configparser.ConfigParser()
-    config.read('trainConfig.ini')
+    config.read('../trainConfig.ini')
     paths = config['Paths']
     train_path = paths['train_path']
     # train_data = pd.read_csv("CRF-is-400k-train.tsv", sep='\t')
@@ -22,9 +23,17 @@ def getData(split=2):
     if split != 2:
         train_sentences_1 = train_getter.sentences[:split_index]
         train_sentences_2 = train_getter.sentences[split_index:]
+        return train_sentences_1, train_sentences_2
     else:
         train_sentences_1 = train_getter.sentences
-        train_sentences_2 = train_getter.sentences
+        return  train_sentences_1
+
+
+
+def getValidData():
+    config = configparser.ConfigParser()
+    config.read('../trainConfig.ini')
+    paths = config['Paths']
 
     # print(len(train_getter.sentences))
     # print(len(y_train_1))
@@ -36,17 +45,32 @@ def getData(split=2):
     valid_getter = SentenceGetter(valid_data)
     valid_sentences = valid_getter.sentences
 
+
+
+    return valid_sentences
+
+
+def getTestData():
+    config = configparser.ConfigParser()
+    config.read('../trainConfig.ini')
+    paths = config['Paths']
     # test_data = pd.read_csv("CRF-is-400k-test.tsv", sep='\t')
     test_path = paths['valid_path']
     test_data = pd.read_csv(test_path, sep='\t')
     test_data = test_data.fillna(method="ffill")
     test_getter = SentenceGetter(test_data)
     test_sentences = test_getter.sentences
+    return  test_sentences
 
-    return train_sentences_1, train_sentences_2, valid_sentences, test_sentences
+def getDataFromPath(path):
+    data = pd.read_csv(path, sep='\t')
+    data = data.fillna(method="ffill")
+    sent_getter = SentenceGetter(data)
+    sents = sent_getter.sentences
+    return  sents
 
 
-def to_CoNLL(mdl_file_name, sentence2features, test_sentences):
+def write_to_CoNLL(mdl_file_name, sentence2features, test_sentences, write_path):
     X_test_local = []
     cond_rand_mdl = CRF(algorithm='lbfgs',
                         c1=0.0001,
@@ -65,7 +89,7 @@ def to_CoNLL(mdl_file_name, sentence2features, test_sentences):
     else:
         X_test_local = [sentence2features(s) for s in test_sentences]
     predictions = cond_rand_mdl.predict(X_test_local)
-    with open(mdl_file_name + '_output.tsv', 'a') as f:
+    with open(write_path, 'a') as f:
         for i in range(0, len(predictions)):
             sent = test_sentences[i]
             preds = predictions[i]
@@ -123,39 +147,5 @@ def execute_experiment(sent_to_features_func, batch, experiment_name, result_dic
         to_CoNLL(experiment_name +'_2',sent2features_final, test_sentences)
 
 
-print('HEY')
-labels = ['O',
-          'B-Person',
-          'I-Person',
-          'B-Location',
-          'I-Location',
-          'B-Organization',
-          'I-Organization',
-          'B-Miscellaneous',
-          'I-Miscellaneous',
-          'B-Date',
-          'I-Date',
-          'B-Money',
-          'I-Money',
-          'B-Time',
-          'I-Time',
-          'B-Percent',
-          'I-Percent']
-# labels = ['O','B-Person','I-Person','B-Location','I-Location','B-Organization','I-Organization','B-Miscellaneous','I-Miscellaneous']
-labels.remove('O') # remove 'O' label from evaluation
-sorted_labels = sorted(labels,key=lambda name: (name[1:], name[0])) # group B and I results
 
 
-train_sentences_1, train_sentences_2, valid_sentences, test_sentences = getData()
-y_train_1 = [sent2labels(s) for s in valid_sentences]
-X_train = [sent2features(s) for s in valid_sentences]
-print((len(y_train_1)))
-print((len(X_train)))
-
-config = configparser.ConfigParser()
-config.read('trainConfig.ini')
-names = config['Names']
-model_name = names['new_model']
-crf = train(model_name, X_train, y_train_1)
-evaluate(model_name, crf, X_train, y_train_1)
-print('DONE')
