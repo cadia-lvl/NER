@@ -1,3 +1,6 @@
+import sys
+input_file = sys.argv[1]
+output_file = sys.argv[2]
 def convert_file(input, output):
     with open(input) as f:
         lines = f.readlines()
@@ -10,9 +13,12 @@ def convert_file(input, output):
                 write_str = '\n'
             f.write(write_str)
 
-batches = ['200K', '400K', '600K', '800K', '1000K']
 
-for batch in batches:
-    convert_file('{}-test.txt'.format(batch), 'correct_{}.tsv'.format(batch))
+
+convert_file(input_file, output_file)
+# batches = ['200K', '400K', '600K', '800K', '1000K']
+#
+# for batch in batches:
+#     convert_file('{}-test.txt'.format(batch), 'correct_{}.tsv'.format(batch))
 
 

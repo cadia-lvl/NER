@@ -1,11 +1,11 @@
 import sys, os
 
 input_dir = sys.argv[1]
-model_type = sys.argv[2]
-output_path = '/home/alma/verkefni/experiments/{}-combined-output/'.format(model_type)
+output_path = './eval/'
 session_numb = len([f.path for f in os.scandir(output_path) if f.is_dir()])
 os.system('mkdir {}{}'.format(output_path, session_numb))
 full_output_path = '{}{}/'.format(output_path, session_numb)
+true_file = sys.argv[2]
 
 file_paths = [f.path for f in os.scandir(input_dir) if not f.is_dir()]
 names = []
@@ -31,7 +31,6 @@ def createCombinedOutputs(name, inputdir, outputpath):
 
 
     guess_file = name
-    true_file = '../MSc-NER/data/annotated_corpus/batches/{0}/conll/test/test'.format(corpus)
     print(guess_file)
     print(true_file)
     with open(inputdir+ '/' + guess_file, 'r') as f:
