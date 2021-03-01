@@ -14,14 +14,18 @@ Implemented here are three different NER models, and an voting system combining 
 [Easy to use TOC generator](https://ecotrust-canada.github.io/markdown-toc/) -->
  
 # Installation
+* install Tensorflow version 1.14 for python3
+* install NeuroNER according to the installation guide on https://github.com/Franck-Dernoncourt/NeuroNER
 * install https://github.com/ixa-ehu/ixa-pipe-nerc anywhere according to their guide, create a softlink to its directory at ixa-pipe/nerc
 * install https://github.com/hrafnl/CombiTagger anywhere according to their guide, create a softlink to its directory as CombiTagger at the root
-* get the Icelandic (MIM-GOLD)[http://www.malfong.is/index.php?lang=en&pg=gull] corpus
+* Download the trained ixa-pipe and CRF models, along with the gazzeteers from [here](https://drive.google.com/file/d/1Z6mefl2JEX-wwIAe5gBsQ_bZuj4PdDiU/view?usp=sharing). Extract anywhere, and edit the paths in the config.ini file accordingly. 
+* Download the [word embeddings]() and [the trained model]() for NeuroNER, extract anywhere, and update token_pretrained_embedding_filepath and pretrained_model_folder in the parameters.ini file accordingly.
+<!--* get the Icelandic (MIM-GOLD)[http://www.malfong.is/index.php?lang=en&pg=gull] corpus-->
 <!--* dependencies
 It is also helpful to provide commands which assist user installing the program or even providing an `install.sh` script which does it for the user. -->
 
 # Running
-The script run_combined_system.sh shows the output of the three models and CombiTagger.
+The script run_combined_system.sh shows the output of the three models and CombiTagger. It takes a .tsv file on the CoNLL format as an argument.
 
 <!--  ## API reference (Optional)
 If lengthy, this should be a separate document placed as HTML into the `docs/` folder. For more inforation see `documentation` -->
