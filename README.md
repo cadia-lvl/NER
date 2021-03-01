@@ -19,7 +19,7 @@ Implemented here are three different NER models, and an voting system combining 
 * install https://github.com/ixa-ehu/ixa-pipe-nerc anywhere according to their guide, create a softlink to its directory at ixa-pipe/nerc
 * install https://github.com/hrafnl/CombiTagger anywhere according to their guide, create a softlink to its directory as CombiTagger at the root
 * Download the trained ixa-pipe and CRF models, along with the gazzeteers from [here](https://drive.google.com/file/d/1Z6mefl2JEX-wwIAe5gBsQ_bZuj4PdDiU/view?usp=sharing). Extract anywhere, and edit the paths in the config.ini file accordingly. 
-* Download the [word embeddings]() and [the trained model]() for NeuroNER, extract anywhere, and update token_pretrained_embedding_filepath and pretrained_model_folder in the parameters.ini file accordingly.
+* Download the [word embeddings](https://drive.google.com/file/d/12jteoqu-D4u-ogm254wGDpLPQRXQWZ4v/view?usp=sharing) and [the trained model](https://drive.google.com/file/d/1t-C7LuwHDsZ08uNx2vzq2oEnpM4k2-E1/view?usp=sharing) for NeuroNER, extract anywhere, and update token_pretrained_embedding_filepath and pretrained_model_folder in the parameters.ini file accordingly.
 <!--* get the Icelandic (MIM-GOLD)[http://www.malfong.is/index.php?lang=en&pg=gull] corpus-->
 <!--* dependencies
 It is also helpful to provide commands which assist user installing the program or even providing an `install.sh` script which does it for the user. -->
