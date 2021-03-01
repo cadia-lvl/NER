@@ -9,7 +9,7 @@ config.read('config.ini')
 paths = config['Paths']
 
 
-mypath = paths['gold_path']
+# mypath = paths['gold_path']
 token_count = 0
 class Sentence:
     text = ''
@@ -84,6 +84,7 @@ def parse_CoNLL_file(file_name):
         print('GOOD THING ÁSI THOUGHT OF THIS EDGE CASE')
     return sents
 
+
 def get_gold_sents():
     gold_files = get_gold_files()
     sents = []
@@ -91,9 +92,10 @@ def get_gold_sents():
         sents.extend(parse_gold_file(file))
     return sents
 
+
 corpus_file = sys.argv[1]
 # mypath = sys.argv[2]
-write_path = sys.argv[3]
+write_path = sys.argv[2]
 print("Getting sents....")
 CoNLL_sents = parse_CoNLL_file(corpus_file)
 print("Getting sents completed!")

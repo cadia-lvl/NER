@@ -15,12 +15,12 @@ rm output/neuro_ner.raw
 nerc_model=$(awk -F ":" '/ixa-pipe-nerc-model/ {print $2}' config.ini)
 nerc_executable=$(awk -F ":" '/ixa-pipe-nerc-executable/ {print $2}' config.ini)
 
-gold_path=$(awk -F ":" '/gold_path/ {print $2}' config.ini)
+#gold_path=$(awk -F ":" '/gold_path/ {print $2}' config.ini)
 ##
 current_dir=$(pwd)
 tmpdir="output/CRF-input"
 write_address="$current_dir$tmpdir"
-python3 scripts/get_POS_tags_from_gold.py $1 $gold_path output/CRF-input
+python3 scripts/get_POS_tags_from_gold.py $1 output/CRF-input
 CRF_input_address=output/CRF-input-final
 CRF_output=output/CRF
 python3 CRF/convert_to_CRF_format.py output/CRF-input $CRF_input_address
