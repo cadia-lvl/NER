@@ -3,12 +3,11 @@
 rm output/*
 #
 rm -r NeuroNER-input/*
-#exit
 
-
+mkdir NeuroNER-input
 sed 's/\t/ /g' $1 > NeuroNER-input/deploy.txt
 neuroner
-cp NeuroNER-output/*/000_test.txt output/neuro_ner.raw
+cp NeuroNER-output/*/000_deploy.txt output/neuro_ner.raw
 rm -r NeuroNER-output/*
 python3 scripts/convert_neuroner_to_conll.py output/neuro_ner.raw output/neuro_ner
 rm output/neuro_ner.raw

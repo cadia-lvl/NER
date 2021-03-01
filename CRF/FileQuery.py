@@ -85,7 +85,7 @@ foreign_gaz = ['foreign_LOC.txt', 'foreign_MIS.txt', 'foreign_ORG.txt', 'foreign
 
 config = configparser.ConfigParser()
 config.read('config.ini')
-
+print('Initializing gazzeteers....')
 print(config.sections())
 paths = config['List_Paths']
 
@@ -99,3 +99,5 @@ f_mis = org_operations(paths['foreign_miscellaneous'])
 f_org = org_operations(paths['foreign_orgs'])
 f_per = org_operations(paths['foreign_persons'])
 f_ucat = org_operations(paths['foreign_uncategorized'])
+
+print('Initializing gazzeteers complete!')

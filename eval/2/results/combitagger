@@ -1,0 +1,10 @@
+processed 100693 tokens with 5871 phrases; found: 5612 phrases; correct: 4882.
+accuracy:  98.48%; precision:  86.99%; recall:  83.15%; FB1:  85.03
+             Date: precision:  92.84%; recall:  92.34%; FB1:  92.59  740
+         Location: precision:  85.45%; recall:  87.42%; FB1:  86.43  1155
+    Miscellaneous: precision:  76.89%; recall:  52.36%; FB1:  62.30  476
+            Money: precision:  89.09%; recall:  85.22%; FB1:  87.11  110
+     Organization: precision:  83.42%; recall:  79.34%; FB1:  81.33  1321
+          Percent: precision:  99.10%; recall:  98.21%; FB1:  98.65  111
+           Person: precision:  88.43%; recall:  90.29%; FB1:  89.35  1357
+             Time: precision:  97.08%; recall:  93.79%; FB1:  95.40  342

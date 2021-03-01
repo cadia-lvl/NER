@@ -38,12 +38,11 @@ def sent2features(sent):
 
 def word2features(sent, i):
     word = sent[i][0]
-    # pos = sent[i][2]
-    # lemma = sent[i][3]
+    pos = sent[i][2]
+    lemma = sent[i][3]
     features = {
         'bias': 1.0,
         'word.lower()': word.lower(),
-
         'word[-1:]': word[-1:],
         'word[-2:]': word[-2:],
         'word[-3:]': word[-3:],
@@ -51,20 +50,16 @@ def word2features(sent, i):
         'word.isupper()': word.isupper(),
         'word.istitle()': word.istitle(),
         'word.isdigit()': word.isdigit(),
-
+        # 'pos': pos[0],
+        # 'lemma': lemma,
         'name_in_BIN': ne_lookup.name_in_BIN(word),
         'place_in_BIN': ne_lookup.place_in_BIN(word),
         'org_in_BIN': ne_lookup.org_in_BIN(word),
-        'in_first_words_org': fs.is_first_word_org(word) or f_org.is_first_word_org(
-            word),
-        'in_other_words_org': fs.is_other_word_org(word) or f_org.is_other_word_org(
-            word),
-        'in_last_words_org':  fs.is_last_word_org(word) or f_org.is_last_word_org(
-            word),
-        'in_first_words_loc': sos.is_first_word_org(word) or f_loc.is_first_word_org(
-            word),  # or sos_lemmas.is_first_word_org(lemma),
-        'in_other_words_loc': sos.is_other_word_org(word) or f_loc.is_other_word_org(
-            word),  # or sos_lemmas.is_other_word_org(lemma),
+        'in_first_words_org': fs.is_first_word_org(word) or f_org.is_first_word_org(word),
+        'in_other_words_org': fs.is_other_word_org(word) or f_org.is_other_word_org(word),
+        'in_last_words_org': fs.is_last_word_org(word) or f_org.is_last_word_org(word),
+        'in_first_words_loc': sos.is_first_word_org(word) or f_loc.is_first_word_org(word),
+        'in_other_words_loc': sos.is_other_word_org(word) or f_loc.is_other_word_org(word),
         # 'in_last_words_loc': sos.is_last_word_org(lemma) or sos.is_last_word_org(word) or f_loc.is_last_word_org(word) or sos_lemmas.is_last_word_org(lemma),
         'in_first_words_per': f_per.is_first_word_org(word),
         'in_other_words_per': f_per.is_other_word_org(word),
@@ -76,7 +71,6 @@ def word2features(sent, i):
         'in_other_words_ucat': f_ucat.is_other_word_org(word),
         'in_last_words_ucat': f_ucat.is_last_word_org(word),
     }
-
     char2grams = getCharNGramForWord(word, 2)
     for it in range(0, len(char2grams)):
         features.update({'{0}:2gram'.format(it): char2grams[it]})
@@ -92,30 +86,36 @@ def word2features(sent, i):
     char5grams = getCharNGramForWord(word, 5)
     for it in range(0, len(char5grams)):
         features.update({'{0}:5gram'.format(it): char5grams[it]})
-
     if i > 0:
-        # word1 = sent[i - 1][0]
-        # pos = sent[i - 1][2]
-        # lemma = sent[i - 1][3]
-        # postag1 = sent[i - 1][1]
+        word1 = sent[i - 1][0]
+        postag1 = sent[i - 1][2]
+        lemma = sent[i - 1][3]
         features.update({
+            # '-1:word.lower()': word1.lower(),
+            # '-1:word.istitle()': word1.istitle(),
+            # '-1:word.isupper()': word1.isupper(),
+            # '-1:pos': postag1[0],
+            # '-1:lemma' : lemma
         })
-
     else:
         features['BOS'] = True
 
     if i < len(sent) - 1:
-        # word1 = sent[i + 1][0]
-        # pos = sent[i + 1][2]
-        # lemma = sent[i + 1][3]
+        word1 = sent[i + 1][0]
+        postag1 = sent[i + 1][2]
+        lemma = sent[i + 1][3]
         features.update({
+            # '+1:word.lower()': word1.lower(),
+            # '+1:word.istitle()': word1.istitle(),
+            # '+1:word.isupper()': word1.isupper(),
+            # '+1:pos': postag1[0],
+            # '+1:lemma' : lemma
 
         })
     else:
         features['EOS'] = True
 
     windowSize = 4
-
     x = i - 1
 
     while x >= 0 and i - x < (windowSize + 1):

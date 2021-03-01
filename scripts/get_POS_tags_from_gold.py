@@ -94,9 +94,10 @@ def get_gold_sents():
 corpus_file = sys.argv[1]
 # mypath = sys.argv[2]
 write_path = sys.argv[3]
-
+print("Getting sents....")
 CoNLL_sents = parse_CoNLL_file(corpus_file)
-gold_sents = get_gold_sents()
+print("Getting sents completed!")
+# gold_sents = get_gold_sents()
 
 def find_sent_in_gold(sent):
     for gold_sent in gold_sents:
@@ -114,15 +115,19 @@ def write_extended_file():
     path_filename = write_path
     os.system('rm {}'.format(path_filename))
     os.system('touch {}'.format(path_filename))
-    for sent in CoNLL_sents:
-        gold_sent = find_sent_in_gold(sent)
-        for i in range(0, sent.length):
-            write_str = "{}\t{}\t{}\t{}\n".format(sent.token_list[i], sent.NER_tags[i].replace('\n', ''), gold_sent.POS_tags[i], gold_sent.lemmas[i].replace('\n', ''))
-            with open(path_filename, 'a') as f:
+    print('BEFORE')
+    with open(path_filename, 'a') as f:
+        for sent in CoNLL_sents:
+            # gold_sent = find_sent_in_gold(sent)
+            for i in range(0, sent.length):
+                # write_str = "{}\t{}\t{}\t{}\n".format(sent.token_list[i], sent.NER_tags[i].replace('\n', ''), gold_sent.POS_tags[i], gold_sent.lemmas[i].replace('\n', ''))
+                write_str = "{}\t{}\t{}\t{}\n".format(sent.token_list[i], sent.NER_tags[i].replace('\n', ''), 'X', 'X')
                 f.write(write_str)
 
-        with open(path_filename, 'a') as f:
             f.write('\n')
+
+    os.system('wc -l {}'.format(path_filename))
+    print('AFTER')
 
 #compare total number of sentences with number of unique sentences
 def analyze_corpus():
