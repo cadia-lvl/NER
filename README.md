@@ -3,7 +3,9 @@ This repository hosts code and models for the named entity recognition (NER) wor
 
 The models presented here have been trained on the Icelandic [MIM-GOLD-NER named entity corpus](http://www.malfong.is/index.php?lang=en&pg=mim_gold_ner), annotated as part of this work.
 
-Implemented here are three different NER models, and an voting system combining the output of the three models. The methods used for training are the following:
+Implemented here are three different NER models, and an voting system combining the output of the three models. An evaluation script outputs the F1 score of each of the three models, given a CoNLL file with correct NE labels.
+
+The methods used for training are the following:
 * A Conditional Random Fields NER model – implementation based on[Passos et al 2014](https://www.aclweb.org/anthology/W14-1609.pdf)
 * Ixa-pipes-ner, a perceptron model with shallow word features and externally trained word clusters – [Agerri & Rigau 2017](https://arxiv.org/pdf/1701.09123.pdf)
 * NeuroNER, a Bi-LSTM RNN with pre-trained word embeddings (GloVe) – [Dernoncourt et al. 2017](https://arxiv.org/pdf/1705.05487.pdf)
@@ -38,7 +40,7 @@ Implemented here are three different NER models, and an voting system combining 
 It is also helpful to provide commands which assist user installing the program or even providing an `install.sh` script which does it for the user. -->
 
 # Running
-The script run_combined_system.sh shows the output of the three models and CombiTagger. It takes a .tsv file on the CoNLL format as an argument.
+The evaluation script run_combined_system.sh shows the evaluation of the output of the three models and CombiTagger. It takes a .tsv file on the CoNLL format (with gold labels) as an argument.
 
 <!--  ## API reference (Optional)
 If lengthy, this should be a separate document placed as HTML into the `docs/` folder. For more inforation see `documentation` -->
