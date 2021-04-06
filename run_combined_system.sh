@@ -32,7 +32,7 @@ rm output/CRF-input output/CRF-input-final
 #
 ./scripts/run_agerri_model.sh $nerc_model $1 $nerc_executable
 cd CombiTagger
-java -jar dist/CombiTagger.jar -t $current_dir/output/neuro_ner $current_dir/output/ixa-pipe $current_dir/output/CRF  -o $current_dir/output/combitagger-output/
+java -jar dist/CombiTagger.jar -t $current_dir/output/neuro_ner $current_dir/output/ixa-pipe $current_dir/output/CRF  -o $current_dir/output/combitagger-output
 cd - > /dev/null 2>&1
 awk -v OFS='\t' 'NR>1{ print $1, $NF }' output/combitagger-output > output/combitagger
 rm output/combitagger-output

@@ -1,5 +1,5 @@
 
-import sys
+import sys, os
 
 
 def get_full_entity(token_tag_pairs, current_index):
@@ -83,7 +83,7 @@ train_entities = get_all_named_entities(train_lines)
 train_entities.sort()
 unique_trained_entities = set(train_entities)
 
-if len(sys.argv) > 4:
+if len(sys.argv) > 5:
     valid_path = '{}/valid/valid'.format(corpus_folder)
 
     valid_lines = load_tsv_file(valid_path)
@@ -105,6 +105,9 @@ else:
 
 gold_file = sys.argv[2]
 guess_file = sys.argv[3]
+guess_file_name = guess_file.split('/')[len(guess_file.split('/'))-1]
+
+output_folder = sys.argv[4]
 
 gold_lines = load_tsv_file(gold_file)
 guess_lines = load_tsv_file(guess_file)
@@ -122,7 +125,14 @@ with open('known_gold', 'w') as f:
     for line in known_only_gold:
         f.write(line)
 
-with open('output-unknown-removed/known_guess', 'w') as f:
+guess_file.split('/')
+
+os.system('mkdir {}/unknown_only'.format(output_folder))
+os.system('mkdir {}/known_only'.format(output_folder))
+known_only_output_file = '{}//known_only/{}'.format(output_folder, guess_file_name)
+unknown_only_output_file = '{}//unknown_only/{}'.format(output_folder, guess_file_name)
+
+with open(known_only_output_file, 'w') as f:
     for line in known_only_guess:
         f.write(line)
 
@@ -137,7 +147,7 @@ with open('unknown_gold', 'w') as f:
     for line in unknown_only_gold:
         f.write(line)
 
-with open('output-known-removed/unknown_guess', 'w') as f:
+with open(unknown_only_output_file, 'w') as f:
     for line in unknown_only_guess:
         f.write(line)
 

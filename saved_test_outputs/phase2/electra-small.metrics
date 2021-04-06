@@ -1,0 +1,32 @@
+processed 100693 tokens with 5871 phrases; found: 5938 phrases; correct: 5230.
+accuracy:  98.87%; precision:  88.08%; recall:  89.08%; FB1:  88.58
+             Date: precision:  93.87%; recall:  94.62%; FB1:  94.24  750
+         Location: precision:  91.73%; recall:  89.37%; FB1:  90.53  1100
+    Miscellaneous: precision:  69.74%; recall:  73.53%; FB1:  71.59  737
+            Money: precision:  93.50%; recall: 100.00%; FB1:  96.64  123
+     Organization: precision:  85.34%; recall:  85.53%; FB1:  85.44  1392
+          Percent: precision:  98.23%; recall:  99.11%; FB1:  98.67  113
+           Person: precision:  91.16%; recall:  93.08%; FB1:  92.11  1357
+             Time: precision:  96.17%; recall:  99.44%; FB1:  97.78  366
+KNOWN ENTITIES ONLY:
+processed 96228 tokens with 3241 phrases; found: 3458 phrases; correct: 3074.
+accuracy:  99.46%; precision:  88.90%; recall:  94.85%; FB1:  91.77
+             Date: precision:  92.09%; recall:  97.22%; FB1:  94.58  493
+         Location: precision:  95.70%; recall:  96.20%; FB1:  95.95  768
+    Miscellaneous: precision:  60.78%; recall:  85.65%; FB1:  71.10  334
+            Money: precision:  65.22%; recall: 100.00%; FB1:  78.95  23
+     Organization: precision:  87.91%; recall:  92.87%; FB1:  90.32  860
+          Percent: precision: 100.00%; recall: 100.00%; FB1: 100.00  70
+           Person: precision:  90.82%; recall:  94.63%; FB1:  92.69  621
+             Time: precision:  95.85%; recall:  99.64%; FB1:  97.71  289
+UNKNOWN ENTITIES ONLY:
+processed 96447 tokens with 2630 phrases; found: 2770 phrases; correct: 2166.
+accuracy:  98.99%; precision:  78.19%; recall:  82.36%; FB1:  80.22
+             Date: precision:  84.85%; recall:  90.97%; FB1:  87.80  297
+         Location: precision:  79.71%; recall:  75.34%; FB1:  77.46  345
+    Miscellaneous: precision:  61.72%; recall:  68.40%; FB1:  64.89  512
+            Money: precision:  92.59%; recall: 100.00%; FB1:  96.15  108
+     Organization: precision:  72.17%; recall:  75.30%; FB1:  73.70  600
+          Percent: precision:  95.35%; recall:  97.62%; FB1:  96.47  43
+           Person: precision:  86.74%; recall:  91.95%; FB1:  89.27  777
+             Time: precision:  85.23%; recall:  98.68%; FB1:  91.46  88

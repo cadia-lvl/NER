@@ -2,10 +2,10 @@
 
 
 sed 's/\&/\&amp;/g' $2 > tmp
-sed -i 's/</\&lt;/g' tmp
-sed -i 's/>/\&gt;/g' tmp
-sed -i 's/"/\&quot;/g' tmp
-sed -i "s/'/\&apos;/g" tmp
+sed --in-place='' 's/</\&lt;/g' tmp
+sed --in-place='' 's/>/\&gt;/g' tmp
+sed --in-place='' 's/"/\&quot;/g' tmp
+sed --in-place='' "s/'/\&apos;/g" tmp
 
 
 python3 scripts/makeNAF.py tmp > tmp1
@@ -20,12 +20,12 @@ cd - > /dev/null 2>&1
 rm tmp1 tmp
 awk '{print $1 "\t" $4}' tmp2 > tmp3
 rm tmp2
-sed -i 's/^[ \t]*//' tmp3
-sed -i 's/B-Per$/B-Person/g' tmp3
-sed -i 's/I-Per$/I-Person/g' tmp3
-sed -i 's/B-Loc$/B-Location/g' tmp3
-sed -i 's/I-Loc$/I-Location/g' tmp3
-sed -i 's/I-Org$/I-Organization/g' tmp3
+sed --in-place='' 's/^[ \t]*//' tmp3
+sed --in-place='' 's/B-Per$/B-Person/g' tmp3
+sed --in-place='' 's/I-Per$/I-Person/g' tmp3
+sed --in-place='' 's/B-Loc$/B-Location/g' tmp3
+sed --in-place='' 's/I-Loc$/I-Location/g' tmp3
+sed --in-place='' 's/I-Org$/I-Organization/g' tmp3
 sed 's/B-Org$/B-Organization/g' tmp3 > output/ixa-pipe
 
 #sed -i 's/\&amp;/\&/g' tmp3
