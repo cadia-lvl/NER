@@ -23,11 +23,8 @@ The methods used for training are the following:
     ```
 * Install sklearn-crfsuite with pip
 * Install [TensorFlow](https://www.tensorflow.org/install/pip) version 1.14 for Python 3.
-* Install the [Greynir package](https://github.com/mideind/GreynirPackage)
-* Install the pandas python package by running     
-    ```bash
-    $ pip install pandas    
-    ```
+* Install the [Greynir package](https://github.com/mideind/GreynirPackage), version 2.10.1 for Python 3. 
+* Install the pandas python package
 * Install NeuroNER according to the installation guide on https://github.com/Franck-Dernoncourt/NeuroNER
 * Install https://github.com/ixa-ehu/ixa-pipe-nerc anywhere according to their guide. Create a softlink called nerc in [ixa-pipe](ixa-pipe):
     ```bash
