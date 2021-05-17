@@ -34,7 +34,7 @@ The methods used for training are the following:
    $ ln -s /path/to/CombiTagger CombiTagger
     ```
 * Download the trained ixa-pipe and CRF models, along with the gazetteers from [here](https://drive.google.com/file/d/1Z6mefl2JEX-wwIAe5gBsQ_bZuj4PdDiU/view?usp=sharing). Extract anywhere, and edit the paths in the [config.ini](config.ini) file accordingly. 
-* Download the [word embeddings](https://drive.google.com/file/d/12jteoqu-D4u-ogm254wGDpLPQRXQWZ4v/view?usp=sharing) and [the trained model](https://drive.google.com/file/d/1t-C7LuwHDsZ08uNx2vzq2oEnpM4k2-E1/view?usp=sharing) for NeuroNER, extract anywhere, and update token_pretrained_embedding_filepath and pretrained_model_folder in the [parameters.ini](parameters.ini) file accordingly.
+* Download the [word embeddings](https://drive.google.com/file/d/19Fl232O32NRMkghiU6fFsQgPSzMsvr3j/view?usp=sharing) and [the trained model](https://drive.google.com/file/d/1jhFm-Z5TNIL3x4IK_m3fQVWHZ9NJveDd/view?usp=sharing) for NeuroNER, extract anywhere, and update token_pretrained_embedding_filepath and pretrained_model_folder in the [parameters.ini](parameters.ini) file accordingly.
 <!--* get the Icelandic (MIM-GOLD)[http://www.malfong.is/index.php?lang=en&pg=gull] corpus-->
 <!--* dependencies
 It is also helpful to provide commands which assist user installing the program or even providing an `install.sh` script which does it for the user. -->
